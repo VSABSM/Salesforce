@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Settings to control triggers (local triggers not those in managed packages), Workflow, Validation Rules and Process Builder</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Account_Trigger__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>When unchecked the local triggers on Account are disabled</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When unchecked the local triggers on Account are disabled</inlineHelpText>
+        <label>Account Trigger</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Account_Validation__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>If checked validation rules will be enforced; if unchecked validation rules will be skipped</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If checked validation rules will be enforced; if unchecked validation rules will be skipped</inlineHelpText>
+        <label>Account Validation</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Account_Workflow__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>If checked Workflow Rules and Process Builder will run; if Workflow Rules and Process Builder will be skipped</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If checked Workflow Rules and Process Builder will run; if Workflow Rules and Process Builder will be skipped</inlineHelpText>
+        <label>Account Workflow</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Campaign_Trigger__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>When unchecked the local triggers on Campaign are disabled</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When unchecked the local triggers on Campaign are disabled</inlineHelpText>
+        <label>Campaign Trigger</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Campaign_Validation__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>If checked validation rules will be enforced; if unchecked validation rules will be skipped</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If checked validation rules will be enforced; if unchecked validation rules will be skipped</inlineHelpText>
+        <label>Campaign Validation</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Campaign_Workflow__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>If checked Workflow Rules and Process Builder will run; if Workflow Rules and Process Builder will be skipped</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If checked Workflow Rules and Process Builder will run; if Workflow Rules and Process Builder will be skipped</inlineHelpText>
+        <label>Campaign Workflow</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Case_Trigger__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>When unchecked the local triggers on Case are disabled</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When unchecked the local triggers on Case are disabled</inlineHelpText>
+        <label>Case Trigger</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Case_Validation__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>If checked validation rules will be enforced; if unchecked validation rules will be skipped</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If checked validation rules will be enforced; if unchecked validation rules will be skipped</inlineHelpText>
+        <label>Case Validation</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Case_Workflow__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>If checked Workflow Rules and Process Builder will run; if Workflow Rules and Process Builder will be skipped</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If checked Workflow Rules and Process Builder will run; if Workflow Rules and Process Builder will be skipped</inlineHelpText>
+        <label>Case Workflow</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Contact_Trigger__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>If unchecked local triggers on contact will be disabled (managed package triggers will not be effected)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If unchecked local triggers on contact will be disabled (managed package triggers will not be effected)</inlineHelpText>
+        <label>Contact Trigger</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Contact_Validation__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>If checked validation rules will be enforced; if unchecked validation rules will be skipped</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If checked validation rules will be enforced; if unchecked validation rules will be skipped</inlineHelpText>
+        <label>Contact Validation</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Contact_Workflow__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>If checked Workflow Rules and Process Builder will run; if Workflow Rules and Process Builder will be skipped</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If checked Workflow Rules and Process Builder will run; if Workflow Rules and Process Builder will be skipped</inlineHelpText>
+        <label>Contact Workflow</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>GAU_Allocation_Trigger__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>When unchecked the local triggers on GAU Allocation are disabled</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When unchecked the local triggers on GAU Allocation are disabled</inlineHelpText>
+        <label>GAU Allocation Trigger</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>GAU_Allocation_Validation__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>If checked validation rules will be enforced; if unchecked validation rules will be skipped</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If checked validation rules will be enforced; if unchecked validation rules will be skipped</inlineHelpText>
+        <label>GAU Allocation Validation</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>GAU_Allocation_Workflow__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>If checked Workflow Rules and Process Builder will run; if Workflow Rules and Process Builder will be skipped</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If checked Workflow Rules and Process Builder will run; if Workflow Rules and Process Builder will be skipped</inlineHelpText>
+        <label>GAU Allocation Workflow</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Holding_Trigger__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>When unchecked the local triggers on Holding are disabled</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When unchecked the local triggers on Holding are disabled</inlineHelpText>
+        <label>Holding Trigger</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Holding_Validation__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>If checked validation rules will be enforced; if unchecked validation rules will be skipped</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If checked validation rules will be enforced; if unchecked validation rules will be skipped</inlineHelpText>
+        <label>Holding Validation</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Holding_Workflow__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>If checked Workflow Rules and Process Builder will run; if Workflow Rules and Process Builder will be skipped</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If checked Workflow Rules and Process Builder will run; if Workflow Rules and Process Builder will be skipped</inlineHelpText>
+        <label>Holding Workflow</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>NPSP_Data_Import_Trigger__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>When unchecked the local triggers on NPSP Data Import are disabled</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When unchecked the local triggers on NPSP Data Import are disabled</inlineHelpText>
+        <label>NPSP Data Import Trigger</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>NPSP_Data_Import_Validation__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>If checked validation rules will be enforced; if unchecked validation rules will be skipped</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If checked validation rules will be enforced; if unchecked validation rules will be skipped</inlineHelpText>
+        <label>NPSP Data Import Validation</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>NPSP_Data_Import_Workflow__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>If checked Workflow Rules and Process Builder will run; if Workflow Rules and Process Builder will be skipped</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If checked Workflow Rules and Process Builder will run; if Workflow Rules and Process Builder will be skipped</inlineHelpText>
+        <label>NPSP Data Import Workflow</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Trigger__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>If unchecked the trigger is disabled</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If unchecked the trigger is disabled</inlineHelpText>
+        <label>Opportunity Trigger</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Validation__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>If checked validation rules will be enforced; if unchecked validation rules will be skipped</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If checked validation rules will be enforced; if unchecked validation rules will be skipped</inlineHelpText>
+        <label>Opportunity Validation</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Workflow__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>If checked Workflow Rules and Process Builder will run; if Workflow Rules and Process Builder will be skipped</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If checked Workflow Rules and Process Builder will run; if Workflow Rules and Process Builder will be skipped</inlineHelpText>
+        <label>Opportunity Workflow</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Programme_Trigger__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>When unchecked the local triggers on Programme are disabled</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When unchecked the local triggers on Programme are disabled</inlineHelpText>
+        <label>Programme Trigger</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Programme_Validation__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>If checked validation rules will be enforced; if unchecked validation rules will be skipped</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If checked validation rules will be enforced; if unchecked validation rules will be skipped</inlineHelpText>
+        <label>Programme Validation</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Programme_Workflow__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>If checked Workflow Rules and Process Builder will run; if Workflow Rules and Process Builder will be skipped</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If checked Workflow Rules and Process Builder will run; if Workflow Rules and Process Builder will be skipped</inlineHelpText>
+        <label>Programme Workflow</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Recurring_Donation_Trigger__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>When unchecked the local triggers on Recurring Donation are disabled</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When unchecked the local triggers on Recurring Donation are disabled</inlineHelpText>
+        <label>Recurring Donation Trigger</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Recurring_Donation_Validation__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>If checked validation rules will be enforced; if unchecked validation rules will be skipped</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If checked validation rules will be enforced; if unchecked validation rules will be skipped</inlineHelpText>
+        <label>Recurring Donation Validation</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Recurring_Donation_Workflow__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>If checked Workflow Rules and Process Builder will run; if Workflow Rules and Process Builder will be skipped</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If checked Workflow Rules and Process Builder will run; if Workflow Rules and Process Builder will be skipped</inlineHelpText>
+        <label>Recurring Donation Workflow</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Task_Trigger__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>When unchecked the local triggers on Task are disabled</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When unchecked the local triggers on Task are disabled</inlineHelpText>
+        <label>Task Trigger</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Task_Validation__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>If checked validation rules will be enforced; if unchecked validation rules will be skipped</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If checked validation rules will be enforced; if unchecked validation rules will be skipped</inlineHelpText>
+        <label>Task Validation</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Task_Workflow__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>If checked Workflow Rules and Process Builder will run; if Workflow Rules and Process Builder will be skipped</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If checked Workflow Rules and Process Builder will run; if Workflow Rules and Process Builder will be skipped</inlineHelpText>
+        <label>Task Workflow</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Process Control</label>
+    <visibility>Public</visibility>
+</CustomObject>

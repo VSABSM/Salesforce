@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Consent Purpose History</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Consent Purpose History</value>
+    </caseValues>
+    <fields>
+        <label><!-- Action --></label>
+        <name>Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Changed By --></label>
+        <name>Changed_By__c</name>
+        <relationshipLabel><!-- Consent Purpose History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Changed Date/Time --></label>
+        <name>Changed_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Consent Purpose History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Updated Field --></label>
+        <name>Updated_Field__c</name>
+        <picklistValues>
+            <masterLabel>Email Consent Purpose</masterLabel>
+            <translation><!-- Email Consent Purpose --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone Consent Purpose</masterLabel>
+            <translation><!-- Phone Consent Purpose --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postal Consent Purpose</masterLabel>
+            <translation><!-- Postal Consent Purpose --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS Consent Purpose</masterLabel>
+            <translation><!-- SMS Consent Purpose --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Consent Purpose History Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Transaction Summary</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Transaction Summaries</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Code Formula --></label>
+        <name>Account_Code_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Code --></label>
+        <name>Account_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Nominal Code --></label>
+        <name>Bank_Nominal_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date that the opportunity was banked --></help>
+        <label><!-- Banking Date --></label>
+        <name>Banking_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Budget Code --></label>
+        <name>Budget_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- The card type from the opportunity --></help>
+        <label><!-- Card Type --></label>
+        <name>Card_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Control Code Formula --></label>
+        <name>Control_Code_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Control Code --></label>
+        <name>Control_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cr --></label>
+        <name>Cr__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Detailed Description Formula --></label>
+        <name>Detailed_Description_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Detailed Description --></label>
+        <name>Detailed_Description_as_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Doc Date --></label>
+        <name>Doc_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Doc Type --></label>
+        <name>Doc_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dr --></label>
+        <name>Dr__c</name>
+    </fields>
+    <fields>
+        <help><!-- The emergency that is linked to the opportunity via the campaign --></help>
+        <label><!-- Emergency --></label>
+        <name>Emergency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Export Reference --></label>
+        <name>Export_Reference__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the finance code from the summarised opportunities --></help>
+        <label><!-- Finance Code --></label>
+        <name>Finance_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is a reference that is based on the payment method and other opportunity information --></help>
+        <label><!-- Finance Export Income Reference --></label>
+        <name>Finance_Export_Income_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finance Export Period --></label>
+        <name>Finance_Export_Period__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finance Description --></label>
+        <name>GcFE_Credit_Finance_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finance Description --></label>
+        <name>GcFE_Debit_Finance_Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is a text string that groups together transactions. This is normally defined in a formula field on the opportunity --></help>
+        <label><!-- Group ID --></label>
+        <name>Group_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Input Output --></label>
+        <name>Input_Output__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jnl Header --></label>
+        <name>Jnl_Header__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jnl Type --></label>
+        <name>Jnl_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- A value from the campaign that is linked to the opportunity. The campaign cause. --></help>
+        <label><!-- Outcome --></label>
+        <name>Outcome__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Code --></label>
+        <name>Project_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- The project from the campaign that is linked to the opportunity --></help>
+        <label><!-- Project --></label>
+        <name>Project__c</name>
+    </fields>
+    <fields>
+        <label><!-- Summary Total --></label>
+        <name>ST__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Amount --></label>
+        <name>Total_Amount_Formula__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the total amount from the transactions that are included in this summary --></help>
+        <label><!-- Total Amount --></label>
+        <name>Total_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Summary Header --></label>
+        <name>Transaction_Summary_Header__c</name>
+        <relationshipLabel><!-- Transaction Summaries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- VAT Code Formula --></label>
+        <name>VAT_Code_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- VAT Code --></label>
+        <name>VAT_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- VAT Formula --></label>
+        <name>VAT_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- VAT Total --></label>
+        <name>VAT_Total__c</name>
+    </fields>
+    <layouts>
+        <layout>Transaction Summary Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Export Details (Row) --></label>
+            <section>Export Details (Row)</section>
+        </sections>
+        <sections>
+            <label><!-- Export Details (Sub Group) --></label>
+            <section>Export Details (Sub Group)</section>
+        </sections>
+        <sections>
+            <label><!-- Transaction Details --></label>
+            <section>Transaction Details</section>
+        </sections>
+        <sections>
+            <label><!-- Transaction Grouping Details --></label>
+            <section>Transaction Grouping Details</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

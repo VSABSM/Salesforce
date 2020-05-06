@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Log Settings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Log Settings</value>
+    </caseValues>
+    <fields>
+        <help><!-- The email addresses for the recipients of error notifications --></help>
+        <label><!-- Error Notification Recipients --></label>
+        <name>Error_Notification_Recipients__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this if notification emails should be sent if an error is logged --></help>
+        <label><!-- Error Notifications --></label>
+        <name>Error_Notifications__c</name>
+    </fields>
+    <fields>
+        <label><!-- Log Level --></label>
+        <name>Log_Level__c</name>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation><!-- All --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Errors Only</masterLabel>
+            <translation><!-- Errors Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If these logs should be linked to a particular record, then indicate the name of the lookup field on the log record that should be populated --></help>
+        <label><!-- Lookup Field Name --></label>
+        <name>Lookup_Field_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the maximum number of error log records that will be created for this session --></help>
+        <label><!-- Max Error Logs --></label>
+        <name>Max_Error_Logs__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the maximum number of information logs that should be generated for a session. --></help>
+        <label><!-- Max Information Logs --></label>
+        <name>Max_Information_Logs__c</name>
+    </fields>
+    <fields>
+        <help><!-- If this is checked then the code should attempt to roll back any changes. If tis is not checked then a partial commit may be possible --></help>
+        <label><!-- Rollback Changes --></label>
+        <name>Rollback_Changes__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

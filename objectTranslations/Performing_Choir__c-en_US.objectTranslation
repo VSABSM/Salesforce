@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Performing Choir</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Performing Choirs</value>
+    </caseValues>
+    <fields>
+        <help><!-- The event which the choir will be performing at. --></help>
+        <label><!-- Campaign --></label>
+        <name>Campaign__c</name>
+        <relationshipLabel><!-- Performing Choirs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- The choir which will be performing at the event. --></help>
+        <label><!-- Performing Choir --></label>
+        <name>Performing_Choir__c</name>
+        <relationshipLabel><!-- Performing at Events --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Performing Choir Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

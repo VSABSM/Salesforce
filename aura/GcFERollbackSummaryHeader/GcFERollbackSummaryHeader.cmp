@@ -1,0 +1,36 @@
+<aura:component controller="GcFE_RollbackTransSummariesController" implements="force:lightningQuickActionWithoutHeader,force:hasRecordId" >
+    <!-- https://developer.salesforce.com/docs/atlas.en-us.204.0.lightning.meta/lightning/components_using_lex_s1_config_action_recordid.htm -->
+    <aura:attribute name="message" type="String"/>
+    
+    <!-- This creates an attribute to store the header object and then calls a controller to populate it -->
+    <aura:attribute name="summaryHeader" type="Transaction_Summary_Header__c" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    
+    <!-- Display a header -->
+	<div class="slds-page-header" role="banner">
+		<p class="slds-text-heading--label">{!v.summaryHeader.Name}</p>
+        <h1 class="slds-page-header__title slds-m-right--small slds-truncate slds-align-left">Rollback Transaction Summaries</h1>
+	</div>
+    
+    <!-- Record Id is {!v.recordId} -->
+        
+	<!-- Display the main form -->
+    <div class="slds-form--stacked">
+        <div class="slds-text-body_regular slds-p-top_large slds-p-bottom_large">
+			<p>
+            	This process will run through a batch process which can be monitored below. It will complete the following steps:
+            </p>
+            <ul>
+            	<li>Reset all transaction objects (dates, status etc) linked to this summary header</li>
+                <li>Delete all transaction summary records</li>
+                <li>Set the status of the summary header to 'Rolled Back'</li>
+            </ul>
+        </div>
+               
+		<div class="slds-form-element">
+    		<ui:button label="Cancel" press="{!c.handleCancel}" class="slds-button slds-button--neutral" />
+        	<ui:button label="Start Rollback" press="{!c.handleStartRollback}" class="slds-button slds-button--brand" />
+    	</div>
+    </div>
+    
+</aura:component>

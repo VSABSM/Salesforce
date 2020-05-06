@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Transaction Export Field Mapping</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Transaction Export Field Mappings</value>
+    </caseValues>
+    <fields>
+        <help><!-- This is the value that is used in a mapping if the source value is blank or no source field is specified --></help>
+        <label><!-- Default Value --></label>
+        <name>Default_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the API name of the of the field on the summary object that will be updated --></help>
+        <label><!-- Destination Field Name --></label>
+        <name>Destination_Field_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the API name of the field on the transaction object --></help>
+        <label><!-- Source Field Name --></label>
+        <name>Source_Field_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the API name of a field on the source transaction record that should be stamped with value of the source field when the record is processed. This is useful if a record of a formula field needs to be stored at the point of export i.e. finance code --></help>
+        <label><!-- Stamp Field Name --></label>
+        <name>Stamp_Field_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- If this is checked then this source field will be totalled --></help>
+        <label><!-- Total --></label>
+        <name>Total__c</name>
+    </fields>
+    <fields>
+        <help><!-- A link to the related export settings object --></help>
+        <label><!-- Transaction Export Settings --></label>
+        <name>Transaction_Export_Settings__c</name>
+        <relationshipLabel><!-- Transaction Export Field Mappings --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

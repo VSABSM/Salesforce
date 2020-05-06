@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This finds all of the opportunities linked to this summary header and resets them. It then removes the transaction summary records (UUK-910)</description>
+    <height>500</height>
+    <label>Rollback Changes</label>
+    <lightningComponent>GcFERollbackSummaryHeader</lightningComponent>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <type>LightningComponent</type>
+    <width>-100</width>
+</QuickAction>

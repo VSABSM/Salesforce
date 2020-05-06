@@ -1,0 +1,3923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <processMetadataValues>
+            <name>apexSelection</name>
+            <value>
+                <stringValue>ProcessControl</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_1_A1</name>
+        <label>Do Nothing</label>
+        <locationX>100</locationX>
+        <locationY>200</locationY>
+        <actionName>ProcessControl</actionName>
+        <actionType>apex</actionType>
+    </actionCalls>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>0.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision</name>
+        <label>myDecision</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision2</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_1</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_1_A1</targetReference>
+            </connector>
+            <label>Process Control Disabled</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>4.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision10</name>
+        <label>myDecision10</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision14</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_11</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_11</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_11_A1</targetReference>
+            </connector>
+            <label>CC Campaign Type Has Value</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>5.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision14</name>
+        <label>myDecision14</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision17</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_15</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_15</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_15_A1</targetReference>
+            </connector>
+            <label>CC - Adult &amp; Community</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>6.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision17</name>
+        <label>myDecision17</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision20</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_18</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_18</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_18_A1</targetReference>
+            </connector>
+            <label>CC - Adult Carers</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision2</name>
+        <label>myDecision2</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision4</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_3</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_3</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_3_A1</targetReference>
+            </connector>
+            <label>CC Opportunity Created</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>7.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision20</name>
+        <label>myDecision20</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision23</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_21</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_21</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_21_A1</targetReference>
+            </connector>
+            <label>CC - Children &amp; Families</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>8.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision23</name>
+        <label>myDecision23</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision26</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_24</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_24</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_24_A1</targetReference>
+            </connector>
+            <label>CC - Mental Health</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>9.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision26</name>
+        <label>myDecision26</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision30</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_27</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_27</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_27_A1</targetReference>
+            </connector>
+            <label>CC - Education &amp; Learning</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>10.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision30</name>
+        <label>myDecision30</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision32</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_31</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_31</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_31_A1</targetReference>
+            </connector>
+            <label>CC Opp Third Party Source Info</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>11.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision32</name>
+        <label>myDecision32</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision34</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_33</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_33</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_33_A1</targetReference>
+            </connector>
+            <label>Honorary Membership Created</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>12.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision34</name>
+        <label>myDecision34</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision37</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_35</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_35</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_35_A1</targetReference>
+            </connector>
+            <label>New &amp; Type is Ticket or Table (Contact Donation)</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>13.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision37</name>
+        <label>myDecision37</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision40</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_38</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_38</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_38_A1</targetReference>
+            </connector>
+            <label>New &amp; Type is Ticket or Table (Organisation Donation)</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>2.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision4</name>
+        <label>myDecision4</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision7</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_5</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_5</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_5_A1</targetReference>
+            </connector>
+            <label>CC Close Date Change</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>14.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision40</name>
+        <label>myDecision40</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision43</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_41</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_41</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_41_A1</targetReference>
+            </connector>
+            <label>Third Party Source - Gross Donation</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>15.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision43</name>
+        <label>myDecision43</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision45</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_44</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_44</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_44_A1</targetReference>
+            </connector>
+            <label>CampaignID Has Been Populated - new record</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>16.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision45</name>
+        <label>myDecision45</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision47</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_46</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_46</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_46_A1</targetReference>
+            </connector>
+            <label>CampaignID Has Been Populated - existing record</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>17.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision47</name>
+        <label>myDecision47</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision49</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_48</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_48</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_48_A1</targetReference>
+            </connector>
+            <label>CampaignID Has Been Updated</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>18.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision49</name>
+        <label>myDecision49</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision51</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_50</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_50</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_50_A1</targetReference>
+            </connector>
+            <label>CampaignID Has Been Deleted</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>19.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision51</name>
+        <label>myDecision51</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision53</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_52</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_52</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_52_A1</targetReference>
+            </connector>
+            <label>Primary_Campaign_Source_for_List_View Has Been Populated</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>20.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision53</name>
+        <label>myDecision53</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision55</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_54</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_54</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_54_A1</targetReference>
+            </connector>
+            <label>Primary_Campaign_Source_for_List_View Has Been Updated</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>21.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision55</name>
+        <label>myDecision55</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision57</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_56</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_56</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_56_A1</targetReference>
+            </connector>
+            <label>Primary_Campaign_Source_for_List_View Has Been Deleted</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>22.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision57</name>
+        <label>myDecision57</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision60</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_58</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_58</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_58_A1</targetReference>
+            </connector>
+            <label>Change Opp Owner from Mike (No Campaign)</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>23.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision60</name>
+        <label>myDecision60</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision62</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_61</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_61</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_61_A1</targetReference>
+            </connector>
+            <label>Change Opp Owner from Mike (Has Campaign)</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>24.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision62</name>
+        <label>myDecision62</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_63</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_63</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_63_pmetdec</targetReference>
+            </connector>
+            <label>Fundraiser Not Blank</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>3.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision7</name>
+        <label>myDecision7</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision10</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_8</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_8</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_8_A1</targetReference>
+            </connector>
+            <label>CC opportunity to Default Record Owner</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>myRule_63_pmetdec</name>
+        <label>Previously Met Decision</label>
+        <locationX>6300</locationX>
+        <locationY>100</locationY>
+        <defaultConnector>
+            <targetReference>myRule_63_A1</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Not Previously Met</defaultConnectorLabel>
+        <rules>
+            <name>myRule_63_pmetnullrule</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>myVariable_old</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_63_A1</targetReference>
+            </connector>
+            <label>Previously Met - Null</label>
+        </rules>
+        <rules>
+            <name>myRule_63_pmetrule</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_63_pmetrule</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>Previously Met - Prev</label>
+        </rules>
+    </decisions>
+    <description>30/3/20 #1192 v1 CC Third Party Source fields</description>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>IF ( [Opportunity].cc_Campaign_Type__c = &quot;Purchase&quot;, &quot;Ticket&quot;, &quot;General&quot;)
+
+/*The Campaign Type (CC) field can contain one of 3 possible values; Donation | Free | Purchase. VSA&apos;s rules says that if it says &quot;Purchase&quot;, the Opportunity Type should be populated with the picklist value &quot;Ticket&quot;, and if it says &quot;Donation&quot; or &quot;Free&quot;, then the Opportunity Type should be populated with the picklist value &quot;General&quot;.*/</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_12_myRule_11_A1_4519046353</name>
+        <dataType>String</dataType>
+        <expression>IF ( {!myVariable_current.cc_Campaign_Type__c} = &quot;Purchase&quot;, &quot;Ticket&quot;, &quot;General&quot;)
+
+/*The Campaign Type (CC) field can contain one of 3 possible values; Donation | Free | Purchase. VSA&apos;s rules says that if it says &quot;Purchase&quot;, the Opportunity Type should be populated with the picklist value &quot;Ticket&quot;, and if it says &quot;Donation&quot; or &quot;Free&quot;, then the Opportunity Type should be populated with the picklist value &quot;General&quot;.*/</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>IF ( [Opportunity].cc_Campaign_Type__c = &quot;Donation&quot;, &quot;V8&quot;, &quot;V3&quot; )
+
+/*The Campaign Type (CC) field can contain one of 3 possible values; Donation | Free | Purchase. VSA&apos;s rules says that if the Campaign Type (CC) says &quot;Donation&quot;, then the VAT Code should be &apos;V8&apos;, and if it says &quot;Free&quot; or &quot;Purchase&quot;, then the VAT Code should be &apos;V3&apos;.*/</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_13_myRule_11_A1_1927583610</name>
+        <dataType>String</dataType>
+        <expression>IF ( {!myVariable_current.cc_Campaign_Type__c} = &quot;Donation&quot;, &quot;V8&quot;, &quot;V3&quot; )
+
+/*The Campaign Type (CC) field can contain one of 3 possible values; Donation | Free | Purchase. VSA&apos;s rules says that if the Campaign Type (CC) says &quot;Donation&quot;, then the VAT Code should be &apos;V8&apos;, and if it says &quot;Free&quot; or &quot;Purchase&quot;, then the VAT Code should be &apos;V3&apos;.*/</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>$Setup.Charity_Checkout_Settings__c.GAU_ID_Adult_Community__c </stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_16_myRule_15_A1_4849376956</name>
+        <dataType>String</dataType>
+        <expression>{!$Setup.Charity_Checkout_Settings__c.GAU_ID_Adult_Community__c}</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>$Setup.Charity_Checkout_Settings__c.GAU_ID_Adult_Carers__c </stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_19_myRule_18_A1_6712442416</name>
+        <dataType>String</dataType>
+        <expression>{!$Setup.Charity_Checkout_Settings__c.GAU_ID_Adult_Carers__c}</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>$Setup.Charity_Checkout_Settings__c.GAU_ID_Children_Families__c </stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_22_myRule_21_A1_2461458882</name>
+        <dataType>String</dataType>
+        <expression>{!$Setup.Charity_Checkout_Settings__c.GAU_ID_Children_Families__c}</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>$Setup.Charity_Checkout_Settings__c.GAU_ID_Abergeldie__c </stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_25_myRule_24_A1_5146301659</name>
+        <dataType>String</dataType>
+        <expression>{!$Setup.Charity_Checkout_Settings__c.GAU_ID_Abergeldie__c}</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>$Setup.Charity_Checkout_Settings__c.GAU_ID_Linn_Moor_School__c </stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_28_myRule_27_A2_1647210283</name>
+        <dataType>String</dataType>
+        <expression>{!$Setup.Charity_Checkout_Settings__c.GAU_ID_Linn_Moor_School__c}</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>$Setup.Charity_Checkout_Settings__c.GAU_ID_Easter_Anguston_Farm__c </stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_29_myRule_27_A1_0546283341</name>
+        <dataType>String</dataType>
+        <expression>{!$Setup.Charity_Checkout_Settings__c.GAU_ID_Easter_Anguston_Farm__c}</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>IF ( [Opportunity].cc_Created_by_Charity_Checkout__c = TRUE,
+
+[Opportunity].npsp__Primary_Contact__c.FirstName + &quot; &quot; +[Opportunity].npsp__Primary_Contact__r.LastName + &quot; - &quot; + &quot;Donation (&quot;+ TEXT ( [Opportunity].Type ) + &quot;) - &quot;+&quot;£&quot;+ TEXT ( [Opportunity].cc_Donation_Gross_Amount__c  ) + &quot; - &quot; + [Opportunity].Today_Date_as_DDMMYYYY__c,
+
+[Opportunity].npsp__Primary_Contact__c.FirstName + &quot; &quot; +[Opportunity].npsp__Primary_Contact__r.LastName + &quot; - &quot; + &quot;Donation (&quot;+ TEXT ( [Opportunity].Type ) + &quot;) - &quot;+&quot;£&quot;+ TEXT ( [Opportunity].Amount  ) + &quot; - &quot; + [Opportunity].Today_Date_as_DDMMYYYY__c
+)
+
+
+/*This formula inserts the word &apos;(Table)&apos; or &apos;(Ticket)&apos; in the Opportunity Name, but otherwise follows the NPSP Settings&apos; naming convention. Please note that for &apos;Charity Checkout&apos;-donations, the Donation Gross Amount is applied rather than the Amount.*/</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_36_myRule_35_A1_4821343766</name>
+        <dataType>String</dataType>
+        <expression>IF ( {!myVariable_current.cc_Created_by_Charity_Checkout__c} = TRUE,
+
+{!myVariable_current.npsp__Primary_Contact__r.FirstName} + &quot; &quot; +{!myVariable_current.npsp__Primary_Contact__r.LastName} + &quot; - &quot; + &quot;Donation (&quot;+ TEXT ( {!myVariable_current.Type} ) + &quot;) - &quot;+&quot;£&quot;+ TEXT ( {!myVariable_current.cc_Donation_Gross_Amount__c}  ) + &quot; - &quot; + {!myVariable_current.Today_Date_as_DDMMYYYY__c},
+
+{!myVariable_current.npsp__Primary_Contact__r.FirstName} + &quot; &quot; +{!myVariable_current.npsp__Primary_Contact__r.LastName} + &quot; - &quot; + &quot;Donation (&quot;+ TEXT ( {!myVariable_current.Type} ) + &quot;) - &quot;+&quot;£&quot;+ TEXT ( {!myVariable_current.Amount}  ) + &quot; - &quot; + {!myVariable_current.Today_Date_as_DDMMYYYY__c}
+)
+
+
+/*This formula inserts the word &apos;(Table)&apos; or &apos;(Ticket)&apos; in the Opportunity Name, but otherwise follows the NPSP Settings&apos; naming convention. Please note that for &apos;Charity Checkout&apos;-donations, the Donation Gross Amount is applied rather than the Amount.*/</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>[Opportunity].Account.Name  + &quot; - &quot; + &quot;Donation (&quot;+ TEXT ( [Opportunity].Type ) + &quot;) - &quot;+&quot;£&quot;+ TEXT ( [Opportunity].Amount  ) + &quot; - &quot; + [Opportunity].Today_Date_as_DDMMYYYY__c
+
+
+/*This formula inserts the word &apos;(Table)&apos; or &apos;(Ticket)&apos; in the Opportunity Name, but otherwise follows the NPSP Settings&apos; naming convention.*/</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_39_myRule_38_A1_3792216044</name>
+        <dataType>String</dataType>
+        <expression>{!myVariable_current.Account.Name}  + &quot; - &quot; + &quot;Donation (&quot;+ TEXT ( {!myVariable_current.Type} ) + &quot;) - &quot;+&quot;£&quot;+ TEXT ( {!myVariable_current.Amount}  ) + &quot; - &quot; + {!myVariable_current.Today_Date_as_DDMMYYYY__c}
+
+
+/*This formula inserts the word &apos;(Table)&apos; or &apos;(Ticket)&apos; in the Opportunity Name, but otherwise follows the NPSP Settings&apos; naming convention.*/</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>IF (( ISBLANK( TEXT( [Opportunity].Third_Party_Source__c))) = FALSE,
+
+[Opportunity].npsp__Primary_Contact__c.FirstName + &quot; &quot; +[Opportunity].npsp__Primary_Contact__r.LastName + &quot; - &quot; + &quot;Donation - &quot;+&quot;£&quot;+ TEXT ( [Opportunity].Gross_Amount__c  ) + &quot; - &quot; + [Opportunity].Today_Date_as_DDMMYYYY__c,
+
+[Opportunity].npsp__Primary_Contact__c.FirstName + &quot; &quot; +[Opportunity].npsp__Primary_Contact__r.LastName + &quot; - &quot; + &quot;Donation - &quot;+&quot;£&quot;+ TEXT ( [Opportunity].Amount  ) + &quot; - &quot; + [Opportunity].Today_Date_as_DDMMYYYY__c
+
+)
+
+/*This formula inserts the Gross Amount in the Opportunity Name when the Third Party Source is not empty, but otherwise follows the NPSP Settings&apos; naming convention.*/
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_42_myRule_41_A1_1581960756</name>
+        <dataType>String</dataType>
+        <expression>IF (( ISBLANK( TEXT( {!myVariable_current.Third_Party_Source__c}))) = FALSE,
+
+{!myVariable_current.npsp__Primary_Contact__r.FirstName} + &quot; &quot; +{!myVariable_current.npsp__Primary_Contact__r.LastName} + &quot; - &quot; + &quot;Donation - &quot;+&quot;£&quot;+ TEXT ( {!myVariable_current.Gross_Amount__c}  ) + &quot; - &quot; + {!myVariable_current.Today_Date_as_DDMMYYYY__c},
+
+{!myVariable_current.npsp__Primary_Contact__r.FirstName} + &quot; &quot; +{!myVariable_current.npsp__Primary_Contact__r.LastName} + &quot; - &quot; + &quot;Donation - &quot;+&quot;£&quot;+ TEXT ( {!myVariable_current.Amount}  ) + &quot; - &quot; + {!myVariable_current.Today_Date_as_DDMMYYYY__c}
+
+)
+
+/*This formula inserts the Gross Amount in the Opportunity Name when the Third Party Source is not empty, but otherwise follows the NPSP Settings&apos; naming convention.*/</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>$Setup.Charity_Checkout_Settings__c.Conditional_Default_Record_Owner_ID__c</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_59_myRule_58_A1_3933919507</name>
+        <dataType>String</dataType>
+        <expression>{!$Setup.Charity_Checkout_Settings__c.Conditional_Default_Record_Owner_ID__c}</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>DATE( YEAR( TODAY() ), MONTH( TODAY() ) + 1, 20)</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_6_myRule_5_A1_6602379383</name>
+        <dataType>Date</dataType>
+        <expression>DATE( YEAR( TODAY() ), MONTH( TODAY() ) + 1, 20)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>$Setup.Charity_Checkout_Settings__c.Conditional_Default_Record_Owner_ID__c </stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_9_myRule_8_A1_4114312728</name>
+        <dataType>String</dataType>
+        <expression>{!$Setup.Charity_Checkout_Settings__c.Conditional_Default_Record_Owner_ID__c}</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>$Setup.Process_Control__c.Opportunity_Workflow__c = FALSE</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_1</name>
+        <dataType>Boolean</dataType>
+        <expression>{!$Setup.Process_Control__c.Opportunity_Workflow__c} = FALSE</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND( 
+       $Setup.Process_Control__c.Opportunity_Workflow__c = TRUE,
+       ISNEW(),
+       [Opportunity].cc_Created_by_Charity_Checkout__c = TRUE,
+       NOT ( ISBLANK ( [Opportunity].cc_Campaign_Type__c ))
+)
+
+/*This step is triggered when a new opportunity is created via Charity Checkout and it the Campaign Type (CC) has a value. The action step populates the VAT Code field, and converts the CC-value into a Salesforce-appropriate value and then updates the Type field.*/</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_11</name>
+        <dataType>Boolean</dataType>
+        <expression>AND( 
+       {!$Setup.Process_Control__c.Opportunity_Workflow__c} = TRUE,
+       ISNEW(),
+       {!myVariable_current.cc_Created_by_Charity_Checkout__c} = TRUE,
+       NOT ( ISBLANK ( {!myVariable_current.cc_Campaign_Type__c} ))
+)
+
+/*This step is triggered when a new opportunity is created via Charity Checkout and it the Campaign Type (CC) has a value. The action step populates the VAT Code field, and converts the CC-value into a Salesforce-appropriate value and then updates the Type field.*/</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND( 
+       $Setup.Process_Control__c.Opportunity_Workflow__c = TRUE,
+       ISNEW(),
+       [Opportunity].cc_Created_by_Charity_Checkout__c = TRUE,
+       ISPICKVAL ( [Opportunity].cc_Choose_Where_Your_Donation_Goes__c , &quot;Adult &amp; Community&quot;)
+)
+
+/*This step is triggered when a new opportunity is created via Charity Checkout and it has an appropriate value in the Choose Where Your Donation Goes (CC)-field*/</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_15</name>
+        <dataType>Boolean</dataType>
+        <expression>AND( 
+       {!$Setup.Process_Control__c.Opportunity_Workflow__c} = TRUE,
+       ISNEW(),
+       {!myVariable_current.cc_Created_by_Charity_Checkout__c} = TRUE,
+       ISPICKVAL ( {!myVariable_current.cc_Choose_Where_Your_Donation_Goes__c} , &quot;Adult &amp; Community&quot;)
+)
+
+/*This step is triggered when a new opportunity is created via Charity Checkout and it has an appropriate value in the Choose Where Your Donation Goes (CC)-field*/</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND( 
+       $Setup.Process_Control__c.Opportunity_Workflow__c = TRUE,
+       ISNEW(),
+       [Opportunity].cc_Created_by_Charity_Checkout__c = TRUE,
+       ISPICKVAL ( [Opportunity].cc_Choose_Where_Your_Donation_Goes__c , &quot;Adult Carers&quot;)
+)
+
+/*This step is triggered when a new opportunity is created via Charity Checkout and it has an appropriate value in the Choose Where Your Donation Goes (CC)-field*/</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_18</name>
+        <dataType>Boolean</dataType>
+        <expression>AND( 
+       {!$Setup.Process_Control__c.Opportunity_Workflow__c} = TRUE,
+       ISNEW(),
+       {!myVariable_current.cc_Created_by_Charity_Checkout__c} = TRUE,
+       ISPICKVAL ( {!myVariable_current.cc_Choose_Where_Your_Donation_Goes__c} , &quot;Adult Carers&quot;)
+)
+
+/*This step is triggered when a new opportunity is created via Charity Checkout and it has an appropriate value in the Choose Where Your Donation Goes (CC)-field*/</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND( 
+       $Setup.Process_Control__c.Opportunity_Workflow__c = TRUE,
+       ISNEW(),
+       [Opportunity].cc_Created_by_Charity_Checkout__c = TRUE,
+       ISPICKVAL ( [Opportunity].cc_Choose_Where_Your_Donation_Goes__c , &quot;Children &amp; Families&quot;)
+)
+
+/*This step is triggered when a new opportunity is created via Charity Checkout and it has an appropriate value in the Choose Where Your Donation Goes (CC)-field*/</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_21</name>
+        <dataType>Boolean</dataType>
+        <expression>AND( 
+       {!$Setup.Process_Control__c.Opportunity_Workflow__c} = TRUE,
+       ISNEW(),
+       {!myVariable_current.cc_Created_by_Charity_Checkout__c} = TRUE,
+       ISPICKVAL ( {!myVariable_current.cc_Choose_Where_Your_Donation_Goes__c} , &quot;Children &amp; Families&quot;)
+)
+
+/*This step is triggered when a new opportunity is created via Charity Checkout and it has an appropriate value in the Choose Where Your Donation Goes (CC)-field*/</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND( 
+       $Setup.Process_Control__c.Opportunity_Workflow__c = TRUE,
+       ISNEW(),
+       [Opportunity].cc_Created_by_Charity_Checkout__c = TRUE,
+       ISPICKVAL ( [Opportunity].cc_Choose_Where_Your_Donation_Goes__c , &quot;Changing Lives Mental Health Campaign&quot;)
+)
+
+/*This step is triggered when a new opportunity is created via Charity Checkout and it has an appropriate value in the Choose Where Your Donation Goes (CC)-field*/</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_24</name>
+        <dataType>Boolean</dataType>
+        <expression>AND( 
+       {!$Setup.Process_Control__c.Opportunity_Workflow__c} = TRUE,
+       ISNEW(),
+       {!myVariable_current.cc_Created_by_Charity_Checkout__c} = TRUE,
+       ISPICKVAL ( {!myVariable_current.cc_Choose_Where_Your_Donation_Goes__c} , &quot;Changing Lives Mental Health Campaign&quot;)
+)
+
+/*This step is triggered when a new opportunity is created via Charity Checkout and it has an appropriate value in the Choose Where Your Donation Goes (CC)-field*/</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND( 
+       $Setup.Process_Control__c.Opportunity_Workflow__c = TRUE,
+       ISNEW(),
+       [Opportunity].cc_Created_by_Charity_Checkout__c = TRUE,
+       ISPICKVAL ( [Opportunity].cc_Choose_Where_Your_Donation_Goes__c , &quot;Education &amp; Learning&quot;)
+)
+
+/*This step is triggered when a new opportunity is created via Charity Checkout and it has an appropriate value in the Choose Where Your Donation Goes (CC)-field*/</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_27</name>
+        <dataType>Boolean</dataType>
+        <expression>AND( 
+       {!$Setup.Process_Control__c.Opportunity_Workflow__c} = TRUE,
+       ISNEW(),
+       {!myVariable_current.cc_Created_by_Charity_Checkout__c} = TRUE,
+       ISPICKVAL ( {!myVariable_current.cc_Choose_Where_Your_Donation_Goes__c} , &quot;Education &amp; Learning&quot;)
+)
+
+/*This step is triggered when a new opportunity is created via Charity Checkout and it has an appropriate value in the Choose Where Your Donation Goes (CC)-field*/</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND( 
+        $Setup.Process_Control__c.Opportunity_Workflow__c = TRUE, 
+        ISNEW(),
+        [Opportunity].cc_Created_by_Charity_Checkout__c = TRUE
+)
+
+/*The reason the Amount field is first being populated with the gross amount at the time the record is created (via Zapier), is to ensure that the Opportunity Name (set by NPSP) reflects the gross amount. In order to make sure the Amount field eventually reflects VSA&apos;s actual earnings, it is subsequently set to net amount by this process builder action (VSA-31).*/</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_3</name>
+        <dataType>Boolean</dataType>
+        <expression>AND( 
+        {!$Setup.Process_Control__c.Opportunity_Workflow__c} = TRUE, 
+        ISNEW(),
+        {!myVariable_current.cc_Created_by_Charity_Checkout__c} = TRUE
+)
+
+/*The reason the Amount field is first being populated with the gross amount at the time the record is created (via Zapier), is to ensure that the Opportunity Name (set by NPSP) reflects the gross amount. In order to make sure the Amount field eventually reflects VSA&apos;s actual earnings, it is subsequently set to net amount by this process builder action (VSA-31).*/</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND( 
+        $Setup.Process_Control__c.Opportunity_Workflow__c = TRUE, 
+        ISNEW(),
+        [Opportunity].cc_Created_by_Charity_Checkout__c = TRUE
+)
+
+/*This step will populate the Third Party Source fields with the Charity Checkout data - for all new Charity Checkout opportunities. Case #1192.*/</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_31</name>
+        <dataType>Boolean</dataType>
+        <expression>AND( 
+        {!$Setup.Process_Control__c.Opportunity_Workflow__c} = TRUE, 
+        ISNEW(),
+        {!myVariable_current.cc_Created_by_Charity_Checkout__c} = TRUE
+)
+
+/*This step will populate the Third Party Source fields with the Charity Checkout data - for all new Charity Checkout opportunities. Case #1192.*/</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND( 
+       $Setup.Process_Control__c.Opportunity_Workflow__c , 
+       [Opportunity].RecordType.DeveloperName = &quot;Membership&quot;, 
+       ISPICKVAL ( [Opportunity].npe01__Member_Level__c  , &quot;Honorary Member&quot;)
+)</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_33</name>
+        <dataType>Boolean</dataType>
+        <expression>AND( 
+       {!$Setup.Process_Control__c.Opportunity_Workflow__c} , 
+       {!myVariable_current.RecordType.DeveloperName} = &quot;Membership&quot;, 
+       ISPICKVAL ( {!myVariable_current.npe01__Member_Level__c}  , &quot;Honorary Member&quot;)
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND( 
+       $Setup.Process_Control__c.Opportunity_Workflow__c = TRUE, IsNew(),
+       [Opportunity].Account.RecordType.DeveloperName = &quot;HH_Account&quot;,
+       [Opportunity].RecordType.DeveloperName = &quot;Donation&quot;, 
+       OR( 
+           ISPICKVAL ( [Opportunity].Type , &quot;Ticket&quot;), 
+           ISPICKVAL ( [Opportunity].Type , &quot;Table&quot;) 
+             ) 
+)
+
+/*This action is triggered if the opportunity&apos;s account record type is a household account*/</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_35</name>
+        <dataType>Boolean</dataType>
+        <expression>AND( 
+       {!$Setup.Process_Control__c.Opportunity_Workflow__c} = TRUE, IsNew(),
+       {!myVariable_current.Account.RecordType.DeveloperName} = &quot;HH_Account&quot;,
+       {!myVariable_current.RecordType.DeveloperName} = &quot;Donation&quot;, 
+       OR( 
+           ISPICKVAL ( {!myVariable_current.Type} , &quot;Ticket&quot;), 
+           ISPICKVAL ( {!myVariable_current.Type} , &quot;Table&quot;) 
+             ) 
+)
+
+/*This action is triggered if the opportunity&apos;s account record type is a household account*/</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND( 
+       $Setup.Process_Control__c.Opportunity_Workflow__c = TRUE, IsNew(),
+       [Opportunity].Account.RecordType.DeveloperName = &quot;Organization&quot;,
+       [Opportunity].RecordType.DeveloperName = &quot;Donation&quot;, 
+       OR( 
+           ISPICKVAL ( [Opportunity].Type , &quot;Ticket&quot;), 
+           ISPICKVAL ( [Opportunity].Type , &quot;Table&quot;) 
+             ) 
+)
+
+/*This action is triggered if the opportunity&apos;s account record type is an organisational account.*/</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_38</name>
+        <dataType>Boolean</dataType>
+        <expression>AND( 
+       {!$Setup.Process_Control__c.Opportunity_Workflow__c} = TRUE, IsNew(),
+       {!myVariable_current.Account.RecordType.DeveloperName} = &quot;Organization&quot;,
+       {!myVariable_current.RecordType.DeveloperName} = &quot;Donation&quot;, 
+       OR( 
+           ISPICKVAL ( {!myVariable_current.Type} , &quot;Ticket&quot;), 
+           ISPICKVAL ( {!myVariable_current.Type} , &quot;Table&quot;) 
+             ) 
+)
+
+/*This action is triggered if the opportunity&apos;s account record type is an organisational account.*/</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND(
+ 
+        $Setup.Process_Control__c.Opportunity_Workflow__c = TRUE,
+        [Opportunity].cc_Created_by_Charity_Checkout__c = FALSE,
+        ( ISBLANK( TEXT( [Opportunity].Third_Party_Source__c))) = FALSE,
+        [Opportunity].Account.RecordType.DeveloperName = &quot;HH_Account&quot;,
+        [Opportunity].RecordType.DeveloperName = &quot;Donation&quot;
+        
+)
+
+
+/* Where donations are received through a Third Party Source (ie that field is not Null), then we want to amend the opportunity name */
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_41</name>
+        <dataType>Boolean</dataType>
+        <expression>AND(
+ 
+        {!$Setup.Process_Control__c.Opportunity_Workflow__c} = TRUE,
+        {!myVariable_current.cc_Created_by_Charity_Checkout__c} = FALSE,
+        ( ISBLANK( TEXT( {!myVariable_current.Third_Party_Source__c}))) = FALSE,
+        {!myVariable_current.Account.RecordType.DeveloperName} = &quot;HH_Account&quot;,
+        {!myVariable_current.RecordType.DeveloperName} = &quot;Donation&quot;
+        
+)
+
+
+/* Where donations are received through a Third Party Source (ie that field is not Null), then we want to amend the opportunity name */</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND( 
+       $Setup.Process_Control__c.Opportunity_Workflow__c = TRUE,
+       ISNEW(),
+       NOT ( ISBLANK ( [Opportunity].CampaignId ))
+)
+
+/*This action is triggered when the value in the standard CampaignId field is populated on a new record. The action updates the Primary_Campaign_Source_For_List_View field to ensure the fields are kept in sync with each other.*/</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_44</name>
+        <dataType>Boolean</dataType>
+        <expression>AND( 
+       {!$Setup.Process_Control__c.Opportunity_Workflow__c} = TRUE,
+       ISNEW(),
+       NOT ( ISBLANK ( {!myVariable_current.CampaignId} ))
+)
+
+/*This action is triggered when the value in the standard CampaignId field is populated on a new record. The action updates the Primary_Campaign_Source_For_List_View field to ensure the fields are kept in sync with each other.*/</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND( 
+       $Setup.Process_Control__c.Opportunity_Workflow__c = TRUE,
+       NOT (ISNEW()),
+       NOT ( ISBLANK ( [Opportunity].CampaignId )),
+       ISBLANK ( PRIORVALUE ( [Opportunity].CampaignId ))
+)
+
+/*This action is triggered when the value in the standard CampaignId field is populated on an existing record, and the previous value was blank. The action updates the Primary_Campaign_Source_For_List_View field to ensure the fields are kept in sync with each other.*/</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_46</name>
+        <dataType>Boolean</dataType>
+        <expression>AND( 
+       {!$Setup.Process_Control__c.Opportunity_Workflow__c} = TRUE,
+       NOT (ISNEW()),
+       NOT ( ISBLANK ( {!myVariable_current.CampaignId} )),
+       ISBLANK ( PRIORVALUE ( {!myVariable_current.CampaignId} ))
+)
+
+/*This action is triggered when the value in the standard CampaignId field is populated on an existing record, and the previous value was blank. The action updates the Primary_Campaign_Source_For_List_View field to ensure the fields are kept in sync with each other.*/</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND( 
+       $Setup.Process_Control__c.Opportunity_Workflow__c = TRUE,
+       ISCHANGED ( [Opportunity].CampaignId ),
+       [Opportunity].CampaignId &lt;&gt; [Opportunity].Primary_Campaign_Source_For_List_View__c 
+)
+
+/*This action is triggered when the value in the standard CampaignId field is updated, and the value differs from the value in the Primary_Campaign_Source_For_List_View field. The action updates the Primary_Campaign_Source_For_List_View field to ensure the fields are kept in sync with each other.*/</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_48</name>
+        <dataType>Boolean</dataType>
+        <expression>AND( 
+       {!$Setup.Process_Control__c.Opportunity_Workflow__c} = TRUE,
+       ISCHANGED ( {!myVariable_current.CampaignId} ),
+       {!myVariable_current.CampaignId} &lt;&gt; {!myVariable_current.Primary_Campaign_Source_For_List_View__c} 
+)
+
+/*This action is triggered when the value in the standard CampaignId field is updated, and the value differs from the value in the Primary_Campaign_Source_For_List_View field. The action updates the Primary_Campaign_Source_For_List_View field to ensure the fields are kept in sync with each other.*/</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND( 
+        $Setup.Process_Control__c.Opportunity_Workflow__c = TRUE, 
+        ISNEW(),
+        [Opportunity].cc_Created_by_Charity_Checkout__c = TRUE
+)
+
+/*This ensures that when an opportunity is created on Charity Checkout the Close Date is set to the 20th of the following month.*/</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_5</name>
+        <dataType>Boolean</dataType>
+        <expression>AND( 
+        {!$Setup.Process_Control__c.Opportunity_Workflow__c} = TRUE, 
+        ISNEW(),
+        {!myVariable_current.cc_Created_by_Charity_Checkout__c} = TRUE
+)
+
+/*This ensures that when an opportunity is created on Charity Checkout the Close Date is set to the 20th of the following month.*/</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND( 
+       $Setup.Process_Control__c.Opportunity_Workflow__c = TRUE,
+       ISBLANK ( [Opportunity].CampaignId ),
+       NOT ( ISBLANK ( PRIORVALUE ( [Opportunity].CampaignId )))
+)
+
+/*This action is triggered when the value in the standard CampaignId field is removed, and the previous value was not blank. The action updates the Primary_Campaign_Source_For_List_View field to ensure the fields are kept in sync with each other.*/</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_50</name>
+        <dataType>Boolean</dataType>
+        <expression>AND( 
+       {!$Setup.Process_Control__c.Opportunity_Workflow__c} = TRUE,
+       ISBLANK ( {!myVariable_current.CampaignId} ),
+       NOT ( ISBLANK ( PRIORVALUE ( {!myVariable_current.CampaignId} )))
+)
+
+/*This action is triggered when the value in the standard CampaignId field is removed, and the previous value was not blank. The action updates the Primary_Campaign_Source_For_List_View field to ensure the fields are kept in sync with each other.*/</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND( 
+       $Setup.Process_Control__c.Opportunity_Workflow__c = TRUE,
+       NOT ( ISBLANK ( [Opportunity].Primary_Campaign_Source_For_List_View__c  )),
+       ISBLANK ( PRIORVALUE ( [Opportunity].Primary_Campaign_Source_For_List_View__c ))
+)
+
+/*This action is triggered when the value in the Primary_Campaign_Source_For_List_View field is populated, and the previous value was blank. The action updates the CampaignId field to ensure the fields are kept in sync with each other.*/</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_52</name>
+        <dataType>Boolean</dataType>
+        <expression>AND( 
+       {!$Setup.Process_Control__c.Opportunity_Workflow__c} = TRUE,
+       NOT ( ISBLANK ( {!myVariable_current.Primary_Campaign_Source_For_List_View__c}  )),
+       ISBLANK ( PRIORVALUE ( {!myVariable_current.Primary_Campaign_Source_For_List_View__c} ))
+)
+
+/*This action is triggered when the value in the Primary_Campaign_Source_For_List_View field is populated, and the previous value was blank. The action updates the CampaignId field to ensure the fields are kept in sync with each other.*/</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND( 
+       $Setup.Process_Control__c.Opportunity_Workflow__c = TRUE,
+       ISCHANGED ( [Opportunity].Primary_Campaign_Source_For_List_View__c  ),
+       [Opportunity].Primary_Campaign_Source_For_List_View__c  &lt;&gt; [Opportunity].CampaignId
+)
+
+/*This action is triggered when the value in the standard Primary_Campaign_Source_For_List_View field is updated, and the value differs from the value in the standard CampaignId field. The action updates the CampaignId field to ensure the fields are kept in sync with each other.*/</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_54</name>
+        <dataType>Boolean</dataType>
+        <expression>AND( 
+       {!$Setup.Process_Control__c.Opportunity_Workflow__c} = TRUE,
+       ISCHANGED ( {!myVariable_current.Primary_Campaign_Source_For_List_View__c}  ),
+       {!myVariable_current.Primary_Campaign_Source_For_List_View__c}  &lt;&gt; {!myVariable_current.CampaignId}
+)
+
+/*This action is triggered when the value in the standard Primary_Campaign_Source_For_List_View field is updated, and the value differs from the value in the standard CampaignId field. The action updates the CampaignId field to ensure the fields are kept in sync with each other.*/</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND( 
+       $Setup.Process_Control__c.Opportunity_Workflow__c = TRUE,
+       ISBLANK ( [Opportunity].Primary_Campaign_Source_For_List_View__c  ),
+       NOT ( ISBLANK ( PRIORVALUE ( [Opportunity].Primary_Campaign_Source_For_List_View__c )))
+)
+
+/*This action is triggered when the value in the Primary_Campaign_Source_For_List_View field is removed, and the previous value was not blank. The action updates the CampaignId field to ensure the fields are kept in sync with each other.*/</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_56</name>
+        <dataType>Boolean</dataType>
+        <expression>AND( 
+       {!$Setup.Process_Control__c.Opportunity_Workflow__c} = TRUE,
+       ISBLANK ( {!myVariable_current.Primary_Campaign_Source_For_List_View__c}  ),
+       NOT ( ISBLANK ( PRIORVALUE ( {!myVariable_current.Primary_Campaign_Source_For_List_View__c} )))
+)
+
+/*This action is triggered when the value in the Primary_Campaign_Source_For_List_View field is removed, and the previous value was not blank. The action updates the CampaignId field to ensure the fields are kept in sync with each other.*/</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND( 
+       $Setup.Process_Control__c.Opportunity_Workflow__c = TRUE,
+       ISNEW(),
+       $User.Alias = &quot;MWint&quot;,
+       ISBLANK ( [Opportunity].Primary_Campaign_Source_For_List_View__c)
+)
+
+/*This action is triggered when a new Opportunity is added, is created by User with Alias MWint and has NO campaign.*/
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_58</name>
+        <dataType>Boolean</dataType>
+        <expression>AND( 
+       {!$Setup.Process_Control__c.Opportunity_Workflow__c} = TRUE,
+       ISNEW(),
+       {!$User.Alias} = &quot;MWint&quot;,
+       ISBLANK ( {!myVariable_current.Primary_Campaign_Source_For_List_View__c})
+)
+
+/*This action is triggered when a new Opportunity is added, is created by User with Alias MWint and has NO campaign.*/</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND( 
+       $Setup.Process_Control__c.Opportunity_Workflow__c = TRUE,
+       ISNEW(),
+       $User.Alias = &quot;MWint&quot;,
+       NOT(ISBLANK ( [Opportunity].Primary_Campaign_Source_For_List_View__c))
+)
+
+/*This action is triggered when a new Opportunity is added, is created by User with Alias MWint and has a campaign.*/
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_61</name>
+        <dataType>Boolean</dataType>
+        <expression>AND( 
+       {!$Setup.Process_Control__c.Opportunity_Workflow__c} = TRUE,
+       ISNEW(),
+       {!$User.Alias} = &quot;MWint&quot;,
+       NOT(ISBLANK ( {!myVariable_current.Primary_Campaign_Source_For_List_View__c}))
+)
+
+/*This action is triggered when a new Opportunity is added, is created by User with Alias MWint and has a campaign.*/</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND  (
+$Setup.Process_Control__c.Opportunity_Workflow__c = TRUE,
+NOT (ISBLANK ([Opportunity].CampaignId )),
+NOT (ISBLANK ([Opportunity].Campaign.Fundraiser__c ))
+)</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_63</name>
+        <dataType>Boolean</dataType>
+        <expression>AND  (
+{!$Setup.Process_Control__c.Opportunity_Workflow__c} = TRUE,
+NOT (ISBLANK ({!myVariable_current.CampaignId} )),
+NOT (ISBLANK ({!myVariable_current.Campaign.Fundraiser__c} ))
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND  (
+$Setup.Process_Control__c.Opportunity_Workflow__c = TRUE,
+NOT (ISBLANK ([Opportunity].CampaignId )),
+NOT (ISBLANK ([Opportunity].Campaign.Fundraiser__c ))
+)</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_63_pmetrule</name>
+        <dataType>Boolean</dataType>
+        <expression>AND  (
+{!$Setup.Process_Control__c.Opportunity_Workflow__c} = TRUE,
+NOT (ISBLANK ({!myVariable_old.CampaignId} )),
+NOT (ISBLANK ({!myVariable_old.Campaign.Fundraiser__c} ))
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND(
+
+$Setup.Process_Control__c.Opportunity_Workflow__c = TRUE,
+ISNEW(),
+[Opportunity].cc_Created_by_Charity_Checkout__c = TRUE
+)
+
+/*This step is triggered when a new opportunity is created via Charity Checkout in order to change the Owner ID to the Conditional Default Record Owner ID custom setting. */
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_8</name>
+        <dataType>Boolean</dataType>
+        <expression>AND(
+
+{!$Setup.Process_Control__c.Opportunity_Workflow__c} = TRUE,
+ISNEW(),
+{!myVariable_current.cc_Created_by_Charity_Checkout__c} = TRUE
+)
+
+/*This step is triggered when a new opportunity is created via Charity Checkout in order to change the Owner ID to the Conditional Default Record Owner ID custom setting. */</expression>
+    </formulas>
+    <interviewLabel>Opportunity_Created_or_Updated-25_InterviewLabel</interviewLabel>
+    <label>Opportunity Created or Updated</label>
+    <processMetadataValues>
+        <name>ObjectType</name>
+        <value>
+            <stringValue>Opportunity</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>ObjectVariable</name>
+        <value>
+            <elementReference>myVariable_current</elementReference>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OldObjectVariable</name>
+        <value>
+            <elementReference>myVariable_old</elementReference>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>TriggerType</name>
+        <value>
+            <stringValue>onAllChanges</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Workflow</processType>
+    <recordCreates>
+        <name>myRule_27_A2</name>
+        <label>Create GAU Allocation</label>
+        <locationX>2700</locationX>
+        <locationY>300</locationY>
+        <connector>
+            <targetReference>myDecision30</targetReference>
+        </connector>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>General Accounting Unit</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Formula</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>npsp__General_Accounting_Unit__c</field>
+            <value>
+                <elementReference>formula_28_myRule_27_A2_1647210283</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Opportunity</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue>Opportunity</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Reference</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>npsp__Opportunity__c</field>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>Number</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Percent</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Number</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>npsp__Percent__c</field>
+            <value>
+                <numberValue>50.0</numberValue>
+            </value>
+        </inputAssignments>
+        <object>npsp__Allocation__c</object>
+    </recordCreates>
+    <recordCreates>
+        <name>myRule_63_A1</name>
+        <label>Opportunity Contact Role</label>
+        <locationX>6300</locationX>
+        <locationY>200</locationY>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Contact ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Reference</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>ContactId</field>
+            <value>
+                <elementReference>myVariable_current.Campaign.Fundraiser__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Opportunity ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Reference</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>OpportunityId</field>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>Picklist</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Role</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Picklist</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>Role</field>
+            <value>
+                <stringValue>Fundraiser</stringValue>
+            </value>
+        </inputAssignments>
+        <object>OpportunityContactRole</object>
+    </recordCreates>
+    <recordUpdates>
+        <processMetadataValues>
+            <name>evaluationType</name>
+            <value>
+                <stringValue>always</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>extraTypeInfo</name>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>isChildRelationship</name>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>reference</name>
+            <value>
+                <stringValue>[Opportunity]</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>referenceTargetField</name>
+        </processMetadataValues>
+        <name>myRule_11_A1</name>
+        <label>Update Opportunity Type and VAT Code</label>
+        <locationX>1100</locationX>
+        <locationY>200</locationY>
+        <connector>
+            <targetReference>myDecision14</targetReference>
+        </connector>
+        <filters>
+            <processMetadataValues>
+                <name>implicit</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>Picklist</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Opportunity Type</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Formula</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>Type</field>
+            <value>
+                <elementReference>formula_12_myRule_11_A1_4519046353</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>Picklist</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>VAT Code</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Formula</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>VAT_Code__c</field>
+            <value>
+                <elementReference>formula_13_myRule_11_A1_1927583610</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Opportunity</object>
+    </recordUpdates>
+    <recordUpdates>
+        <processMetadataValues>
+            <name>evaluationType</name>
+            <value>
+                <stringValue>always</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>extraTypeInfo</name>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>isChildRelationship</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>reference</name>
+            <value>
+                <stringValue>[Opportunity].npsp__Allocations__r</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>referenceTargetField</name>
+        </processMetadataValues>
+        <name>myRule_15_A1</name>
+        <label>Update GAU Allocation</label>
+        <locationX>1500</locationX>
+        <locationY>200</locationY>
+        <connector>
+            <targetReference>myDecision17</targetReference>
+        </connector>
+        <filters>
+            <processMetadataValues>
+                <name>implicit</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <field>npsp__Opportunity__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>General Accounting Unit</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue>npsp__General_Accounting_Unit__c</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Formula</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>npsp__General_Accounting_Unit__c</field>
+            <value>
+                <elementReference>formula_16_myRule_15_A1_4849376956</elementReference>
+            </value>
+        </inputAssignments>
+        <object>npsp__Allocation__c</object>
+    </recordUpdates>
+    <recordUpdates>
+        <processMetadataValues>
+            <name>evaluationType</name>
+            <value>
+                <stringValue>always</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>extraTypeInfo</name>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>isChildRelationship</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>reference</name>
+            <value>
+                <stringValue>[Opportunity].npsp__Allocations__r</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>referenceTargetField</name>
+        </processMetadataValues>
+        <name>myRule_18_A1</name>
+        <label>Update GAU Allocation</label>
+        <locationX>1800</locationX>
+        <locationY>200</locationY>
+        <connector>
+            <targetReference>myDecision20</targetReference>
+        </connector>
+        <filters>
+            <processMetadataValues>
+                <name>implicit</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <field>npsp__Opportunity__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>General Accounting Unit</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue>npsp__General_Accounting_Unit__c</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Formula</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>npsp__General_Accounting_Unit__c</field>
+            <value>
+                <elementReference>formula_19_myRule_18_A1_6712442416</elementReference>
+            </value>
+        </inputAssignments>
+        <object>npsp__Allocation__c</object>
+    </recordUpdates>
+    <recordUpdates>
+        <processMetadataValues>
+            <name>evaluationType</name>
+            <value>
+                <stringValue>always</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>extraTypeInfo</name>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>isChildRelationship</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>reference</name>
+            <value>
+                <stringValue>[Opportunity].npsp__Allocations__r</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>referenceTargetField</name>
+        </processMetadataValues>
+        <name>myRule_21_A1</name>
+        <label>Update GAU Allocation</label>
+        <locationX>2100</locationX>
+        <locationY>200</locationY>
+        <connector>
+            <targetReference>myDecision23</targetReference>
+        </connector>
+        <filters>
+            <processMetadataValues>
+                <name>implicit</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <field>npsp__Opportunity__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>General Accounting Unit</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue>npsp__General_Accounting_Unit__c</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Formula</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>npsp__General_Accounting_Unit__c</field>
+            <value>
+                <elementReference>formula_22_myRule_21_A1_2461458882</elementReference>
+            </value>
+        </inputAssignments>
+        <object>npsp__Allocation__c</object>
+    </recordUpdates>
+    <recordUpdates>
+        <processMetadataValues>
+            <name>evaluationType</name>
+            <value>
+                <stringValue>always</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>extraTypeInfo</name>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>isChildRelationship</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>reference</name>
+            <value>
+                <stringValue>[Opportunity].npsp__Allocations__r</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>referenceTargetField</name>
+        </processMetadataValues>
+        <name>myRule_24_A1</name>
+        <label>Update GAU Allocation</label>
+        <locationX>2400</locationX>
+        <locationY>200</locationY>
+        <connector>
+            <targetReference>myDecision26</targetReference>
+        </connector>
+        <filters>
+            <processMetadataValues>
+                <name>implicit</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <field>npsp__Opportunity__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>General Accounting Unit</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue>npsp__General_Accounting_Unit__c</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Formula</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>npsp__General_Accounting_Unit__c</field>
+            <value>
+                <elementReference>formula_25_myRule_24_A1_5146301659</elementReference>
+            </value>
+        </inputAssignments>
+        <object>npsp__Allocation__c</object>
+    </recordUpdates>
+    <recordUpdates>
+        <processMetadataValues>
+            <name>evaluationType</name>
+            <value>
+                <stringValue>always</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>extraTypeInfo</name>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>isChildRelationship</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>reference</name>
+            <value>
+                <stringValue>[Opportunity].npsp__Allocations__r</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>referenceTargetField</name>
+        </processMetadataValues>
+        <name>myRule_27_A1</name>
+        <label>Update GAU Allocation</label>
+        <locationX>2700</locationX>
+        <locationY>200</locationY>
+        <connector>
+            <targetReference>myRule_27_A2</targetReference>
+        </connector>
+        <filters>
+            <processMetadataValues>
+                <name>implicit</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <field>npsp__Opportunity__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>General Accounting Unit</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue>npsp__General_Accounting_Unit__c</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Formula</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>npsp__General_Accounting_Unit__c</field>
+            <value>
+                <elementReference>formula_29_myRule_27_A1_0546283341</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>Number</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Percent</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Number</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>npsp__Percent__c</field>
+            <value>
+                <numberValue>50.0</numberValue>
+            </value>
+        </inputAssignments>
+        <object>npsp__Allocation__c</object>
+    </recordUpdates>
+    <recordUpdates>
+        <processMetadataValues>
+            <name>evaluationType</name>
+            <value>
+                <stringValue>always</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>extraTypeInfo</name>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>isChildRelationship</name>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>reference</name>
+            <value>
+                <stringValue>[Opportunity]</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>referenceTargetField</name>
+        </processMetadataValues>
+        <name>myRule_31_A1</name>
+        <label>Set Third Party Source data</label>
+        <locationX>3100</locationX>
+        <locationY>200</locationY>
+        <connector>
+            <targetReference>myDecision32</targetReference>
+        </connector>
+        <filters>
+            <processMetadataValues>
+                <name>implicit</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>Currency</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Gross Amount</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Reference</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>Gross_Amount__c</field>
+            <value>
+                <elementReference>myVariable_current.cc_Donation_Gross_Amount__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>Picklist</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Third Party Source</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Picklist</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>Third_Party_Source__c</field>
+            <value>
+                <stringValue>Charity Checkout</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Opportunity</object>
+    </recordUpdates>
+    <recordUpdates>
+        <processMetadataValues>
+            <name>evaluationType</name>
+            <value>
+                <stringValue>always</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>extraTypeInfo</name>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>isChildRelationship</name>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>reference</name>
+            <value>
+                <stringValue>[Opportunity]</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>referenceTargetField</name>
+        </processMetadataValues>
+        <name>myRule_33_A1</name>
+        <label>Set Amount to Zero</label>
+        <locationX>3300</locationX>
+        <locationY>200</locationY>
+        <connector>
+            <targetReference>myDecision34</targetReference>
+        </connector>
+        <filters>
+            <processMetadataValues>
+                <name>implicit</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>Currency</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Amount</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Currency</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>Amount</field>
+            <value>
+                <numberValue>0.0</numberValue>
+            </value>
+        </inputAssignments>
+        <object>Opportunity</object>
+    </recordUpdates>
+    <recordUpdates>
+        <processMetadataValues>
+            <name>evaluationType</name>
+            <value>
+                <stringValue>always</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>extraTypeInfo</name>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>isChildRelationship</name>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>reference</name>
+            <value>
+                <stringValue>[Opportunity]</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>referenceTargetField</name>
+        </processMetadataValues>
+        <name>myRule_35_A1</name>
+        <label>Update Opportunity Name</label>
+        <locationX>3500</locationX>
+        <locationY>200</locationY>
+        <connector>
+            <targetReference>myDecision37</targetReference>
+        </connector>
+        <filters>
+            <processMetadataValues>
+                <name>implicit</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>String</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Name</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Formula</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>Name</field>
+            <value>
+                <elementReference>formula_36_myRule_35_A1_4821343766</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Opportunity</object>
+    </recordUpdates>
+    <recordUpdates>
+        <processMetadataValues>
+            <name>evaluationType</name>
+            <value>
+                <stringValue>always</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>extraTypeInfo</name>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>isChildRelationship</name>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>reference</name>
+            <value>
+                <stringValue>[Opportunity]</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>referenceTargetField</name>
+        </processMetadataValues>
+        <name>myRule_38_A1</name>
+        <label>Update Opportunity Name</label>
+        <locationX>3800</locationX>
+        <locationY>200</locationY>
+        <connector>
+            <targetReference>myDecision40</targetReference>
+        </connector>
+        <filters>
+            <processMetadataValues>
+                <name>implicit</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>String</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Name</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Formula</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>Name</field>
+            <value>
+                <elementReference>formula_39_myRule_38_A1_3792216044</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Opportunity</object>
+    </recordUpdates>
+    <recordUpdates>
+        <processMetadataValues>
+            <name>evaluationType</name>
+            <value>
+                <stringValue>always</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>extraTypeInfo</name>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>isChildRelationship</name>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>reference</name>
+            <value>
+                <stringValue>[Opportunity]</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>referenceTargetField</name>
+        </processMetadataValues>
+        <name>myRule_3_A1</name>
+        <label>Set Amount to Donation Net Amount</label>
+        <locationX>300</locationX>
+        <locationY>200</locationY>
+        <connector>
+            <targetReference>myDecision4</targetReference>
+        </connector>
+        <filters>
+            <processMetadataValues>
+                <name>implicit</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>Currency</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Amount</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Reference</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>Amount</field>
+            <value>
+                <elementReference>myVariable_current.cc_Donation_Net_Amount__c</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Opportunity</object>
+    </recordUpdates>
+    <recordUpdates>
+        <processMetadataValues>
+            <name>evaluationType</name>
+            <value>
+                <stringValue>always</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>extraTypeInfo</name>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>isChildRelationship</name>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>reference</name>
+            <value>
+                <stringValue>[Opportunity]</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>referenceTargetField</name>
+        </processMetadataValues>
+        <name>myRule_41_A1</name>
+        <label>Update Opportunity Name</label>
+        <locationX>4100</locationX>
+        <locationY>200</locationY>
+        <connector>
+            <targetReference>myDecision43</targetReference>
+        </connector>
+        <filters>
+            <processMetadataValues>
+                <name>implicit</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>String</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Name</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Formula</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>Name</field>
+            <value>
+                <elementReference>formula_42_myRule_41_A1_1581960756</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Opportunity</object>
+    </recordUpdates>
+    <recordUpdates>
+        <processMetadataValues>
+            <name>evaluationType</name>
+            <value>
+                <stringValue>always</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>extraTypeInfo</name>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>isChildRelationship</name>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>reference</name>
+            <value>
+                <stringValue>[Opportunity]</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>referenceTargetField</name>
+        </processMetadataValues>
+        <name>myRule_44_A1</name>
+        <label>Copy CampaignId to Primary_Campaign_Source_for_List_View</label>
+        <locationX>4400</locationX>
+        <locationY>200</locationY>
+        <connector>
+            <targetReference>myDecision45</targetReference>
+        </connector>
+        <filters>
+            <processMetadataValues>
+                <name>implicit</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Primary Campaign Source</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue>Campaign</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Reference</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>Primary_Campaign_Source_For_List_View__c</field>
+            <value>
+                <elementReference>myVariable_current.CampaignId</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Opportunity</object>
+    </recordUpdates>
+    <recordUpdates>
+        <processMetadataValues>
+            <name>evaluationType</name>
+            <value>
+                <stringValue>always</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>extraTypeInfo</name>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>isChildRelationship</name>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>reference</name>
+            <value>
+                <stringValue>[Opportunity]</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>referenceTargetField</name>
+        </processMetadataValues>
+        <name>myRule_46_A1</name>
+        <label>Copy CampaignId to Primary_Campaign_Source_for_List_View</label>
+        <locationX>4600</locationX>
+        <locationY>200</locationY>
+        <connector>
+            <targetReference>myDecision47</targetReference>
+        </connector>
+        <filters>
+            <processMetadataValues>
+                <name>implicit</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Primary Campaign Source</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue>Campaign</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Reference</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>Primary_Campaign_Source_For_List_View__c</field>
+            <value>
+                <elementReference>myVariable_current.CampaignId</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Opportunity</object>
+    </recordUpdates>
+    <recordUpdates>
+        <processMetadataValues>
+            <name>evaluationType</name>
+            <value>
+                <stringValue>always</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>extraTypeInfo</name>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>isChildRelationship</name>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>reference</name>
+            <value>
+                <stringValue>[Opportunity]</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>referenceTargetField</name>
+        </processMetadataValues>
+        <name>myRule_48_A1</name>
+        <label>Copy CampaignId to Primary_Campaign_Source_for_List_View</label>
+        <locationX>4800</locationX>
+        <locationY>200</locationY>
+        <connector>
+            <targetReference>myDecision49</targetReference>
+        </connector>
+        <filters>
+            <processMetadataValues>
+                <name>implicit</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Primary Campaign Source</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue>Campaign</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Reference</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>Primary_Campaign_Source_For_List_View__c</field>
+            <value>
+                <elementReference>myVariable_current.CampaignId</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Opportunity</object>
+    </recordUpdates>
+    <recordUpdates>
+        <processMetadataValues>
+            <name>evaluationType</name>
+            <value>
+                <stringValue>always</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>extraTypeInfo</name>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>isChildRelationship</name>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>reference</name>
+            <value>
+                <stringValue>[Opportunity]</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>referenceTargetField</name>
+        </processMetadataValues>
+        <name>myRule_50_A1</name>
+        <label>Delete Primary_Campaign_Source_for_List_View</label>
+        <locationX>5000</locationX>
+        <locationY>200</locationY>
+        <connector>
+            <targetReference>myDecision51</targetReference>
+        </connector>
+        <filters>
+            <processMetadataValues>
+                <name>implicit</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Primary Campaign Source</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue>Campaign</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>GlobalConstant</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>Primary_Campaign_Source_For_List_View__c</field>
+        </inputAssignments>
+        <object>Opportunity</object>
+    </recordUpdates>
+    <recordUpdates>
+        <processMetadataValues>
+            <name>evaluationType</name>
+            <value>
+                <stringValue>always</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>extraTypeInfo</name>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>isChildRelationship</name>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>reference</name>
+            <value>
+                <stringValue>[Opportunity]</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>referenceTargetField</name>
+        </processMetadataValues>
+        <name>myRule_52_A1</name>
+        <label>Copy Primary_Campaign_Source_for_List_View to CampaignId</label>
+        <locationX>5200</locationX>
+        <locationY>200</locationY>
+        <connector>
+            <targetReference>myDecision53</targetReference>
+        </connector>
+        <filters>
+            <processMetadataValues>
+                <name>implicit</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Campaign ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue>Campaign</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Reference</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>CampaignId</field>
+            <value>
+                <elementReference>myVariable_current.Primary_Campaign_Source_For_List_View__c</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Opportunity</object>
+    </recordUpdates>
+    <recordUpdates>
+        <processMetadataValues>
+            <name>evaluationType</name>
+            <value>
+                <stringValue>always</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>extraTypeInfo</name>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>isChildRelationship</name>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>reference</name>
+            <value>
+                <stringValue>[Opportunity]</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>referenceTargetField</name>
+        </processMetadataValues>
+        <name>myRule_54_A1</name>
+        <label>Copy Primary_Campaign_Source_for_List_View to CampaignId</label>
+        <locationX>5400</locationX>
+        <locationY>200</locationY>
+        <connector>
+            <targetReference>myDecision55</targetReference>
+        </connector>
+        <filters>
+            <processMetadataValues>
+                <name>implicit</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Campaign ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue>Campaign</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Reference</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>CampaignId</field>
+            <value>
+                <elementReference>myVariable_current.Primary_Campaign_Source_For_List_View__c</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Opportunity</object>
+    </recordUpdates>
+    <recordUpdates>
+        <processMetadataValues>
+            <name>evaluationType</name>
+            <value>
+                <stringValue>always</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>extraTypeInfo</name>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>isChildRelationship</name>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>reference</name>
+            <value>
+                <stringValue>[Opportunity]</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>referenceTargetField</name>
+        </processMetadataValues>
+        <name>myRule_56_A1</name>
+        <label>Delete CampaignId</label>
+        <locationX>5600</locationX>
+        <locationY>200</locationY>
+        <connector>
+            <targetReference>myDecision57</targetReference>
+        </connector>
+        <filters>
+            <processMetadataValues>
+                <name>implicit</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Campaign ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue>Campaign</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>GlobalConstant</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>CampaignId</field>
+        </inputAssignments>
+        <object>Opportunity</object>
+    </recordUpdates>
+    <recordUpdates>
+        <processMetadataValues>
+            <name>evaluationType</name>
+            <value>
+                <stringValue>always</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>extraTypeInfo</name>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>isChildRelationship</name>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>reference</name>
+            <value>
+                <stringValue>[Opportunity]</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>referenceTargetField</name>
+        </processMetadataValues>
+        <name>myRule_58_A1</name>
+        <label>Change Opp Owner (No Campaign)</label>
+        <locationX>5800</locationX>
+        <locationY>200</locationY>
+        <connector>
+            <targetReference>myDecision60</targetReference>
+        </connector>
+        <filters>
+            <processMetadataValues>
+                <name>implicit</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Owner ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue>User</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Formula</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>formula_59_myRule_58_A1_3933919507</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Opportunity</object>
+    </recordUpdates>
+    <recordUpdates>
+        <processMetadataValues>
+            <name>evaluationType</name>
+            <value>
+                <stringValue>always</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>extraTypeInfo</name>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>isChildRelationship</name>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>reference</name>
+            <value>
+                <stringValue>[Opportunity]</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>referenceTargetField</name>
+        </processMetadataValues>
+        <name>myRule_5_A1</name>
+        <label>Update Close Date</label>
+        <locationX>500</locationX>
+        <locationY>200</locationY>
+        <connector>
+            <targetReference>myDecision7</targetReference>
+        </connector>
+        <filters>
+            <processMetadataValues>
+                <name>implicit</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>Date</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Close Date</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Formula</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>CloseDate</field>
+            <value>
+                <elementReference>formula_6_myRule_5_A1_6602379383</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Opportunity</object>
+    </recordUpdates>
+    <recordUpdates>
+        <processMetadataValues>
+            <name>evaluationType</name>
+            <value>
+                <stringValue>always</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>extraTypeInfo</name>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>isChildRelationship</name>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>reference</name>
+            <value>
+                <stringValue>[Opportunity]</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>referenceTargetField</name>
+        </processMetadataValues>
+        <name>myRule_61_A1</name>
+        <label>Change Opp Owner (has Campaign)</label>
+        <locationX>6100</locationX>
+        <locationY>200</locationY>
+        <connector>
+            <targetReference>myDecision62</targetReference>
+        </connector>
+        <filters>
+            <processMetadataValues>
+                <name>implicit</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Owner ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue>User</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Reference</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>myVariable_current.Campaign.OwnerId</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Opportunity</object>
+    </recordUpdates>
+    <recordUpdates>
+        <processMetadataValues>
+            <name>evaluationType</name>
+            <value>
+                <stringValue>always</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>extraTypeInfo</name>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>isChildRelationship</name>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>reference</name>
+            <value>
+                <stringValue>[Opportunity]</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>referenceTargetField</name>
+        </processMetadataValues>
+        <name>myRule_8_A1</name>
+        <label>Update Opportunity Owner</label>
+        <locationX>800</locationX>
+        <locationY>200</locationY>
+        <connector>
+            <targetReference>myDecision10</targetReference>
+        </connector>
+        <filters>
+            <processMetadataValues>
+                <name>implicit</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Owner ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue>User</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Formula</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>formula_9_myRule_8_A1_4114312728</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Opportunity</object>
+    </recordUpdates>
+    <startElementReference>myDecision</startElementReference>
+    <status>Active</status>
+    <variables>
+        <name>myVariable_current</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>Opportunity</objectType>
+    </variables>
+    <variables>
+        <name>myVariable_old</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Opportunity</objectType>
+    </variables>
+</Flow>

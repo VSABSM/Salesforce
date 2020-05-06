@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- If checked the Claim Type will appear in the Claim Type picklist in the Gift Aid Claim page --></help>
+        <label><!-- Active --></label>
+        <name>gcga__Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- A where clause to be used when selecting opportunities to be processed as part of a claim e.g. Payment_Method__c=&apos;SMS&apos; AND &apos;Amount&gt;1000. The field must be on opportunity. --></help>
+        <label><!-- Claim Type Criteria --></label>
+        <name>gcga__Claim_Type_Criteria__c</name>
+    </fields>
+    <fields>
+        <help><!-- A short name for the claim type that will appear in the Claim Type Picklist on the Gift Aid Claim page --></help>
+        <label><!-- Claim Type Short Name --></label>
+        <name>gcga__Claim_Type_Short_Name__c</name>
+    </fields>
+</CustomObjectTranslation>

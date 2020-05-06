@@ -1,0 +1,4483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>AddInfluence</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddInfluence</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddInfluence</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>NPSP_Opportunity_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>NPSP_Opportunity_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <businessProcesses>
+        <fullName>Donation</fullName>
+        <description>This sales process applies to individual giving and corporate giving.</description>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Closed Lost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pledged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospecting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Received</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <businessProcesses>
+        <fullName>Gift Aid Income</fullName>
+        <description>This sales process applies to gift aid income.</description>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Claimed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed Lost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Received</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <businessProcesses>
+        <fullName>Grant</fullName>
+        <description>This sales process applies to grants from trusts and foundations.</description>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Application Submitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed - Application Not Pursued</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Declined</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draft Application</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <businessProcesses>
+        <fullName>In-Kind Gift</fullName>
+        <description>This sales process applies to in-kind gifts.</description>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Closed Lost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cultivating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cultivation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verbal Commitment</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <businessProcesses>
+        <fullName>Legacy Gift</fullName>
+        <description>This sales process applies to legacy giving.</description>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Closed Lost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pledged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospecting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Received</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <businessProcesses>
+        <fullName>Major Gift</fullName>
+        <description>This sales process applies to major giving.</description>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Closed Lost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cultivation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Identification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proposal%2FReview</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Qualification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verbal Commitment</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <businessProcesses>
+        <fullName>Membership</fullName>
+        <description>This sales process applies to membership.</description>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Closed Lost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Considering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospecting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Received</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <compactLayoutAssignment>NPSP_Donation_Compact_Layout_Unmanaged</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>NPSP_Donation_Compact_Layout_Unmanaged</fullName>
+        <fields>Name</fields>
+        <fields>RecordTypeId</fields>
+        <fields>Amount</fields>
+        <fields>CloseDate</fields>
+        <fields>StageName</fields>
+        <fields>OwnerId</fields>
+        <label>NPSP Donation Compact Layout (Unmanaged)</label>
+    </compactLayouts>
+    <compactLayouts>
+        <fullName>VSA_Donation_Major_Gift_Legacy_Gift_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>RecordTypeId</fields>
+        <fields>StageName</fields>
+        <fields>Amount</fields>
+        <fields>CloseDate</fields>
+        <fields>OwnerId</fields>
+        <label>VSA Donation, Major Gift, Legacy Gift Compact Layout</label>
+    </compactLayouts>
+    <compactLayouts>
+        <fullName>VSA_Grant_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>RecordTypeId</fields>
+        <fields>StageName</fields>
+        <fields>npsp__Requested_Amount__c</fields>
+        <fields>Amount</fields>
+        <fields>CloseDate</fields>
+        <fields>OwnerId</fields>
+        <label>VSA Grant Compact Layout</label>
+    </compactLayouts>
+    <compactLayouts>
+        <fullName>VSA_In_Kind_Gift_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>RecordTypeId</fields>
+        <fields>StageName</fields>
+        <fields>npsp__In_Kind_Type__c</fields>
+        <fields>npsp__Fair_Market_Value__c</fields>
+        <fields>CloseDate</fields>
+        <fields>OwnerId</fields>
+        <label>VSA In-Kind Gift Compact Layout</label>
+    </compactLayouts>
+    <compactLayouts>
+        <fullName>VSA_Membership_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>RecordTypeId</fields>
+        <fields>StageName</fields>
+        <fields>Amount</fields>
+        <fields>npe01__Membership_Start_Date__c</fields>
+        <fields>npe01__Member_Level__c</fields>
+        <fields>OwnerId</fields>
+        <label>VSA Membership Compact Layout</label>
+    </compactLayouts>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <fields>
+        <fullName>AccountId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Amount</fullName>
+        <inlineHelpText>Amount received net of any applicable fees.</inlineHelpText>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Attending_Ball__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Tick box for in kind donations made in support of the annual ball event to signal if the donor is attending the event in some capacity.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Is the donor attending the ball?</inlineHelpText>
+        <label>Attending Ball</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CampaignId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CloseDate</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>ContractId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Donation_Purpose__c</fullName>
+        <description>Field for Ball event In Kind Donations ONLY. This is to identify those for the event raffle and those for the event auction.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Is the donation for the auction or raffle?</inlineHelpText>
+        <label>Donation Purpose</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Auction</fullName>
+                    <default>true</default>
+                    <label>Auction</label>
+                </value>
+                <value>
+                    <fullName>Raffle</fullName>
+                    <default>false</default>
+                    <label>Raffle</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ExpectedRevenue</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Export_to_Finance_Completed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This checkbox gets set to TRUE by a process builder when the GAU allocation records associated with the opportunity has been processed, i.e., the Finance Export Status on the GAU allocations is set to &quot;Exported&quot;, as opposed to &quot;To Be Exported&quot;. It is used by a validation rule to determine whether the opportunity&apos;s properties can be changed or not (VSA-33).</description>
+        <externalId>false</externalId>
+        <label>Export to Finance Completed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Fees_Deducted__c</fullName>
+        <description>Fees Deducted</description>
+        <externalId>false</externalId>
+        <formula>IF(Gross_Amount__c = 0,0,Gross_Amount__c -  Amount)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>This field displays the Gross Amount minus the Net Amount to show the fees deducted by the third party.</inlineHelpText>
+        <label>Fees Deducted</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Finance_Export_Date__c</fullName>
+        <description>Finance Export</description>
+        <externalId>false</externalId>
+        <label>Finance Export Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Finance_Export_Group__c</fullName>
+        <externalId>false</externalId>
+        <formula>&apos;INCOME~&apos;&amp;  Id &amp;  TEXT(CloseDate) &amp;  TEXT(CreatedDate)</formula>
+        <label>Finance Export Group</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Finance_Export_Status__c</fullName>
+        <description>This shows the status of the opportunity export. This may be overridden by other factors.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This shows the status of the opportunity export. This may be overridden by other factors.</inlineHelpText>
+        <label>Finance Export Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>To Be Exported</fullName>
+                    <default>true</default>
+                    <label>To Be Exported</label>
+                </value>
+                <value>
+                    <fullName>Exported</fullName>
+                    <default>false</default>
+                    <label>Exported</label>
+                </value>
+                <value>
+                    <fullName>Do Not Export</fullName>
+                    <default>false</default>
+                    <label>Do Not Export</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Gift_Aid_Excluded_Reason__c</fullName>
+        <description>This field contains the description of why a particular donation has been marked as &apos;Is Gift Aid Excluded&apos; = TRUE. It is manually updated by end users (VSA-32).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If this donation is being marked as &apos;excluded&apos; from gift aid claim, please provide the reason for the exclusion in this field.</inlineHelpText>
+        <label>Gift Aid Excluded Reason</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Grant_Documents_URL__c</fullName>
+        <description>This field contains a URL to a folder on the VSA network which contains the grant application, reports etc. (VSA-14).</description>
+        <externalId>false</externalId>
+        <label>Grant Documents</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Gross_Amount__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>This is the amount originally donated BEFORE fees and other charges are taken off by the third-party.</inlineHelpText>
+        <label>Gross Amount</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>IK_Date_1st_letter_Sent__c</fullName>
+        <description>Case 4638: Created as a proof of concept to extend the In Kind Sales process</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the date the 1st letter was sent</inlineHelpText>
+        <label>IK: Date 1st letter Sent</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>IK_Date_2nd_letter_Sent__c</fullName>
+        <description>Case 4638: Created as a proof of concept to extend the In Kind Sales process</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the date the second letter was sent, if it was required.</inlineHelpText>
+        <label>IK: Date 2nd letter Sent</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>IK_Next_Step__c</fullName>
+        <description>Case 4638: Created as a proof of concept to extend the In Kind Sales process.
+Guidance for what is required for the next step or in cases of 3 and 4, details the outcome from correspondence.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the appropriate option to reflect the action to be taken in order to progress the opportunity to the next step. Items 3 and 4 however give details on the outcome of some opportunities.</inlineHelpText>
+        <label>IK: Next Step</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1 - Send Initial Letter</fullName>
+                    <default>false</default>
+                    <label>1 - Send Initial Letter</label>
+                </value>
+                <value>
+                    <fullName>2 - Send Follow Up Letter</fullName>
+                    <default>false</default>
+                    <label>2 - Send Follow Up Letter</label>
+                </value>
+                <value>
+                    <fullName>3 - Declined</fullName>
+                    <default>false</default>
+                    <label>3 - Declined</label>
+                </value>
+                <value>
+                    <fullName>4 - Declined - Try Next Year</fullName>
+                    <default>false</default>
+                    <label>4 - Declined - Try Next Year</label>
+                </value>
+                <value>
+                    <fullName>5 - Waiting for Delivery</fullName>
+                    <default>false</default>
+                    <label>5 - Waiting for Delivery</label>
+                </value>
+                <value>
+                    <fullName>6 - Item In VSA</fullName>
+                    <default>false</default>
+                    <label>6 - Item In VSA</label>
+                </value>
+                <value>
+                    <fullName>7 - Final Comms</fullName>
+                    <default>false</default>
+                    <label>7 - Final Comms</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Internal_Connections__c</fullName>
+        <description>This field is used in the context of grants, and contains any relevant information regarding connections that staff, trustees etc may have which may be useful to the fundraising efforts (VSA-4).</description>
+        <externalId>false</externalId>
+        <label>Internal Connections</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Invoice_Date__c</fullName>
+        <description>This field contains the date the invoice was raised, if applicable. The field has been created specifically for the context of facilitating an invoice which is issued for a table which has been booked for a formal event (VSA-35).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date the invoice was raised.</inlineHelpText>
+        <label>Invoice Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Invoice_Number_Open_Accounts__c</fullName>
+        <description>This field contains the invoice reference number for an invoice which has been generated in Open Accounts. The number is manually copy-pasted to this field (VSA-35).</description>
+        <externalId>true</externalId>
+        <inlineHelpText>Invoice number from Open Accounts.</inlineHelpText>
+        <label>Invoice Number</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IqScore</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>IsPrivate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Is_Donation_Gift_Aid_Eligible_VSA__c</fullName>
+        <description>This field is used by the Clarity Gift Aid app to determine whether the donation is eligible for gift aid claim. It ensures that corporate donations aren&apos;t claimed for gift aid, and that only select opportunity record types are eligible, as for example legacy giving is exempted from gift aid claim (VSA-32).</description>
+        <externalId>false</externalId>
+        <formula>IF(
+  AND(
+    Account.RecordType.DeveloperName = &apos;HH_Account&apos;, 
+    cc_Created_by_Charity_Checkout__c = FALSE,
+    Is_Table__c = FALSE,
+    Is_Ticket__c = FALSE,
+     OR(
+       RecordType.DeveloperName = &apos;Donation&apos;,
+       RecordType.DeveloperName = &apos;MajorGift&apos;)),
+  TRUE, 
+  FALSE
+)
+
+/*If a donation has been received via Charity Checkout, Clarity Gift Aid cannot claim the gift aid. This is because Charity Checkout will have claimed the gift aid on VSA&apos;s behalf already.*/</formula>
+        <label>Is Donation Gift Aid Eligible</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Payment_Method_Gift_Aid_Eligible_VSA__c</fullName>
+        <description>This field is used by the Clarity Gift Aid app to determine a donation&apos;s eligibility to be claimed for gift aid. If VSA decides that other payment methods should be eligible for gift aid claim, this formula needs to be modified (VSA-32).</description>
+        <externalId>false</externalId>
+        <formula>IF(
+  OR(
+    ISPICKVAL( Payment_Method__c , &quot;Cash&quot;),
+    ISPICKVAL( Payment_Method__c , &quot;Debit/credit card&quot;),
+    ISPICKVAL( Payment_Method__c , &quot;Bank Transfer&quot;),
+    ISPICKVAL( Payment_Method__c , &quot;Cheque&quot;),
+    ISPICKVAL( Payment_Method__c , &quot;Direct Debit&quot;),
+    ISPICKVAL( Payment_Method__c , &quot;Standing Order&quot;)
+   ),
+  TRUE, 
+  FALSE
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Is Payment Method Gift Aid Eligible</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Table__c</fullName>
+        <description>This field returns a value of TRUE if the Type picklist value is set to &quot;Table&quot;. This field is used in other formulas and reporting (VSA-14).</description>
+        <externalId>false</externalId>
+        <formula>IF ( ISPICKVAL ( Type , &quot;Table&quot;), TRUE, FALSE)</formula>
+        <label>Is Table</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Ticket__c</fullName>
+        <description>This field returns a value of TRUE if the Type picklist value is set to &quot;Ticket&quot;. This field is used in other formulas and reporting (VSA-14).</description>
+        <externalId>false</externalId>
+        <formula>IF (  ISPICKVAL ( Type , &quot;Ticket&quot;), TRUE, FALSE)</formula>
+        <label>Is Ticket</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_for_Amenities__c</fullName>
+        <description>This field returns a value of TRUE if the Type picklist value is set to &quot;Amenities&quot;. This field is used in other formulas, reporting and export to finance (VSA-14)</description>
+        <externalId>false</externalId>
+        <formula>IF (  ISPICKVAL ( Type , &quot;Amenities&quot;), TRUE, FALSE)</formula>
+        <label>Is for Amenities</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Last_Modified_by_Not_Owner__c</fullName>
+        <description>This field returns a value of TRUE if the user who last modified the record is someone else besides the owner (VSA-4).</description>
+        <externalId>false</externalId>
+        <formula>IF ( LastModifiedById &lt;&gt;  OwnerId , TRUE, FALSE )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Last Modified by Not Owner</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>LeadSource</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>NextStep</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Parent_Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This field contains a look-up to a parent opportunity. It is used when a donation - typically a major gift or a grant - is given to VSA in multiple instalments. In that case, each of the instalments will be recorded as an opportunity record itself, and will then have a &apos;Parent Opportunity&apos; in order to group the instalments (VSA-45).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please populate this field with a parent opportunity if the donation is an instalment of a larger donation, e.g., a £5,000 instalment of a £20,000 grant.</inlineHelpText>
+        <label>Parent Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Opportunity Instalments</relationshipLabel>
+        <relationshipName>OpportunityInstalments</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Payment_Method__c</fullName>
+        <description>This field contains the means by which this donation was paid, if possible. It may be derived from the record&apos;s recurring donation, if applicable via NPSP custom field mapping (VSA-14).</description>
+        <externalId>false</externalId>
+        <label>Payment Method</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Payment_Method</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Posted_Finance_Code__c</fullName>
+        <description>This is the finance code that was posted to the finance system. This is updated when the opportunity is posted in case the formula is changed through campaign etc</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is the finance code that was posted to the finance system. This is updated when the opportunity is posted in case the formula is changed through campaign etc</inlineHelpText>
+        <label>Posted Finance Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pricebook2Id</fullName>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Primary_Campaign_Source_For_List_View__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This field always contains the same value as the standard Opportunity.CampaignID (label &apos;Primary Campaign Source&apos;) field. The two fields are kept in sync by a Process Builder on the Opportunity object. The field shouldn&apos;t be in any page layouts - only list views. The field has been created to address that the standard CampaignID field can&apos;t be added to list views due to a known Salesforce limitation (Giveclarity case #4554).</description>
+        <externalId>false</externalId>
+        <label>Primary Campaign Source</label>
+        <referenceTo>Campaign</referenceTo>
+        <relationshipLabel>Opportunities</relationshipLabel>
+        <relationshipName>Opportunities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Probability</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Source_of_Donations_Gift_Aid__c</fullName>
+        <description>This field is used within the context of the Gift Aid Income opportunity record type. It contains a reference for the gift aid claim. At the time this field is created, VSA are not entirely sure what the reference item will be (a number, a description, a reference to a Clarity Gift Aid claim record), so for the time being this is a text field. This field may be replaced by a look-up field at some later point (Giveclarity case #4452).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please provide details about where the gift aid claim originated from, e.g., JustGiving / Virgin Money Giving / Charity Checkout / Clarity Gift Aid.</inlineHelpText>
+        <label>Source of Donations/Gift Aid</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Just Giving</fullName>
+                    <default>false</default>
+                    <label>Just Giving</label>
+                </value>
+                <value>
+                    <fullName>Virgin Money Giving</fullName>
+                    <default>false</default>
+                    <label>Virgin Money Giving</label>
+                </value>
+                <value>
+                    <fullName>Clarity Gift Aid / Salesforce</fullName>
+                    <default>false</default>
+                    <label>Clarity Gift Aid / Salesforce</label>
+                </value>
+                <value>
+                    <fullName>Charity Checkout</fullName>
+                    <default>false</default>
+                    <label>Charity Checkout</label>
+                </value>
+                <value>
+                    <fullName>Charitable Giving Benevity</fullName>
+                    <default>false</default>
+                    <label>Charitable Giving Benevity</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>StageName</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Table_Booked_Date__c</fullName>
+        <description>This field contains the date a table for a formal event, was booked. This date is manually entered (VSA-35).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date the table was booked/purchased, i.e., not the event date.</inlineHelpText>
+        <label>Table Booked Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Third_Party_Source__c</fullName>
+        <description>Third Party through which we received the donation</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field is used to indicate through which third party we received the donation from.  This will have resulted in fees being deducted and us just receiving the net amount.</inlineHelpText>
+        <label>Third Party Source</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Givergy</fullName>
+                    <default>false</default>
+                    <label>Givergy</label>
+                </value>
+                <value>
+                    <fullName>Just Giving</fullName>
+                    <default>false</default>
+                    <label>Just Giving</label>
+                </value>
+                <value>
+                    <fullName>Virgin Money Giving</fullName>
+                    <default>false</default>
+                    <label>Virgin Money Giving</label>
+                </value>
+                <value>
+                    <fullName>Facebook</fullName>
+                    <default>false</default>
+                    <label>Facebook</label>
+                </value>
+                <value>
+                    <fullName>Benevity</fullName>
+                    <default>false</default>
+                    <label>Benevity</label>
+                </value>
+                <value>
+                    <fullName>Charities Aid Foundation</fullName>
+                    <default>false</default>
+                    <label>Charities Aid Foundation</label>
+                </value>
+                <value>
+                    <fullName>Charitable Giving</fullName>
+                    <default>false</default>
+                    <label>Charitable Giving</label>
+                </value>
+                <value>
+                    <fullName>Charity Checkout</fullName>
+                    <default>false</default>
+                    <label>Charity Checkout</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Today_Date__c</fullName>
+        <description>This field returns TODAY&apos;S DATE. It is used as input for Today_Date_as_Text, which in turn is used in a mail merge document template to stamp the document with today&apos;s date (VSA-29).</description>
+        <externalId>false</externalId>
+        <formula>TODAY()</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Today&apos;s Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Today_Date_as_DDMMYYYY__c</fullName>
+        <description>This field returns today&apos;s date in DD/MM/YYYY format. It is used by a workflow rule to update opportunity name (VSA-34).</description>
+        <externalId>false</externalId>
+        <formula>LPAD(TEXT(DAY( Today_Date__c )), 2, &apos;0&apos;) &amp; &quot;/&quot; &amp; 
+LPAD(TEXT(MONTH( Today_Date__c )), 2, &apos;0&apos;) &amp; &quot;/&quot; &amp;
+TEXT(YEAR( Today_Date__c ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Today&apos;s Date as DD/MM/YYYY</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Today_Date_as_Text__c</fullName>
+        <description>This field returns TODAY&apos;S DATE in a text format. It is used in a mail merge template (VSA-29).</description>
+        <externalId>false</externalId>
+        <formula>IF( 
+ISBLANK( Today_Date__c ), 
+NULL, 
+( 
+TEXT(DAY( Today_Date__c ))&amp; 
+CASE( 
+DAY( Today_Date__c ), 
+1, &apos;st&apos;, 
+2, &apos;nd&apos;, 
+3, &apos;rd&apos;, 
+21,&apos;st&apos;, 
+22,&apos;nd&apos;, 
+23,&apos;rd&apos;, 
+31,&apos;st&apos;, 
+&apos;th&apos; 
+
+)&amp;&apos; &apos;&amp; 
+CASE( 
+MONTH( Today_Date__c ), 
+1, &quot;January&quot;, 
+2, &quot;February&quot;, 
+3, &quot;March&quot;, 
+4, &quot;April&quot;, 
+5, &quot;May&quot;, 
+6, &quot;June&quot;, 
+7, &quot;July&quot;, 
+8, &quot;August&quot;, 
+9, &quot;September&quot;, 
+10, &quot;October&quot;, 
+11, &quot;November&quot;, 
+&quot;December&quot; 
+)&amp;&apos; &apos;&amp; 
+TEXT(YEAR( Today_Date__c )) 
+) 
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Today&apos;s Date as Text</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TotalOpportunityQuantity</fullName>
+        <inlineHelpText>The quantity of tables the donor has paid for.</inlineHelpText>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Transaction_Summary__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This is a link to the transaction summary record that this is merged into</description>
+        <externalId>false</externalId>
+        <label>Transaction Summary</label>
+        <referenceTo>Transaction_Summary__c</referenceTo>
+        <relationshipLabel>Opportunities</relationshipLabel>
+        <relationshipName>Opportunities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>VAT_Code__c</fullName>
+        <description>This field contains the donation&apos;s VAT code, if applicable. The VAT code on a donation differs depending on the origin of the donation itself, i.e., where the money comes from (VSA-4).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>VAT code examples: V1 – sale of auction items, memberships; V3 – raffle &amp; event ticket sales; V8 – general &amp; challenge event donations, legacies. V2 - Only for Corp Vol Services. If you are unsure which VAT code to use please contact the Finance Team.</inlineHelpText>
+        <label>VAT Code</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>VAT_Codes</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>cc_Admin_Fee__c</fullName>
+        <description>This field contains an admin fee value from Charity Checkout (CC). It is populated by the Charity Checkout Zapier trigger (VSA-31).</description>
+        <externalId>false</externalId>
+        <label>Admin Fee (CC)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>cc_Campaign_Title__c</fullName>
+        <description>This field contains an un-formatted concatenated string of data which is provided by Charity Checkout (CC). The content of this field comes across un-formatted due to a lack of proper formatting by CC. At the time of implementation, CC is not able to split the field values into separate fields. VSA has accepted this. The field name is derived from CC&apos;s naming convention. It is populated by the Charity Checkout Zapier trigger (VSA-31).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Un-formatted data from Charity Checkout.</inlineHelpText>
+        <label>Campaign Title (CC)</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>cc_Campaign_Type__c</fullName>
+        <description>This field contains an un-formatted concatenated string of data which is provided by Charity Checkout (CC). The content of this field comes across un-formatted due to a lack of proper formatting by CC. At the time of implementation, CC is not able to split the field values into separate fields. VSA has accepted this. The field name is derived from CC&apos;s naming convention. It is populated by the Charity Checkout Zapier trigger (VSA-31).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Un-formatted data from Charity Checkout.</inlineHelpText>
+        <label>Campaign Type (CC)</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>cc_Checkout_Reference_URL__c</fullName>
+        <description>This field contains the checkout_reference property which is provided by Charity Checkout (CC). The field name is derived from CC&apos;s naming convention. It is populated by the Charity Checkout Zapier trigger (VSA-31).</description>
+        <externalId>false</externalId>
+        <label>Checkout Reference URL (CC)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>cc_Choose_Where_Your_Donation_Goes__c</fullName>
+        <description>This field contains a text value which has been provided via a submission to Charity Checkout (CC). On a CC-hosted web page, the donor can indicate what cause they wish to support by choosing a value in a dropdown field. The field is populated by the Charity Checkout Zapier trigger. In Salesforce this value is used by a process builder to generate GAU Allocations (VSA-14).</description>
+        <externalId>false</externalId>
+        <label>Choose Where Your Donation Goes (CC)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Adult &amp; Community</fullName>
+                    <default>false</default>
+                    <label>Adult &amp; Community</label>
+                </value>
+                <value>
+                    <fullName>Adult Carers</fullName>
+                    <default>false</default>
+                    <label>Adult Carers</label>
+                </value>
+                <value>
+                    <fullName>Children &amp; Families</fullName>
+                    <default>false</default>
+                    <label>Children &amp; Families</label>
+                </value>
+                <value>
+                    <fullName>Education &amp; Learning</fullName>
+                    <default>false</default>
+                    <label>Education &amp; Learning</label>
+                </value>
+                <value>
+                    <fullName>Changing Lives Mental Health Campaign</fullName>
+                    <default>false</default>
+                    <label>Changing Lives Mental Health Campaign</label>
+                </value>
+                <value>
+                    <fullName>Where the need is greatest</fullName>
+                    <default>false</default>
+                    <label>Where the need is greatest</label>
+                </value>
+                <value>
+                    <fullName>Vintage Tea Party</fullName>
+                    <default>false</default>
+                    <label>Vintage Tea Party</label>
+                </value>
+                <value>
+                    <fullName>Mental Health</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Mental Health</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>cc_Created_Date_Time__c</fullName>
+        <description>This field contains the Created Date/Time value from Charity Checkout. It is populated by the Charity Checkout Zapier trigger (VSA-31).</description>
+        <externalId>false</externalId>
+        <label>Created Date/Time (CC)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>cc_Created_by_Charity_Checkout__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field is set to TRUE if a donation has been created by Charity Checkout, which is an external fundraising service provider. The field is used to determine whether a donation, which is otherwise eligible for gift aid claim should be claimed by the Clarity Gift Aid app. This field is referenced in the Is_Donation_Gift_Aid_Eligible_VSA__c field (VSA-32).</description>
+        <externalId>false</externalId>
+        <label>Created by Charity Checkout (CC)</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>cc_Donation_Gross_Amount__c</fullName>
+        <description>This field contains the donation gross amount as supplied by Charity Checkout. The value is used as the starting value to determine the actual donation credit which VSA will receive after Charity Checkout&apos;s various fees have been deducted from the donation. The value is provided via CC&apos;s Zapier trigger, and is used to calculate the Donation Net Amount (VSA-31).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The donation amount the donor paid via the Charity Checkout website before fees are subtracted.</inlineHelpText>
+        <label>Donation Gross Amount (CC)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>cc_Donation_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>This field contains a text string which is provided by Charity Checkout (CC). It is populated by the Charity Checkout Zapier trigger (VSA-31).</description>
+        <externalId>true</externalId>
+        <label>Donation ID (CC)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>cc_Donation_Net_Amount__c</fullName>
+        <description>This field returns the Donation Net Amount, i.e., the Donation Gross Amount value minus the fees which Charity Checkout subtracts. The value is used by a process builder to update the Amount field with the net amount. The reason the Amount field is being populated with the gross amount at the time the record is created, is to ensure that the Opportunity Name (set by NPSP) reflects the gross amount. In order to make sure the Amount field evenutally reflects VSA&apos;s actual earnings, it is subsequently set to net amount (VSA-31).</description>
+        <externalId>false</externalId>
+        <formula>cc_Donation_Gross_Amount__c - ( cc_Admin_Fee__c + cc_Payment_Provider_Fee__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Donation amount minus the Charity Checkout fees.</inlineHelpText>
+        <label>Donation Net Amount (CC)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>cc_Donation_Status__c</fullName>
+        <description>This field contains a text string which indicates the donation&apos;s status as provided by Charity Checkout (CC). It is populated by the Charity Checkout Zapier trigger (VSA-31).</description>
+        <externalId>false</externalId>
+        <label>Donation Status (CC)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>cc_Donation_Team_URL__c</fullName>
+        <description>This field contains the donation_team_url property which is provided by Charity Checkout (CC). The field name is derived from CC&apos;s naming convention. It is populated by the Charity Checkout Zapier trigger (VSA-31).</description>
+        <externalId>false</externalId>
+        <label>Donation Team URL (CC)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>cc_Donor_Custom_Code__c</fullName>
+        <description>This field contains an un-formatted concatenated string of data which is provided by Charity Checkout (CC). The content of this field comes across un-formatted due to a lack of proper formatting by CC. At the time of implementation, CC is not able to split the field values into separate fields. VSA has accepted this. The field name is derived from CC&apos;s naming convention. It is populated by the Charity Checkout Zapier trigger (VSA-31).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Un-formatted data from Charity Checkout.</inlineHelpText>
+        <label>Donor Custom Code (CC)</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>cc_Event_Name__c</fullName>
+        <description>This field contains an un-formatted concatenated string of data which is provided by Charity Checkout (CC). The content of this field comes across un-formatted due to a lack of proper formatting by CC. At the time of implementation, CC is not able to split the field values into separate fields. VSA has accepted this. The field name is derived from CC&apos;s naming convention. It is populated by the Charity Checkout Zapier trigger (VSA-31).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Un-formatted data from Charity Checkout.</inlineHelpText>
+        <label>Event Name (CC)</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>cc_Gift_Aid_Amount__c</fullName>
+        <description>This field contains the donation gift aid amount provided by Charity Checkout (CC). It is populated by the Charity Checkout Zapier trigger (VSA-31).</description>
+        <externalId>false</externalId>
+        <label>Gift Aid Amount (CC)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>cc_Items__c</fullName>
+        <description>This field contains an un-formatted concatenated string of data which is provided by Charity Checkout (CC). The content of this field comes across un-formatted due to a lack of proper formatting by CC. At the time of implementation, CC is not able to split the field values into separate fields. VSA has accepted this. The field name is derived from CC&apos;s naming convention. It is populated by the Charity Checkout Zapier trigger (VSA-31).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Un-formatted data from Charity Checkout.</inlineHelpText>
+        <label>Items (CC)</label>
+        <length>1000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>cc_Page_ID__c</fullName>
+        <description>This field contains the Page ID which the donation was made towards. It is populated by the Charity Checkout Zapier trigger (Giveclarity case #4254).</description>
+        <externalId>true</externalId>
+        <inlineHelpText>The Charity Checkout page ID which the donation was made towards.</inlineHelpText>
+        <label>Page ID (CC)</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>cc_Payment_Fields__c</fullName>
+        <description>This field contains an un-formatted concatenated string of data which is provided by Charity Checkout (CC). The content of this field comes across un-formatted due to a lack of proper formatting by CC. At the time of implementation, CC is not able to split the field values into separate fields. VSA has accepted this. The field name is derived from CC&apos;s naming convention. It is populated by the Charity Checkout Zapier trigger (VSA-31).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Un-formatted data from Charity Checkout.</inlineHelpText>
+        <label>Payment Fields (CC)</label>
+        <length>1000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>cc_Payment_Provider_Fee__c</fullName>
+        <description>This field contains a payment provider fee which would be charged by Charity Checkout (CC) relative to this donation. It is populated by the Charity Checkout Zapier trigger (VSA-31).</description>
+        <externalId>false</externalId>
+        <label>Payment Provider Fee (CC)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>cc_User_Message__c</fullName>
+        <description>This field contains an un-formatted concatenated string of data which is provided by Charity Checkout (CC). The content of this field comes across un-formatted due to a lack of proper formatting by CC. At the time of implementation, CC is not able to split the field values into separate fields. VSA has accepted this. The field name is derived from CC&apos;s naming convention. It is populated by the Charity Checkout Zapier trigger (VSA-31).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Un-formatted data from Charity Checkout.</inlineHelpText>
+        <label>User Message (CC)</label>
+        <length>1000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Donation</fullName>
+        <active>true</active>
+        <businessProcess>Donation</businessProcess>
+        <compactLayoutAssignment>VSA_Donation_Major_Gift_Legacy_Gift_Compact_Layout</compactLayoutAssignment>
+        <description>This record type is used for individual giving and corporate giving.</description>
+        <label>Donation</label>
+        <picklistValues>
+            <picklist>Donation_Purpose__c</picklist>
+            <values>
+                <fullName>Auction</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Raffle</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Finance_Export_Status__c</picklist>
+            <values>
+                <fullName>Do Not Export</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Exported</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>To Be Exported</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ForecastCategoryName</picklist>
+            <values>
+                <fullName>Best Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Omitted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipeline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>IK_Next_Step__c</picklist>
+            <values>
+                <fullName>1 - Send Initial Letter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 - Send Follow Up Letter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 - Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4 - Declined - Try Next Year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5 - Waiting for Delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6 - Item In VSA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7 - Final Comms</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Purchased List</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Payment_Method__c</picklist>
+            <values>
+                <fullName>Bank Transfer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cash</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cheque</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Debit%2Fcredit card</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Direct Debit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GAYE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invoice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Standing Order</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Source_of_Donations_Gift_Aid__c</picklist>
+            <values>
+                <fullName>Charitable Giving Benevity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Charity Checkout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Clarity Gift Aid %2F Salesforce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Just Giving</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Virgin Money Giving</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Third_Party_Source__c</picklist>
+            <values>
+                <fullName>Benevity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Charitable Giving</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Charities Aid Foundation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Charity Checkout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Facebook</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Givergy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Just Giving</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Virgin Money Giving</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Amenities</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>General</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Table</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ticket</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>VAT_Code__c</picklist>
+            <values>
+                <fullName>V1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>V2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>V3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>V8</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>cc_Choose_Where_Your_Donation_Goes__c</picklist>
+            <values>
+                <fullName>Adult %26 Community</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Adult Carers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Changing Lives Mental Health Campaign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Children %26 Families</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Education %26 Learning</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vintage Tea Party</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Where the need is greatest</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>gcga__Gift_Aid_Status__c</picklist>
+            <values>
+                <fullName>Claim in progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Declared</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ineligible</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid by HMRC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Potential</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Queried by HMRC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected by HMRC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reversed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Under review</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npe01__Member_Level__c</picklist>
+            <values>
+                <fullName>Honorary Member</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid-For Member</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npe01__Membership_Origin__c</picklist>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reacquire</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npo02__systemHouseholdContactRoleProcessor__c</picklist>
+            <values>
+                <fullName>All Opportunities</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>No Opportunities</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npsp__Acknowledgment_Status__c</picklist>
+            <values>
+                <fullName>Acknowledged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Do Not Acknowledge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email Acknowledgment Not Sent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email Acknowledgment Now</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>To Be Acknowledged</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npsp__Tribute_Type__c</picklist>
+            <values>
+                <fullName>Honor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Memorial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Gift_Aid_Income</fullName>
+        <active>true</active>
+        <businessProcess>Gift Aid Income</businessProcess>
+        <description>This record type is used to record gift aid income.</description>
+        <label>Gift Aid Income</label>
+        <picklistValues>
+            <picklist>Donation_Purpose__c</picklist>
+            <values>
+                <fullName>Auction</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Raffle</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Finance_Export_Status__c</picklist>
+            <values>
+                <fullName>Do Not Export</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Exported</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>To Be Exported</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ForecastCategoryName</picklist>
+            <values>
+                <fullName>Best Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Omitted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipeline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>IK_Next_Step__c</picklist>
+            <values>
+                <fullName>1 - Send Initial Letter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 - Send Follow Up Letter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 - Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4 - Declined - Try Next Year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5 - Waiting for Delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6 - Item In VSA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7 - Final Comms</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Purchased List</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Payment_Method__c</picklist>
+            <values>
+                <fullName>Bank Transfer</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Cheque</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Source_of_Donations_Gift_Aid__c</picklist>
+            <values>
+                <fullName>Charitable Giving Benevity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Charity Checkout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Clarity Gift Aid %2F Salesforce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Just Giving</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Virgin Money Giving</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Third_Party_Source__c</picklist>
+            <values>
+                <fullName>Benevity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Facebook</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Givergy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Just Giving</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Virgin Money Giving</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>General</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>VAT_Code__c</picklist>
+            <values>
+                <fullName>V8</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>cc_Choose_Where_Your_Donation_Goes__c</picklist>
+            <values>
+                <fullName>Adult %26 Community</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Adult Carers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Changing Lives Mental Health Campaign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Children %26 Families</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Education %26 Learning</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Where the need is greatest</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>gcga__Gift_Aid_Status__c</picklist>
+            <values>
+                <fullName>Claim in progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Declared</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ineligible</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid by HMRC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Potential</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Queried by HMRC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected by HMRC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reversed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Under review</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npe01__Member_Level__c</picklist>
+            <values>
+                <fullName>Honorary Member</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid-For Member</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npe01__Membership_Origin__c</picklist>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reacquire</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npo02__systemHouseholdContactRoleProcessor__c</picklist>
+            <values>
+                <fullName>All Opportunities</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>No Opportunities</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npsp__Acknowledgment_Status__c</picklist>
+            <values>
+                <fullName>Acknowledged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Do Not Acknowledge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email Acknowledgment Not Sent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email Acknowledgment Now</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>To Be Acknowledged</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npsp__Gift_Strategy__c</picklist>
+            <values>
+                <fullName>New Donor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renewal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upgrade</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npsp__In_Kind_Type__c</picklist>
+            <values>
+                <fullName>Goods</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Services</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npsp__Matching_Gift_Status__c</picklist>
+            <values>
+                <fullName>Potential</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Received</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npsp__Notification_Preference__c</picklist>
+            <values>
+                <fullName>Do Not Notify</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Postal Mail</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npsp__Tribute_Type__c</picklist>
+            <values>
+                <fullName>Honor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Memorial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Grant</fullName>
+        <active>true</active>
+        <businessProcess>Grant</businessProcess>
+        <compactLayoutAssignment>VSA_Grant_Compact_Layout</compactLayoutAssignment>
+        <description>This record type is used for grants.</description>
+        <label>Grant</label>
+        <picklistValues>
+            <picklist>Donation_Purpose__c</picklist>
+            <values>
+                <fullName>Auction</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Raffle</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Finance_Export_Status__c</picklist>
+            <values>
+                <fullName>Do Not Export</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Exported</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>To Be Exported</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ForecastCategoryName</picklist>
+            <values>
+                <fullName>Best Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Omitted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipeline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>IK_Next_Step__c</picklist>
+            <values>
+                <fullName>1 - Send Initial Letter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 - Send Follow Up Letter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 - Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4 - Declined - Try Next Year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5 - Waiting for Delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6 - Item In VSA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7 - Final Comms</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Purchased List</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Payment_Method__c</picklist>
+            <values>
+                <fullName>Bank Transfer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cash</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cheque</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Debit%2Fcredit card</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Direct Debit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GAYE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Standing Order</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Source_of_Donations_Gift_Aid__c</picklist>
+            <values>
+                <fullName>Charitable Giving Benevity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Charity Checkout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Clarity Gift Aid %2F Salesforce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Just Giving</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Virgin Money Giving</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Third_Party_Source__c</picklist>
+            <values>
+                <fullName>Benevity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Facebook</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Givergy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Just Giving</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Virgin Money Giving</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>General</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>VAT_Code__c</picklist>
+            <values>
+                <fullName>V1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>V3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>V8</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>cc_Choose_Where_Your_Donation_Goes__c</picklist>
+            <values>
+                <fullName>Adult %26 Community</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Adult Carers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Changing Lives Mental Health Campaign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Children %26 Families</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Education %26 Learning</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Where the need is greatest</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>gcga__Gift_Aid_Status__c</picklist>
+            <values>
+                <fullName>Claim in progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Declared</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ineligible</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid by HMRC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Potential</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Queried by HMRC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected by HMRC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reversed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Under review</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npe01__Member_Level__c</picklist>
+            <values>
+                <fullName>Honorary Member</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid-For Member</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npe01__Membership_Origin__c</picklist>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reacquire</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npo02__systemHouseholdContactRoleProcessor__c</picklist>
+            <values>
+                <fullName>All Opportunities</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>No Opportunities</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npsp__Acknowledgment_Status__c</picklist>
+            <values>
+                <fullName>Acknowledged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Do Not Acknowledge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email Acknowledgment Not Sent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email Acknowledgment Now</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>To Be Acknowledged</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npsp__Gift_Strategy__c</picklist>
+            <values>
+                <fullName>New Donor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renewal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upgrade</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npsp__Tribute_Type__c</picklist>
+            <values>
+                <fullName>Honor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Memorial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>In_Kind_Gift</fullName>
+        <active>true</active>
+        <businessProcess>In-Kind Gift</businessProcess>
+        <compactLayoutAssignment>VSA_In_Kind_Gift_Compact_Layout</compactLayoutAssignment>
+        <description>This record type is used for goods or services received in kind (not monetary donations).</description>
+        <label>In-Kind Gift</label>
+        <picklistValues>
+            <picklist>Donation_Purpose__c</picklist>
+            <values>
+                <fullName>Auction</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Raffle</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Finance_Export_Status__c</picklist>
+            <values>
+                <fullName>Do Not Export</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Exported</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>To Be Exported</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ForecastCategoryName</picklist>
+            <values>
+                <fullName>Best Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Omitted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipeline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>IK_Next_Step__c</picklist>
+            <values>
+                <fullName>1 - Send Initial Letter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 - Send Follow Up Letter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 - Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4 - Declined - Try Next Year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5 - Waiting for Delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6 - Item In VSA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7 - Final Comms</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Purchased List</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Payment_Method__c</picklist>
+            <values>
+                <fullName>Bank Transfer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cash</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cheque</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Debit%2Fcredit card</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Direct Debit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GAYE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Standing Order</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Source_of_Donations_Gift_Aid__c</picklist>
+            <values>
+                <fullName>Charitable Giving Benevity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Charity Checkout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Clarity Gift Aid %2F Salesforce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Just Giving</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Virgin Money Giving</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Third_Party_Source__c</picklist>
+            <values>
+                <fullName>Benevity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Facebook</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Givergy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Just Giving</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Virgin Money Giving</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>General</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>VAT_Code__c</picklist>
+            <values>
+                <fullName>V1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>V3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>V8</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>cc_Choose_Where_Your_Donation_Goes__c</picklist>
+            <values>
+                <fullName>Adult %26 Community</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Adult Carers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Changing Lives Mental Health Campaign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Children %26 Families</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Education %26 Learning</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Where the need is greatest</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>gcga__Gift_Aid_Status__c</picklist>
+            <values>
+                <fullName>Claim in progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Declared</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ineligible</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid by HMRC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Potential</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Queried by HMRC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected by HMRC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reversed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Under review</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npe01__Member_Level__c</picklist>
+            <values>
+                <fullName>Honorary Member</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid-For Member</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npe01__Membership_Origin__c</picklist>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reacquire</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npo02__systemHouseholdContactRoleProcessor__c</picklist>
+            <values>
+                <fullName>All Opportunities</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>No Opportunities</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npsp__Acknowledgment_Status__c</picklist>
+            <values>
+                <fullName>Acknowledged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Do Not Acknowledge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email Acknowledgment Not Sent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email Acknowledgment Now</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>To Be Acknowledged</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npsp__In_Kind_Type__c</picklist>
+            <values>
+                <fullName>Goods</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Services</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npsp__Matching_Gift_Status__c</picklist>
+            <values>
+                <fullName>Potential</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Received</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npsp__Notification_Preference__c</picklist>
+            <values>
+                <fullName>Do Not Notify</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Postal Mail</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npsp__Tribute_Type__c</picklist>
+            <values>
+                <fullName>Honor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Memorial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Legacy_Gift</fullName>
+        <active>true</active>
+        <businessProcess>Legacy Gift</businessProcess>
+        <compactLayoutAssignment>VSA_Donation_Major_Gift_Legacy_Gift_Compact_Layout</compactLayoutAssignment>
+        <description>This record type is used for legacy giving.</description>
+        <label>Legacy Gift</label>
+        <picklistValues>
+            <picklist>Donation_Purpose__c</picklist>
+            <values>
+                <fullName>Auction</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Raffle</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Finance_Export_Status__c</picklist>
+            <values>
+                <fullName>Do Not Export</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Exported</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>To Be Exported</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ForecastCategoryName</picklist>
+            <values>
+                <fullName>Best Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Omitted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipeline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>IK_Next_Step__c</picklist>
+            <values>
+                <fullName>1 - Send Initial Letter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 - Send Follow Up Letter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 - Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4 - Declined - Try Next Year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5 - Waiting for Delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6 - Item In VSA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7 - Final Comms</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Purchased List</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Payment_Method__c</picklist>
+            <values>
+                <fullName>Bank Transfer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cash</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cheque</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Debit%2Fcredit card</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Direct Debit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GAYE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Standing Order</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Source_of_Donations_Gift_Aid__c</picklist>
+            <values>
+                <fullName>Charitable Giving Benevity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Charity Checkout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Clarity Gift Aid %2F Salesforce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Just Giving</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Virgin Money Giving</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Third_Party_Source__c</picklist>
+            <values>
+                <fullName>Benevity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Facebook</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Givergy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Just Giving</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Virgin Money Giving</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>General</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>VAT_Code__c</picklist>
+            <values>
+                <fullName>V1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>V3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>V8</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>cc_Choose_Where_Your_Donation_Goes__c</picklist>
+            <values>
+                <fullName>Adult %26 Community</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Adult Carers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Changing Lives Mental Health Campaign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Children %26 Families</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Education %26 Learning</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Where the need is greatest</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>gcga__Gift_Aid_Status__c</picklist>
+            <values>
+                <fullName>Claim in progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Declared</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ineligible</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid by HMRC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Potential</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Queried by HMRC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected by HMRC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reversed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Under review</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npe01__Member_Level__c</picklist>
+            <values>
+                <fullName>Honorary Member</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid-For Member</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npe01__Membership_Origin__c</picklist>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reacquire</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npo02__systemHouseholdContactRoleProcessor__c</picklist>
+            <values>
+                <fullName>All Opportunities</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>No Opportunities</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npsp__Acknowledgment_Status__c</picklist>
+            <values>
+                <fullName>Acknowledged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Do Not Acknowledge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email Acknowledgment Not Sent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email Acknowledgment Now</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>To Be Acknowledged</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npsp__Tribute_Type__c</picklist>
+            <values>
+                <fullName>Honor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Memorial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>MajorGift</fullName>
+        <active>true</active>
+        <businessProcess>Major Gift</businessProcess>
+        <compactLayoutAssignment>VSA_Donation_Major_Gift_Legacy_Gift_Compact_Layout</compactLayoutAssignment>
+        <description>This record type is used for major donations (both individual and corporate giving).</description>
+        <label>Major Gift</label>
+        <picklistValues>
+            <picklist>Donation_Purpose__c</picklist>
+            <values>
+                <fullName>Auction</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Raffle</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Finance_Export_Status__c</picklist>
+            <values>
+                <fullName>Do Not Export</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Exported</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>To Be Exported</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ForecastCategoryName</picklist>
+            <values>
+                <fullName>Best Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Omitted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipeline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>IK_Next_Step__c</picklist>
+            <values>
+                <fullName>1 - Send Initial Letter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 - Send Follow Up Letter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 - Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4 - Declined - Try Next Year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5 - Waiting for Delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6 - Item In VSA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7 - Final Comms</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Purchased List</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Payment_Method__c</picklist>
+            <values>
+                <fullName>Bank Transfer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cash</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cheque</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Debit%2Fcredit card</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Direct Debit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GAYE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invoice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Standing Order</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Source_of_Donations_Gift_Aid__c</picklist>
+            <values>
+                <fullName>Charitable Giving Benevity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Charity Checkout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Clarity Gift Aid %2F Salesforce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Just Giving</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Virgin Money Giving</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Third_Party_Source__c</picklist>
+            <values>
+                <fullName>Benevity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Facebook</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Givergy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Just Giving</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Virgin Money Giving</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>General</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>VAT_Code__c</picklist>
+            <values>
+                <fullName>V1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>V2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>V3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>V8</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>cc_Choose_Where_Your_Donation_Goes__c</picklist>
+            <values>
+                <fullName>Adult %26 Community</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Adult Carers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Changing Lives Mental Health Campaign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Children %26 Families</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Education %26 Learning</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Where the need is greatest</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>gcga__Gift_Aid_Status__c</picklist>
+            <values>
+                <fullName>Claim in progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Declared</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ineligible</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid by HMRC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Potential</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Queried by HMRC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected by HMRC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reversed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Under review</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npe01__Member_Level__c</picklist>
+            <values>
+                <fullName>Honorary Member</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid-For Member</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npe01__Membership_Origin__c</picklist>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reacquire</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npo02__systemHouseholdContactRoleProcessor__c</picklist>
+            <values>
+                <fullName>All Opportunities</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>No Opportunities</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npsp__Acknowledgment_Status__c</picklist>
+            <values>
+                <fullName>Acknowledged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Do Not Acknowledge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email Acknowledgment Not Sent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email Acknowledgment Now</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>To Be Acknowledged</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npsp__Gift_Strategy__c</picklist>
+            <values>
+                <fullName>New Donor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renewal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upgrade</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npsp__Tribute_Type__c</picklist>
+            <values>
+                <fullName>Honor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Memorial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Matching_Gift</fullName>
+        <active>true</active>
+        <businessProcess>Donation</businessProcess>
+        <description>Matching Donation from an Donor&apos;s Employer or other Organization</description>
+        <label>Matching Gift</label>
+        <picklistValues>
+            <picklist>Donation_Purpose__c</picklist>
+            <values>
+                <fullName>Auction</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Raffle</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Finance_Export_Status__c</picklist>
+            <values>
+                <fullName>Do Not Export</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Exported</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>To Be Exported</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ForecastCategoryName</picklist>
+            <values>
+                <fullName>Best Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Omitted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipeline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>IK_Next_Step__c</picklist>
+            <values>
+                <fullName>1 - Send Initial Letter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 - Send Follow Up Letter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 - Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4 - Declined - Try Next Year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5 - Waiting for Delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6 - Item In VSA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7 - Final Comms</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Purchased List</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Payment_Method__c</picklist>
+            <values>
+                <fullName>Bank Transfer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cash</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cheque</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Debit%2Fcredit card</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Direct Debit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GAYE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Standing Order</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Source_of_Donations_Gift_Aid__c</picklist>
+            <values>
+                <fullName>Charitable Giving Benevity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Charity Checkout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Clarity Gift Aid %2F Salesforce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Just Giving</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Virgin Money Giving</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Third_Party_Source__c</picklist>
+            <values>
+                <fullName>Benevity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Facebook</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Givergy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Just Giving</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Virgin Money Giving</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>General</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>VAT_Code__c</picklist>
+            <values>
+                <fullName>V1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>V3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>V8</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>cc_Choose_Where_Your_Donation_Goes__c</picklist>
+            <values>
+                <fullName>Adult %26 Community</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Adult Carers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Changing Lives Mental Health Campaign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Children %26 Families</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Education %26 Learning</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Where the need is greatest</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>gcga__Gift_Aid_Status__c</picklist>
+            <values>
+                <fullName>Claim in progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Declared</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ineligible</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid by HMRC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Potential</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Queried by HMRC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected by HMRC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reversed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Under review</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npe01__Member_Level__c</picklist>
+            <values>
+                <fullName>Honorary Member</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid-For Member</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npe01__Membership_Origin__c</picklist>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reacquire</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npo02__systemHouseholdContactRoleProcessor__c</picklist>
+            <values>
+                <fullName>All Opportunities</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>No Opportunities</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npsp__Acknowledgment_Status__c</picklist>
+            <values>
+                <fullName>Acknowledged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Do Not Acknowledge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email Acknowledgment Not Sent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email Acknowledgment Now</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>To Be Acknowledged</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npsp__Matching_Gift_Status__c</picklist>
+            <values>
+                <fullName>Potential</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Received</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npsp__Tribute_Type__c</picklist>
+            <values>
+                <fullName>Honor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Memorial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Membership</fullName>
+        <active>true</active>
+        <businessProcess>Membership</businessProcess>
+        <compactLayoutAssignment>VSA_Membership_Compact_Layout</compactLayoutAssignment>
+        <description>This record type is used for membership donations.</description>
+        <label>Membership</label>
+        <picklistValues>
+            <picklist>Donation_Purpose__c</picklist>
+            <values>
+                <fullName>Auction</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Raffle</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Finance_Export_Status__c</picklist>
+            <values>
+                <fullName>Do Not Export</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Exported</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>To Be Exported</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ForecastCategoryName</picklist>
+            <values>
+                <fullName>Best Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Omitted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipeline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>IK_Next_Step__c</picklist>
+            <values>
+                <fullName>1 - Send Initial Letter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 - Send Follow Up Letter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 - Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4 - Declined - Try Next Year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5 - Waiting for Delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6 - Item In VSA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7 - Final Comms</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Purchased List</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Payment_Method__c</picklist>
+            <values>
+                <fullName>Bank Transfer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cash</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cheque</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Debit%2Fcredit card</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Direct Debit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GAYE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Standing Order</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Source_of_Donations_Gift_Aid__c</picklist>
+            <values>
+                <fullName>Charitable Giving Benevity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Charity Checkout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Clarity Gift Aid %2F Salesforce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Just Giving</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Virgin Money Giving</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Third_Party_Source__c</picklist>
+            <values>
+                <fullName>Benevity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Facebook</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Givergy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Just Giving</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Virgin Money Giving</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>General</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>VAT_Code__c</picklist>
+            <values>
+                <fullName>V1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>V3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>V8</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>cc_Choose_Where_Your_Donation_Goes__c</picklist>
+            <values>
+                <fullName>Adult %26 Community</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Adult Carers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Changing Lives Mental Health Campaign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Children %26 Families</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Education %26 Learning</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Where the need is greatest</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>gcga__Gift_Aid_Status__c</picklist>
+            <values>
+                <fullName>Claim in progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Declared</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ineligible</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid by HMRC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Potential</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Queried by HMRC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected by HMRC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reversed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Under review</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npe01__Member_Level__c</picklist>
+            <values>
+                <fullName>Honorary Member</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid-For Member</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npe01__Membership_Origin__c</picklist>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reacquire</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npo02__systemHouseholdContactRoleProcessor__c</picklist>
+            <values>
+                <fullName>All Opportunities</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>No Opportunities</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npsp__Acknowledgment_Status__c</picklist>
+            <values>
+                <fullName>Acknowledged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Do Not Acknowledge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email Acknowledgment Not Sent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email Acknowledgment Now</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>To Be Acknowledged</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>npsp__Tribute_Type__c</picklist>
+            <values>
+                <fullName>Honor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Memorial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>OPPORTUNITY.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OPPORTUNITY.RECORDTYPE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>npsp__Primary_Contact__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OPPORTUNITY.AMOUNT</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OPPORTUNITY.STAGE_NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OPPORTUNITY.CLOSE_DATE</customTabListAdditionalFields>
+        <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
+        <listViewButtons>npsp__Email_Acknowledgments</listViewButtons>
+        <lookupDialogsAdditionalFields>OPPORTUNITY.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>OPPORTUNITY.RECORDTYPE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>npsp__Primary_Contact__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>OPPORTUNITY.AMOUNT</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>OPPORTUNITY.STAGE_NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>OPPORTUNITY.CLOSE_DATE</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>OPPORTUNITY.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.SITE</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>OPPORTUNITY.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OPPORTUNITY.RECORDTYPE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>npsp__Primary_Contact__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OPPORTUNITY.AMOUNT</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OPPORTUNITY.STAGE_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OPPORTUNITY.CLOSE_DATE</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Account_OR_Primary_Contact_Mandatory</fullName>
+        <active>true</active>
+        <description>Triggers if both the Account field and the Primary Contact field are blank</description>
+        <errorConditionFormula>AND (
+$Setup.Process_Control__c.Opportunity_Validation__c = TRUE,
+ISBLANK ( AccountId ),
+ISBLANK ( npsp__Primary_Contact__c )
+)</errorConditionFormula>
+        <errorMessage>You must populate either the Primary Contact or the Account field.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>E2F_Process_Complete_No_Edit</fullName>
+        <active>true</active>
+        <description>This validation rule ensures that the Close Date, the Stage and the Amount fields cannot be changed if the opportunity&apos;s GAU allocations have been exported to VSA&apos;s accounting system. This is to ensure data integrity (VSA-33).</description>
+        <errorConditionFormula>AND(
+  $Setup.Process_Control__c.Opportunity_Validation__c = TRUE,
+  Export_to_Finance_Completed__c = TRUE,
+  $Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+  $Profile.Name &lt;&gt; &quot;VSA Finance&quot;,
+  OR(
+    ISCHANGED ( CloseDate ),
+    ISCHANGED ( StageName ),
+    ISCHANGED ( Amount ),
+    ISCHANGED ( VAT_Code__c )
+    )
+)</errorConditionFormula>
+        <errorMessage>This opportunity has been reconciled with the accounting system, and certain values can therefore not be changed. Please contact a Salesforce system administrator if relevant.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Gift_Aid_Status_Cant_Edit</fullName>
+        <active>true</active>
+        <description>This validation rule ensures that certain properties can&apos;t be edited on opportunity records where the Gift Aid Status is set to either &quot;Under review | Claim in progress | Paid by HMRC&quot; (VSA-32).</description>
+        <errorConditionFormula>AND(
+     $Setup.Process_Control__c.Opportunity_Validation__c ,
+   OR(
+      ISCHANGED ( CloseDate ),
+      ISCHANGED ( AccountId ),
+      ISCHANGED ( gcga__Gift_Aidable_Amount__c ),
+      ISCHANGED ( npsp__Primary_Contact__c )
+     ),
+   OR(
+      ISPICKVAL (  gcga__Gift_Aid_Status__c , &quot;Under review&quot;),
+      ISPICKVAL (  gcga__Gift_Aid_Status__c , &quot;Claim in progress&quot;),
+      ISPICKVAL (  gcga__Gift_Aid_Status__c , &quot;Paid by HMRC&quot;)
+     )
+)</errorConditionFormula>
+        <errorMessage>This opportunity is part of a gift aid claim which has been submitted to the HMRC, and certain values can therefore not be changed. Please contact a Salesforce system administrator if relevant.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Payment_Method_Required_When_Closed_Won</fullName>
+        <active>true</active>
+        <description>This validation rule ensures that the Payment Method-field cannot be blank when the opportunity is closed. This ensures data consistency for the sake of the Clarity Gift Aid process (VSA-32).</description>
+        <errorConditionFormula>AND(
+    $Setup.Process_Control__c.Opportunity_Validation__c = TRUE,
+    IsWon = TRUE,
+    RecordType.DeveloperName &lt;&gt; &quot;In_Kind_Gift&quot;,
+    ISPICKVAL (  Payment_Method__c , &quot;&quot; )
+)</errorConditionFormula>
+        <errorDisplayField>Payment_Method__c</errorDisplayField>
+        <errorMessage>A &apos;Received&apos; opportunity must have a payment method. This is required for the gift aid claim process. Please choose an applicable payment method.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VAT_Code_Required_When_Closed_Won</fullName>
+        <active>true</active>
+        <description>This validation rule ensures that the VAT Code-field cannot be blank when the opportunity is closed. This ensures data consistency for the sake of the Export to Finance process (VSA-33).</description>
+        <errorConditionFormula>AND(
+    $Setup.Process_Control__c.Opportunity_Validation__c = TRUE,
+    IsWon = TRUE,
+    RecordType.DeveloperName &lt;&gt; &quot;In_Kind_Gift&quot;,
+    ISPICKVAL ( VAT_Code__c, &quot;&quot; )
+)</errorConditionFormula>
+        <errorDisplayField>VAT_Code__c</errorDisplayField>
+        <errorMessage>A &apos;Received&apos; opportunity must have a VAT code. This is required for the financial reconciliation process. Please choose an applicable VAT code.</errorMessage>
+    </validationRules>
+</CustomObject>

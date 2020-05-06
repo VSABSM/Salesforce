@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Process Control</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Process Control</value>
+    </caseValues>
+    <fields>
+        <help><!-- When unchecked the local triggers on Account are disabled --></help>
+        <label><!-- Account Trigger --></label>
+        <name>Account_Trigger__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked validation rules will be enforced; if unchecked validation rules will be skipped --></help>
+        <label><!-- Account Validation --></label>
+        <name>Account_Validation__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked Workflow Rules and Process Builder will run; if Workflow Rules and Process Builder will be skipped --></help>
+        <label><!-- Account Workflow --></label>
+        <name>Account_Workflow__c</name>
+    </fields>
+    <fields>
+        <help><!-- When unchecked the local triggers on Campaign are disabled --></help>
+        <label><!-- Campaign Trigger --></label>
+        <name>Campaign_Trigger__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked validation rules will be enforced; if unchecked validation rules will be skipped --></help>
+        <label><!-- Campaign Validation --></label>
+        <name>Campaign_Validation__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked Workflow Rules and Process Builder will run; if Workflow Rules and Process Builder will be skipped --></help>
+        <label><!-- Campaign Workflow --></label>
+        <name>Campaign_Workflow__c</name>
+    </fields>
+    <fields>
+        <help><!-- When unchecked the local triggers on Case are disabled --></help>
+        <label><!-- Case Trigger --></label>
+        <name>Case_Trigger__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked validation rules will be enforced; if unchecked validation rules will be skipped --></help>
+        <label><!-- Case Validation --></label>
+        <name>Case_Validation__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked Workflow Rules and Process Builder will run; if Workflow Rules and Process Builder will be skipped --></help>
+        <label><!-- Case Workflow --></label>
+        <name>Case_Workflow__c</name>
+    </fields>
+    <fields>
+        <help><!-- If unchecked local triggers on contact will be disabled (managed package triggers will not be effected) --></help>
+        <label><!-- Contact Trigger --></label>
+        <name>Contact_Trigger__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked validation rules will be enforced; if unchecked validation rules will be skipped --></help>
+        <label><!-- Contact Validation --></label>
+        <name>Contact_Validation__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked Workflow Rules and Process Builder will run; if Workflow Rules and Process Builder will be skipped --></help>
+        <label><!-- Contact Workflow --></label>
+        <name>Contact_Workflow__c</name>
+    </fields>
+    <fields>
+        <help><!-- When unchecked the local triggers on GAU Allocation are disabled --></help>
+        <label><!-- GAU Allocation Trigger --></label>
+        <name>GAU_Allocation_Trigger__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked validation rules will be enforced; if unchecked validation rules will be skipped --></help>
+        <label><!-- GAU Allocation Validation --></label>
+        <name>GAU_Allocation_Validation__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked Workflow Rules and Process Builder will run; if Workflow Rules and Process Builder will be skipped --></help>
+        <label><!-- GAU Allocation Workflow --></label>
+        <name>GAU_Allocation_Workflow__c</name>
+    </fields>
+    <fields>
+        <help><!-- When unchecked the local triggers on Holding are disabled --></help>
+        <label><!-- Holding Trigger --></label>
+        <name>Holding_Trigger__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked validation rules will be enforced; if unchecked validation rules will be skipped --></help>
+        <label><!-- Holding Validation --></label>
+        <name>Holding_Validation__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked Workflow Rules and Process Builder will run; if Workflow Rules and Process Builder will be skipped --></help>
+        <label><!-- Holding Workflow --></label>
+        <name>Holding_Workflow__c</name>
+    </fields>
+    <fields>
+        <help><!-- When unchecked the local triggers on NPSP Data Import are disabled --></help>
+        <label><!-- NPSP Data Import Trigger --></label>
+        <name>NPSP_Data_Import_Trigger__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked validation rules will be enforced; if unchecked validation rules will be skipped --></help>
+        <label><!-- NPSP Data Import Validation --></label>
+        <name>NPSP_Data_Import_Validation__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked Workflow Rules and Process Builder will run; if Workflow Rules and Process Builder will be skipped --></help>
+        <label><!-- NPSP Data Import Workflow --></label>
+        <name>NPSP_Data_Import_Workflow__c</name>
+    </fields>
+    <fields>
+        <help><!-- If unchecked the trigger is disabled --></help>
+        <label><!-- Opportunity Trigger --></label>
+        <name>Opportunity_Trigger__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked validation rules will be enforced; if unchecked validation rules will be skipped --></help>
+        <label><!-- Opportunity Validation --></label>
+        <name>Opportunity_Validation__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked Workflow Rules and Process Builder will run; if Workflow Rules and Process Builder will be skipped --></help>
+        <label><!-- Opportunity Workflow --></label>
+        <name>Opportunity_Workflow__c</name>
+    </fields>
+    <fields>
+        <help><!-- When unchecked the local triggers on Programme are disabled --></help>
+        <label><!-- Programme Trigger --></label>
+        <name>Programme_Trigger__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked validation rules will be enforced; if unchecked validation rules will be skipped --></help>
+        <label><!-- Programme Validation --></label>
+        <name>Programme_Validation__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked Workflow Rules and Process Builder will run; if Workflow Rules and Process Builder will be skipped --></help>
+        <label><!-- Programme Workflow --></label>
+        <name>Programme_Workflow__c</name>
+    </fields>
+    <fields>
+        <help><!-- When unchecked the local triggers on Recurring Donation are disabled --></help>
+        <label><!-- Recurring Donation Trigger --></label>
+        <name>Recurring_Donation_Trigger__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked validation rules will be enforced; if unchecked validation rules will be skipped --></help>
+        <label><!-- Recurring Donation Validation --></label>
+        <name>Recurring_Donation_Validation__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked Workflow Rules and Process Builder will run; if Workflow Rules and Process Builder will be skipped --></help>
+        <label><!-- Recurring Donation Workflow --></label>
+        <name>Recurring_Donation_Workflow__c</name>
+    </fields>
+    <fields>
+        <help><!-- When unchecked the local triggers on Task are disabled --></help>
+        <label><!-- Task Trigger --></label>
+        <name>Task_Trigger__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked validation rules will be enforced; if unchecked validation rules will be skipped --></help>
+        <label><!-- Task Validation --></label>
+        <name>Task_Validation__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked Workflow Rules and Process Builder will run; if Workflow Rules and Process Builder will be skipped --></help>
+        <label><!-- Task Workflow --></label>
+        <name>Task_Workflow__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

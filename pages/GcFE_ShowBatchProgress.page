@@ -1,0 +1,131 @@
+<!-- This page is designed to use the SLDS on a VF pahge to capture what is needed to generate summary records for transactions -->
+<!-- @see UUK-910 -->
+<apex:page sidebar="false" docType="html-5.0" controller="GcFE_ShowBatchProcessController"> 
+    <script>
+        // Prevent auto focus on an element when the page opens
+        function setFocusOnLoad(){}
+    </script>
+
+    <style>
+        .prog-bar {
+            height: 14px;
+            margin: 3px;
+            padding: 0px;
+            padding-right:3px;
+            background: #FFA037;
+            text-align:right;
+            font-size:12px;
+            font-weight:bold;
+            color:#333333;
+        }
+
+        .prog-bar-done {
+            height: 14px;
+            margin: 3px;
+            padding: 0px;
+            padding-right:3px;
+            background: #C9DDEC;
+        }
+
+        .prog-border {
+            width: 209px;
+            background: #fff;
+            border: 1px solid silver;
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+
+
+    <!--jQuery TO SHOW THE NEW ACCOUNT FORM ON BUTTON CLICK-->
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    
+    <!--SLDS STYLESHEET STATIC RESOURCE See https://tools.lightningdesignsystem.com/css-customizer-->
+    <!--<apex:stylesheet value="{!URLFOR($Resource.GcSLDS, 'assets/styles/salesforce-lightning-design-system-vf.css')}" />-->
+
+    <!-- Names spacews added to give access to spritemap icons. -->
+    <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">   
+
+        <head>
+            <title>Generate Transaction Summaries</title>
+            <apex:slds />
+        </head>
+
+        <body>
+            <!-- REQUIRED SLDS WRAPPER -->
+            <div class="slds-scope"> 
+          
+                <!-- PAGE HEADER -->
+                <div class="slds-page-header" role="banner">
+
+                    <!-- LAYOUT GRID -->
+                    <div class="slds-grid">
+
+                        <!-- GRID COL -->
+                        <div class="slds-col">
+
+                            <!-- HEADING AREA -->
+                            <!-- MEDIA OBJECT = FIGURE + BODY -->
+                            <div class="slds-media">
+                        
+                                <div class="slds-media__figure">
+                                    <span class="slds-icon__container slds-icon__container--circle slds-icon-action-description">
+                                        <svg aria-hidden="true" class="slds-icon slds-icon--medium ">
+                                            <use xlink:href="{!URLFOR($Asset.SLDS, '/assets/icons/action-sprite/svg/symbols.svg#new_custom43')}"></use>
+                                        </svg>
+                                    </span>
+                                </div>
+                        
+                                <div class="slds-media__body">
+                                    <p class="slds-text-heading--label">Finance Export</p>
+                                    <h1 class="slds-text-heading--medium">Batch Job Progress</h1>
+                                </div>
+                        
+                            </div>
+                            <!-- /MEDIA OBJECT -->
+                            <!-- /HEADING AREA -->
+
+                        </div>
+                        <!-- /GRID COL -->
+                    
+                        <!-- GRID COL -->
+                        <!-- <div id="newAct" class="slds-col slds-no-flex slds-align-middle">
+                            <button class="slds-button slds-button--neutral">
+                                New Account.
+                            </button>
+                        </div>-->
+                        <!-- / GRID COL -->
+
+                    </div>
+                    <!-- / LAYOUT GRID -->
+                  
+                </div>
+                <!-- / PAGE HEADER -->
+
+                <!-- Form to Generate Transactions -->
+                <apex:form id="all">
+
+                    <!-- This component shows the batch progress for this class -->
+                    <c:BatchJobsProgress batchComponentLabelName="Transaction Summary Batch Progress" numberOfJobsLimit="10" apexClass="{!exportBatchClassId}" />
+                    
+                    <!-- This component shows the rollback batch progress for this class -->
+                    <c:BatchJobsProgress batchComponentLabelName="Rollback Batch Progress" numberOfJobsLimit="10" apexClass="{!rollbackBatchClassId}" />                    
+   				
+   					<!-- This action poller will check the status of the batch jobs every 5 seconds -->
+    				<apex:actionPoller rerender="all" interval="5" />
+
+                </apex:form>                
+                  
+            </div>
+            <!-- /REQUIRED SLDS WRAPPER -->
+        </body>
+        <script>
+            //FIRST AND MOST IMPORTANT STEP IS TO DECLARE JQUERY NO CONFLICT MODE
+            var j$=jQuery.noConflict();
+            //jQuery OnClick FUNCTION TO MAKE THE FORM VISIBLE WHEN WE CLICK THE NEW ACCOUNT BUTTON
+            //j$( "#newAct" ).on( "click", function() {
+            //  j$('#actFrm').show();
+            //});
+        </script>
+    </html>
+</apex:page>

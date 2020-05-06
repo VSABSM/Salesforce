@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Finance Export: This describes how fields will be mapped from the transaction object to the summary object</description>
+    <fields>
+        <fullName>Default_Value__c</fullName>
+        <description>This is the value that is used in a mapping if the source value is blank or no source field is specified</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>This is the value that is used in a mapping if the source value is blank or no source field is specified</inlineHelpText>
+        <label>Default Value</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Destination_Field_Name__c</fullName>
+        <description>This is the API name of the of the field on the summary object that will be updated</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>This is the API name of the of the field on the summary object that will be updated</inlineHelpText>
+        <label>Destination Field Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Source_Field_Name__c</fullName>
+        <description>This is the API name of the field on the transaction object</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>This is the API name of the field on the transaction object</inlineHelpText>
+        <label>Source Field Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Stamp_Field_Name__c</fullName>
+        <description>This is the API name of a field on the source transaction record that should be stamped with value of the source field when the record is processed. This is useful if a record of a formula field needs to be stored at the point of export i.e. a finance code</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>This is the API name of a field on the source transaction record that should be stamped with value of the source field when the record is processed. This is useful if a record of a formula field needs to be stored at the point of export i.e. finance code</inlineHelpText>
+        <label>Stamp Field Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>If this is checked then this source field will be totalled</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>If this is checked then this source field will be totalled</inlineHelpText>
+        <label>Total</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Transaction_Export_Settings__c</fullName>
+        <description>A link to the related export settings object</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>A link to the related export settings object</inlineHelpText>
+        <label>Transaction Export Settings</label>
+        <referenceTo>Transaction_Export_Settings__mdt</referenceTo>
+        <relationshipLabel>Transaction Export Field Mappings</relationshipLabel>
+        <relationshipName>Transaction_Export_Field_Mappings</relationshipName>
+        <required>false</required>
+        <type>MetadataRelationship</type>
+        <unique>false</unique>
+    </fields>
+    <label>Transaction Export Field Mapping</label>
+    <pluralLabel>Transaction Export Field Mappings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

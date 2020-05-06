@@ -1,0 +1,30 @@
+<aura:component controller="GcFE_ExportController" implements="force:lightningQuickActionWithoutHeader,force:hasRecordId" >
+    <!-- https://developer.salesforce.com/docs/atlas.en-us.204.0.lightning.meta/lightning/components_using_lex_s1_config_action_recordid.htm -->
+    <aura:attribute name="message" type="String"/>
+    
+    <!-- This creates an attribute to store the header object and then calls a controller to populate it -->
+    <aura:attribute name="summaryHeader" type="Transaction_Summary_Header__c" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    
+    <!-- Display a header -->
+	<div class="slds-page-header" role="banner">
+		<p class="slds-text-heading--label">{!v.summaryHeader.Name}</p>
+        <h1 class="slds-page-header__title slds-m-right--small slds-truncate slds-align-left">Create Export File</h1>
+	</div>
+    
+    <!-- Record Id is {!v.recordId} -->
+        
+	<!-- Display the main form -->
+    <div class="slds-form--stacked">
+        <div class="slds-text-body_regular slds-p-top_large slds-p-bottom_large">
+        	This starts the process of generating a text file from the associated summary records. 
+        	Once complete this file will be attached to the header record.
+        </div>
+               
+		<div class="slds-form-element">
+    		<ui:button label="Cancel" press="{!c.handleCancel}" class="slds-button slds-button--neutral" />
+        	<ui:button label="Create Export" press="{!c.handleStartExport}" class="slds-button slds-button--brand" />
+    	</div>
+    </div>
+    
+</aura:component>

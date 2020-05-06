@@ -1,0 +1,1118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- BDE Entry FS v2 --></label>
+        <name>npsp__BDE_Entry_FS_v2</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- New BDE List v2 --></label>
+        <name>npsp__BDE_List_FS_v2</name>
+    </fieldSets>
+    <fields>
+        <help><!-- Is the donor attending the ball? --></help>
+        <label><!-- Attending Ball --></label>
+        <name>Attending_Ball__c</name>
+    </fields>
+    <fields>
+        <help><!-- Is the donation for the auction or raffle? --></help>
+        <label><!-- Donation Purpose --></label>
+        <name>Donation_Purpose__c</name>
+        <picklistValues>
+            <masterLabel>Auction</masterLabel>
+            <translation><!-- Auction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Raffle</masterLabel>
+            <translation><!-- Raffle --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Export to Finance Completed --></label>
+        <name>Export_to_Finance_Completed__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field displays the Gross Amount minus the Net Amount to show the fees deducted by the third party. --></help>
+        <label><!-- Fees Deducted --></label>
+        <name>Fees_Deducted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finance Export Date --></label>
+        <name>Finance_Export_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finance Export Group --></label>
+        <name>Finance_Export_Group__c</name>
+    </fields>
+    <fields>
+        <help><!-- This shows the status of the opportunity export. This may be overridden by other factors. --></help>
+        <label><!-- Finance Export Status --></label>
+        <name>Finance_Export_Status__c</name>
+        <picklistValues>
+            <masterLabel>Do Not Export</masterLabel>
+            <translation><!-- Do Not Export --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exported</masterLabel>
+            <translation><!-- Exported --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To Be Exported</masterLabel>
+            <translation><!-- To Be Exported --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If this donation is being marked as &apos;excluded&apos; from gift aid claim, please provide the reason for the exclusion in this field. --></help>
+        <label><!-- Gift Aid Excluded Reason --></label>
+        <name>Gift_Aid_Excluded_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grant Documents --></label>
+        <name>Grant_Documents_URL__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the amount originally donated BEFORE fees and other charges are taken off by the third-party. --></help>
+        <label><!-- Gross Amount --></label>
+        <name>Gross_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the date the 1st letter was sent --></help>
+        <label><!-- IK: Date 1st letter Sent --></label>
+        <name>IK_Date_1st_letter_Sent__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the date the second letter was sent, if it was required. --></help>
+        <label><!-- IK: Date 2nd letter Sent --></label>
+        <name>IK_Date_2nd_letter_Sent__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the appropriate option to reflect the action to be taken in order to progress the opportunity to the next step. Items 3 and 4 however give details on the outcome of some opportunities. --></help>
+        <label><!-- IK: Next Step --></label>
+        <name>IK_Next_Step__c</name>
+        <picklistValues>
+            <masterLabel>1 - Send Initial Letter</masterLabel>
+            <translation><!-- 1 - Send Initial Letter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Send Follow Up Letter</masterLabel>
+            <translation><!-- 2 - Send Follow Up Letter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Declined</masterLabel>
+            <translation><!-- 3 - Declined --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Declined - Try Next Year</masterLabel>
+            <translation><!-- 4 - Declined - Try Next Year --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Waiting for Delivery</masterLabel>
+            <translation><!-- 5 - Waiting for Delivery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 - Item In VSA</masterLabel>
+            <translation><!-- 6 - Item In VSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 - Final Comms</masterLabel>
+            <translation><!-- 7 - Final Comms --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Internal Connections --></label>
+        <name>Internal_Connections__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date the invoice was raised. --></help>
+        <label><!-- Invoice Date --></label>
+        <name>Invoice_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Invoice number from Open Accounts. --></help>
+        <label><!-- Invoice Number --></label>
+        <name>Invoice_Number_Open_Accounts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Donation Gift Aid Eligible --></label>
+        <name>Is_Donation_Gift_Aid_Eligible_VSA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Payment Method Gift Aid Eligible --></label>
+        <name>Is_Payment_Method_Gift_Aid_Eligible_VSA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Table --></label>
+        <name>Is_Table__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Ticket --></label>
+        <name>Is_Ticket__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is for Amenities --></label>
+        <name>Is_for_Amenities__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Modified by Not Owner --></label>
+        <name>Last_Modified_by_Not_Owner__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please populate this field with a parent opportunity if the donation is an instalment of a larger donation, e.g., a £5,000 instalment of a £20,000 grant. --></help>
+        <label><!-- Parent Opportunity --></label>
+        <name>Parent_Opportunity__c</name>
+        <relationshipLabel><!-- Opportunity Instalments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Payment Method --></label>
+        <name>Payment_Method__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the finance code that was posted to the finance system. This is updated when the opportunity is posted in case the formula is changed through campaign etc --></help>
+        <label><!-- Posted Finance Code --></label>
+        <name>Posted_Finance_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Campaign Source --></label>
+        <name>Primary_Campaign_Source_For_List_View__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Please provide details about where the gift aid claim originated from, e.g., JustGiving / Virgin Money Giving / Charity Checkout / Clarity Gift Aid. --></help>
+        <label><!-- Source of Donations/Gift Aid --></label>
+        <name>Source_of_Donations_Gift_Aid__c</name>
+        <picklistValues>
+            <masterLabel>Charitable Giving Benevity</masterLabel>
+            <translation><!-- Charitable Giving Benevity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Charity Checkout</masterLabel>
+            <translation><!-- Charity Checkout --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clarity Gift Aid / Salesforce</masterLabel>
+            <translation><!-- Clarity Gift Aid / Salesforce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Just Giving</masterLabel>
+            <translation><!-- Just Giving --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virgin Money Giving</masterLabel>
+            <translation><!-- Virgin Money Giving --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The date the table was booked/purchased, i.e., not the event date. --></help>
+        <label><!-- Table Booked Date --></label>
+        <name>Table_Booked_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is used to indicate through which third party we received the donation from.  This will have resulted in fees being deducted and us just receiving the net amount. --></help>
+        <label><!-- Third Party Source --></label>
+        <name>Third_Party_Source__c</name>
+        <picklistValues>
+            <masterLabel>Benevity</masterLabel>
+            <translation><!-- Benevity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Charitable Giving</masterLabel>
+            <translation><!-- Charitable Giving --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Charities Aid Foundation</masterLabel>
+            <translation><!-- Charities Aid Foundation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Charity Checkout</masterLabel>
+            <translation><!-- Charity Checkout --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facebook</masterLabel>
+            <translation><!-- Facebook --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Givergy</masterLabel>
+            <translation><!-- Givergy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Just Giving</masterLabel>
+            <translation><!-- Just Giving --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virgin Money Giving</masterLabel>
+            <translation><!-- Virgin Money Giving --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Today&apos;s Date --></label>
+        <name>Today_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Today&apos;s Date as DD/MM/YYYY --></label>
+        <name>Today_Date_as_DDMMYYYY__c</name>
+    </fields>
+    <fields>
+        <label><!-- Today&apos;s Date as Text --></label>
+        <name>Today_Date_as_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Summary --></label>
+        <name>Transaction_Summary__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- VAT code examples: V1 – sale of auction items, memberships; V3 – raffle &amp; event ticket sales; V8 – general &amp; challenge event donations, legacies. V2 - Only for Corp Vol Services. If you are unsure which VAT code to use please contact the Finance Team. --></help>
+        <label><!-- VAT Code --></label>
+        <name>VAT_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Admin Fee (CC) --></label>
+        <name>cc_Admin_Fee__c</name>
+    </fields>
+    <fields>
+        <help><!-- Un-formatted data from Charity Checkout. --></help>
+        <label><!-- Campaign Title (CC) --></label>
+        <name>cc_Campaign_Title__c</name>
+    </fields>
+    <fields>
+        <help><!-- Un-formatted data from Charity Checkout. --></help>
+        <label><!-- Campaign Type (CC) --></label>
+        <name>cc_Campaign_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkout Reference URL (CC) --></label>
+        <name>cc_Checkout_Reference_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Choose Where Your Donation Goes (CC) --></label>
+        <name>cc_Choose_Where_Your_Donation_Goes__c</name>
+        <picklistValues>
+            <masterLabel>Adult &amp; Community</masterLabel>
+            <translation><!-- Adult &amp; Community --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adult Carers</masterLabel>
+            <translation><!-- Adult Carers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Changing Lives Mental Health Campaign</masterLabel>
+            <translation><!-- Changing Lives Mental Health Campaign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Children &amp; Families</masterLabel>
+            <translation><!-- Children &amp; Families --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Education &amp; Learning</masterLabel>
+            <translation><!-- Education &amp; Learning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vintage Tea Party</masterLabel>
+            <translation><!-- Vintage Tea Party --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Where the need is greatest</masterLabel>
+            <translation><!-- Where the need is greatest --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Created Date/Time (CC) --></label>
+        <name>cc_Created_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created by Charity Checkout (CC) --></label>
+        <name>cc_Created_by_Charity_Checkout__c</name>
+    </fields>
+    <fields>
+        <help><!-- The donation amount the donor paid via the Charity Checkout website before fees are subtracted. --></help>
+        <label><!-- Donation Gross Amount (CC) --></label>
+        <name>cc_Donation_Gross_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Donation ID (CC) --></label>
+        <name>cc_Donation_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Donation amount minus the Charity Checkout fees. --></help>
+        <label><!-- Donation Net Amount (CC) --></label>
+        <name>cc_Donation_Net_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Donation Status (CC) --></label>
+        <name>cc_Donation_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Donation Team URL (CC) --></label>
+        <name>cc_Donation_Team_URL__c</name>
+    </fields>
+    <fields>
+        <help><!-- Un-formatted data from Charity Checkout. --></help>
+        <label><!-- Donor Custom Code (CC) --></label>
+        <name>cc_Donor_Custom_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- Un-formatted data from Charity Checkout. --></help>
+        <label><!-- Event Name (CC) --></label>
+        <name>cc_Event_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gift Aid Amount (CC) --></label>
+        <name>cc_Gift_Aid_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Un-formatted data from Charity Checkout. --></help>
+        <label><!-- Items (CC) --></label>
+        <name>cc_Items__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Charity Checkout page ID which the donation was made towards. --></help>
+        <label><!-- Page ID (CC) --></label>
+        <name>cc_Page_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Un-formatted data from Charity Checkout. --></help>
+        <label><!-- Payment Fields (CC) --></label>
+        <name>cc_Payment_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Provider Fee (CC) --></label>
+        <name>cc_Payment_Provider_Fee__c</name>
+    </fields>
+    <fields>
+        <help><!-- Un-formatted data from Charity Checkout. --></help>
+        <label><!-- User Message (CC) --></label>
+        <name>cc_User_Message__c</name>
+    </fields>
+    <fields>
+        <help><!-- The value of the Gift Aid for this donation --></help>
+        <label><!-- Gift Aid Amount --></label>
+        <name>gcga__Gift_Aid_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the either the Id or the claim record, TO_BE_CLAIMED or UNCLAIMED; it is used as part of the claim processing. --></help>
+        <label><!-- Gift Aid Claim Id --></label>
+        <name>gcga__Gift_Aid_Claim_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- The name of the Gift Aid Claim record --></help>
+        <label><!-- Gift Aid Claim Name --></label>
+        <name>gcga__Gift_Aid_Claim_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Gift Aid Claim for this donation --></help>
+        <label><!-- Gift Aid Claim --></label>
+        <name>gcga__Gift_Aid_Claim__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The Gift Aid Claim for this donation --></help>
+        <label><!-- Gift Aid Declaration --></label>
+        <name>gcga__Gift_Aid_Declaration__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Reason for the opportunity being marked as invalid for Gift Aid. This field is automatically updated as part of the processing of a Gift Aid report --></help>
+        <label><!-- Gift Aid Invalid Reason --></label>
+        <name>gcga__Gift_Aid_Invalid_Reason__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates that this opportunity has failed validaton when a Gift Aid report is processed --></help>
+        <label><!-- Gift Aid Invalid --></label>
+        <name>gcga__Gift_Aid_Invalid__c</name>
+    </fields>
+    <fields>
+        <help><!-- The amount of Gift Aid that has been previously claimed in error and now refunded to HMRC --></help>
+        <label><!-- Gift Aid Refund Amount --></label>
+        <name>gcga__Gift_Aid_Refund_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Id of the Gift Aid Claim record in which the refund amount for this opportunity has been included. This should have the value TO_BE_CLAIMED where it is to be included in the next claim. --></help>
+        <label><!-- Gift Aid Refund Claim Id --></label>
+        <name>gcga__Gift_Aid_Refund_Claim_Id2__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Id of the Gift Aid Claim record in which the refund amount for this opportunity has been included. This should have the value TO_BE_CLAIMED where it is to be included in the next claim --></help>
+        <label><!-- Deprecated --></label>
+        <name>gcga__Gift_Aid_Refund_Claim_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is a lookup to the claim in which the Gift Aid Refund amount has been included in the adjustment --></help>
+        <label><!-- Gift Aid Refund Claim --></label>
+        <name>gcga__Gift_Aid_Refund_Claim__c</name>
+        <relationshipLabel><!-- Opportunities (Gift Aid Refund Claim) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The date on which the Gift Aid Refund amount was included in a claim --></help>
+        <label><!-- Gift Aid Refund Date --></label>
+        <name>gcga__Gift_Aid_Refund_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- The reason for the Gift Aid Refund --></help>
+        <label><!-- Gift Aid Refund Note --></label>
+        <name>gcga__Gift_Aid_Refund_Note__c</name>
+    </fields>
+    <fields>
+        <help><!-- The name of the Gift Aid Schedule record for which this opportunity Close Date falls within the start and end date --></help>
+        <label><!-- Gift Aid Schedule Name --></label>
+        <name>gcga__Gift_Aid_Schedule_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- The tax schedule associated with the donation --></help>
+        <label><!-- Gift Aid Schedule --></label>
+        <name>gcga__Gift_Aid_Schedule__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The status of the donation for gift aid --></help>
+        <label><!-- Gift Aid Status --></label>
+        <name>gcga__Gift_Aid_Status__c</name>
+        <picklistValues>
+            <masterLabel>Claim in progress</masterLabel>
+            <translation><!-- Claim in progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Declared</masterLabel>
+            <translation><!-- Declared --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ineligible</masterLabel>
+            <translation><!-- Ineligible --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid by HMRC</masterLabel>
+            <translation><!-- Paid by HMRC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Potential</masterLabel>
+            <translation><!-- Potential --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Queried by HMRC</masterLabel>
+            <translation><!-- Queried by HMRC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected by HMRC</masterLabel>
+            <translation><!-- Rejected by HMRC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reversed</masterLabel>
+            <translation><!-- Reversed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Under review</masterLabel>
+            <translation><!-- Under review --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The name of the Gift Aid Submission Batch record in which this opportunity is included in a claim --></help>
+        <label><!-- Gift Aid Submission Batch Name --></label>
+        <name>gcga__Gift_Aid_Submission_Batch_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- The submission batch in which this opportunity is included --></help>
+        <label><!-- Gift Aid Submission Batch --></label>
+        <name>gcga__Gift_Aid_Submission_Batch__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The tax rate to be applied to this donation when calculating Gift Aid --></help>
+        <label><!-- Gift Aid Tax Rate --></label>
+        <name>gcga__Gift_Aid_Tax_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- The donation amount eligible for Gift Aid that will be included in a Gift Aid Claim --></help>
+        <label><!-- Gift-aidable Amount --></label>
+        <name>gcga__Gift_Aidable_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked this this donation will be marked as Ineligible and excluded from a Gift Aid Claim --></help>
+        <label><!-- Is Gift Aid Excluded --></label>
+        <name>gcga__Is_Gift_Aid_Excluded__c</name>
+    </fields>
+    <fields>
+        <help><!-- If the opportunity record type is the same as the giftaidable record type defined in Gift Aid Eligible Donation RT custom setting and the donation is made by an individual this will return true --></help>
+        <label><!-- Is A Donation For Gift Aid --></label>
+        <name>gcga__Is_a_donation_for_Gift_Aid__c</name>
+    </fields>
+    <fields>
+        <help><!-- The amount of the donation that is ineligible for Gift Aid. This might be used if the donor receives a benefit as a result of the donation --></help>
+        <label><!-- Non Gift-aidable Amount --></label>
+        <name>gcga__Non_Gift_Aidable_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Formel: Der Betrag dieser Opportunity minus des Betrags der Zahlungsabschreibung und des empfangenen Zahlungsbetrags</help>
+        <label><!-- Remaining Balance --></label>
+        <name>npe01__Amount_Outstanding__c</name>
+    </fields>
+    <fields>
+        <help>Gesamtwert der Zahlungen, die für diese Opportunity als abgeschrieben oder nicht eintreibbar gekennzeichnet sind</help>
+        <label><!-- Payment Writeoff Amount --></label>
+        <name>npe01__Amount_Written_Off__c</name>
+    </fields>
+    <fields>
+        <help>Abgeblendetes Feld zum Weiterleiten einer Kontaktkennung für die Erstellung der Kontaktrolle</help>
+        <label><!-- Contact Id for Role --></label>
+        <name>npe01__Contact_Id_for_Role__c</name>
+    </fields>
+    <fields>
+        <help>Wenn Zahlungen aktiv sind und wenn diese Option aktiviert ist, wird für diese Opportunity nicht automatisch eine neue Zahlung erstellt.</help>
+        <label><!-- Do Not Automatically Create Payment --></label>
+        <name>npe01__Do_Not_Automatically_Create_Payment__c</name>
+    </fields>
+    <fields>
+        <help>Formel: Ob der zugehörige Account als Einzelperson definiert ist (SYSTEMIsIndividual__c)</help>
+        <label><!-- Is Opp From Individual --></label>
+        <name>npe01__Is_Opp_From_Individual__c</name>
+    </fields>
+    <fields>
+        <help>Ermittelt den Wert des Kontakts oder Accounts des Felds &quot;Ebene der letzten Mitgliedschaft&quot;</help>
+        <label><!-- Member Level --></label>
+        <name>npe01__Member_Level__c</name>
+        <picklistValues>
+            <masterLabel>Honorary Member</masterLabel>
+            <translation><!-- Honorary Member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid-For Member</masterLabel>
+            <translation><!-- Paid-For Member --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Datum, an dem der Mitgliedschaftszeitraum endet</help>
+        <label><!-- Membership End Date --></label>
+        <name>npe01__Membership_End_Date__c</name>
+    </fields>
+    <fields>
+        <help>Ist dies eine Erneuerung, eine neue Mitgliedschaft oder eine Mitgliedschaft von jemandem, der ausgesetzt hat und zurückgekehrt ist?</help>
+        <label><!-- Membership Origin --></label>
+        <name>npe01__Membership_Origin__c</name>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation>Neu</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reacquire</masterLabel>
+            <translation>Erneut erwerben</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Datum, an dem der Mitgliedschaftszeitraum begonnen hat</help>
+        <label><!-- Membership Start Date --></label>
+        <name>npe01__Membership_Start_Date__c</name>
+    </fields>
+    <fields>
+        <help>Gesamtanzahl der Zahlungen für diese Opportunity (Spende)</help>
+        <label><!-- Number of Payments --></label>
+        <name>npe01__Number_of_Payments__c</name>
+    </fields>
+    <fields>
+        <help>Der Gesamtwert der Zahlungen, die für diese Opportunity als bezahlt gekennzeichnet wurden</help>
+        <label><!-- Payment Amount Received --></label>
+        <name>npe01__Payments_Made__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recurring Donation --></label>
+        <name>npe03__Recurring_Donation__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Verkettete Felder, die während des Rollups zum Suchen der neuesten Opportunity verwendet werden</help>
+        <label><!-- Combined Rollup Fieldset --></label>
+        <name>npo02__CombinedRollupFieldset__c</name>
+    </fields>
+    <fields>
+        <help>Steuert, ob Haushalt-Kontaktrollen für Opportunities erstellt werden. ERSETZT. Ersetzt durch benutzerdefinierte Einstellungen.</help>
+        <label><!-- _SYSTEM: HOUSEHOLD CONTACT ROLEPROCESSOR --></label>
+        <name>npo02__systemHouseholdContactRoleProcessor__c</name>
+        <picklistValues>
+            <masterLabel>All Opportunities</masterLabel>
+            <translation>Alle Opportunities</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Opportunities</masterLabel>
+            <translation>Keine Opportunities</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Datum der Bestätigungsdatum</help>
+        <label><!-- Acknowledgment Date --></label>
+        <name>npsp__Acknowledgment_Date__c</name>
+    </fields>
+    <fields>
+        <help>Status der Bestätigung dieses Geschenks</help>
+        <label><!-- Acknowledgment Status --></label>
+        <name>npsp__Acknowledgment_Status__c</name>
+        <picklistValues>
+            <masterLabel>Acknowledged</masterLabel>
+            <translation>Bestätigt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Do Not Acknowledge</masterLabel>
+            <translation>Nicht bestätigen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email Acknowledgment Not Sent</masterLabel>
+            <translation>E-Mail-Bestätigung nicht gesendet</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email Acknowledgment Now</masterLabel>
+            <translation>E-Mail-Bestätigung jetzt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To Be Acknowledged</masterLabel>
+            <translation>Zu bestätigen</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Das Datum, an dem der Spender ausdrücklich um die Spende gebeten wurde, im Gegensatz zum Opportunity-Schlusstermin, den die Organisation auf das Erstellungsdatum der Opportunity oder den Termin festlegt, an dem die Opportunity gewonnen wurde.</help>
+        <label><!-- Ask Date --></label>
+        <name>npsp__Ask_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Batch --></label>
+        <name>npsp__Batch__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Gibt an, warum der Spendenaufruf nicht erfolgreich war.</help>
+        <label><!-- Closed Lost Reason --></label>
+        <name>npsp__Closed_Lost_Reason__c</name>
+    </fields>
+    <fields>
+        <help><!-- External identifier for Salesforce.org payment service integration. --></help>
+        <label><!-- Elevate Recurring Id --></label>
+        <name>npsp__CommitmentId__c</name>
+    </fields>
+    <fields>
+        <help>Wenn dieses Kontrollkästchen aktiviert ist, werden mit diesem Feld mehrere Aspekte der NPSP-Opportunity-Kontaktrollen-Automatisierung deaktiviert, was ggf. zu falschen oder doppelten Daten führen kann. Nähere Einzelheiten enthält die Produktdokumentation.</help>
+        <label><!-- Disable Contact Role Automation --></label>
+        <name>npsp__DisableContactRoleAutomation__c</name>
+    </fields>
+    <fields>
+        <help>Der mittlere Marktwert eines Sachgeschenks</help>
+        <label><!-- Fair Market Value --></label>
+        <name>npsp__Fair_Market_Value__c</name>
+    </fields>
+    <fields>
+        <help>Kategorisiert den Typ des Aufrufs für diese Opportunity.</help>
+        <label><!-- Gift Strategy --></label>
+        <name>npsp__Gift_Strategy__c</name>
+        <picklistValues>
+            <masterLabel>New Donor</masterLabel>
+            <translation>Neuer Spender</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal</masterLabel>
+            <translation>Erneuerung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgrade</masterLabel>
+            <translation>Hochstufung</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Das Datum des Unterstützungsbeginns gemäß dem Dokument oder Vertrag, das die unterstützende Organisation gesendet hat</help>
+        <label><!-- Grant Contract Date --></label>
+        <name>npsp__Grant_Contract_Date__c</name>
+    </fields>
+    <fields>
+        <help>Verfolgt eindeutige Zahlen, die manchmal von unterstützenden Organisationen zugewiesen werden</help>
+        <label><!-- Grant Contract Number --></label>
+        <name>npsp__Grant_Contract_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grant Period End Date --></label>
+        <name>npsp__Grant_Period_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grant Period Start Date --></label>
+        <name>npsp__Grant_Period_Start_Date__c</name>
+    </fields>
+    <fields>
+        <help>Beschreibt die Finanzierungsbereiche der Unterstützung Sie können hier einen beliebigen Eintrag vornehmen. Sie könnten beispielsweise den Namen des Programms eingeben, auf den sich die Unterstützung bezieht.</help>
+        <label><!-- Program Areas --></label>
+        <name>npsp__Grant_Program_Area_s__c</name>
+    </fields>
+    <fields>
+        <help>Ein URL, der auf die Unterstützungsanforderungen auf der Website des Geldgebers verweist</help>
+        <label><!-- Grant Requirements Website --></label>
+        <name>npsp__Grant_Requirements_Website__c</name>
+    </fields>
+    <fields>
+        <help>Der vorhandene Kontaktdatensatz des Begünstigten für diese Spende</help>
+        <label><!-- Honoree Contact --></label>
+        <name>npsp__Honoree_Contact__c</name>
+        <relationshipLabel><!-- Opportunities (Honoree Contact) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Der vom Spender angegebene Name des Begünstigten Wenn dieses Feld leer bleibt und das Feld für den Kontakt des Begünstigten einen Wert enthält, wird dieser Wert von Salesforce automatisch in dieses Feld eingetragen.</help>
+        <label><!-- Honoree Name --></label>
+        <name>npsp__Honoree_Name__c</name>
+    </fields>
+    <fields>
+        <help>Enthält eine Rich Text-Beschreibung des Sachgeschenks einschließlich Fotos</help>
+        <label><!-- In-Kind Description --></label>
+        <name>npsp__In_Kind_Description__c</name>
+    </fields>
+    <fields>
+        <help>Aktiviert, falls der Spender den mittleren Marktwert für dieses Sachgeschenk angegeben hat</help>
+        <label><!-- In-Kind Donor Declared Value --></label>
+        <name>npsp__In_Kind_Donor_Declared_Value__c</name>
+    </fields>
+    <fields>
+        <help>Der Typ des Sachgeschenks</help>
+        <label><!-- In-Kind Type --></label>
+        <name>npsp__In_Kind_Type__c</name>
+        <picklistValues>
+            <masterLabel>Goods</masterLabel>
+            <translation>Waren</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services</masterLabel>
+            <translation>Services</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Die Auswahl dieser Option besagt, dass die Unterstützung eine Erneuerung einer früheren Unterstützung ist.</help>
+        <label><!-- Is Grant Renewal --></label>
+        <name>npsp__Is_Grant_Renewal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Matching Gift Account --></label>
+        <name>npsp__Matching_Gift_Account__c</name>
+        <relationshipLabel><!-- Matched Gifts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Matching Gift Employer --></label>
+        <name>npsp__Matching_Gift_Employer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Matching Gift Status --></label>
+        <name>npsp__Matching_Gift_Status__c</name>
+        <picklistValues>
+            <masterLabel>Potential</masterLabel>
+            <translation>Potenziell</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Received</masterLabel>
+            <translation>Empfangen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation>Abgesendet</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Matching Gift --></label>
+        <name>npsp__Matching_Gift__c</name>
+        <relationshipLabel><!-- Matched Gifts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Dieses Feld wird von NPSP basierend auf dem nächsten Unterstützungstermin-Datensatz automatisch aktualisiert.</help>
+        <label><!-- Next Deliverable Date --></label>
+        <name>npsp__Next_Grant_Deadline_Due_Date__c</name>
+    </fields>
+    <fields>
+        <help>Eine personalisierte Nachricht für den Benachrichtigungsempfänger</help>
+        <label><!-- Notification Message --></label>
+        <name>npsp__Notification_Message__c</name>
+    </fields>
+    <fields>
+        <help>Wie der Benachrichtigungsempfänger benachrichtigt werden sollte</help>
+        <label><!-- Notification Preference --></label>
+        <name>npsp__Notification_Preference__c</name>
+        <picklistValues>
+            <masterLabel>Do Not Notify</masterLabel>
+            <translation>Keine Benachrichtigung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation>E-Mails</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation>Telefon</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postal Mail</masterLabel>
+            <translation>Postweg</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Der vorhandene Kontaktdatensatz der Person, die bezüglich dieser Spende benachrichtigt werden soll</help>
+        <label><!-- Notification Recipient Contact --></label>
+        <name>npsp__Notification_Recipient_Contact__c</name>
+        <relationshipLabel><!-- Opportunities (Notification Recipient) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Die (vom Spender angegebenen) Kontaktinformationen für den Benachrichtigungsempfänger</help>
+        <label><!-- Notification Recipient Information --></label>
+        <name>npsp__Notification_Recipient_Information__c</name>
+    </fields>
+    <fields>
+        <help>Der (vom Spender angegebene) Name d. Person, d. über dieses Geschenk benachrichtigt werden soll. Wenn dieses Feld leer bleibt und d. Feld f. d. Kontakt des Benachrichtigungsempfängers einen Wert enthält, wird dieser automatisch von Salesforce übertragen.</help>
+        <label><!-- Notification Recipient Name --></label>
+        <name>npsp__Notification_Recipient_Name__c</name>
+    </fields>
+    <fields>
+        <help>Wenn diese Unterstützung eine Erneuerung einer früheren Unterstützung ist, können Sie dieses Feld verwenden, um diesen Datensatz mit dem früheren Datensatz zu verknüpfen.</help>
+        <label><!-- Previous Grant/Gift Opportunity --></label>
+        <name>npsp__Previous_Grant_Opportunity__c</name>
+        <relationshipLabel><!-- Related Grants/Gifts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Status z. Erst. eines Kamp.mitgl. f. d. Hauptanspr.partner u. d. primäre Kamp.quelle dies. Opportunity. Feld leer lassen, w. standardm. Status &quot;Geantwortet&quot; f. geschl./gewonn. Opportunites u. Status &quot;Nicht geantwortet&quot; f. and. Opportunities eingest. wird.</help>
+        <label><!-- Primary Contact Campaign Member Status --></label>
+        <name>npsp__Primary_Contact_Campaign_Member_Status__c</name>
+    </fields>
+    <fields>
+        <help>Der Hauptansprechpartner für diese Opportunity Die Hauptansprechpartnerrolle wird ständig mit diesem Feld synchronisiert. Für Einzelpersonenspenden bezeichnet dies die Zuschreibung für diese Opportunity.</help>
+        <label><!-- Primary Contact --></label>
+        <name>npsp__Primary_Contact__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Das Datum, an dem dieser Spender als qualifizierter Spender dieser Spende identifiziert wurde.</help>
+        <label><!-- Qualified Date --></label>
+        <name>npsp__Qualified_Date__c</name>
+    </fields>
+    <fields>
+        <help>Ratenbezeichnung zur Verwendung in der Opportunity-Benennung Zeigt die Ratenanzahl in Klammern für unbefristete wiederkehrende Spenden bzw. die Nummer der Rate aus der Gesamtanzahl für wiederkehrende Spenden mit einer festgelegten Anzahl von Raten</help>
+        <label><!-- Recurring Donation Installment Name --></label>
+        <name>npsp__Recurring_Donation_Installment_Name__c</name>
+    </fields>
+    <fields>
+        <help>Die Ratenanzahl des Zeitplans für wiederkehrende Spenden dieser Opportunity</help>
+        <label><!-- Recurring Donation Installment Number --></label>
+        <name>npsp__Recurring_Donation_Installment_Number__c</name>
+    </fields>
+    <fields>
+        <help>Der von Ihnen angeforderte Betrag Diese Zahl kann vom endgültigen Betrag der Vergabe abweichen.</help>
+        <label><!-- Requested Amount --></label>
+        <name>npsp__Requested_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Gibt an, ob das Geschenk zu Ehren oder zur Erinnerung einer Einzelperson gedacht ist</help>
+        <label><!-- Tribute Type --></label>
+        <name>npsp__Tribute_Type__c</name>
+        <picklistValues>
+            <masterLabel>Honor</masterLabel>
+            <translation>Ehrung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Memorial</masterLabel>
+            <translation>Gedenken</translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>VSA Donation Layout</layout>
+        <sections>
+            <label><!-- Donation Information --></label>
+            <section>Donation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Gift Aid --></label>
+            <section>Gift Aid</section>
+        </sections>
+        <sections>
+            <label><!-- Third Party Donation Information --></label>
+            <section>Third Party Donation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Tribute Information --></label>
+            <section>Tribute Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>VSA Gift Aid Income Layout</layout>
+        <sections>
+            <label><!-- Donation Information --></label>
+            <section>Donation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Tribute Information --></label>
+            <section>Tribute Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>VSA Grant Layout</layout>
+        <sections>
+            <label><!-- Donation Information --></label>
+            <section>Donation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Grant Information --></label>
+            <section>Grant Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>VSA In-Kind Gift Layout</layout>
+        <sections>
+            <label><!-- Donation Information --></label>
+            <section>Donation Information</section>
+        </sections>
+        <sections>
+            <label><!-- In-Kind Information --></label>
+            <section>In-Kind Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>VSA Legacy Layout</layout>
+        <sections>
+            <label><!-- Donation Information --></label>
+            <section>Donation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Tribute Information --></label>
+            <section>Tribute Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>VSA Major Gift Layout</layout>
+        <sections>
+            <label><!-- Donation Information --></label>
+            <section>Donation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Gift Aid --></label>
+            <section>Gift Aid</section>
+        </sections>
+        <sections>
+            <label><!-- Major Gift Information --></label>
+            <section>Major Gift Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>VSA Matching Gift Layout</layout>
+        <sections>
+            <label><!-- Donation Information --></label>
+            <section>Donation Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>VSA Membership Layout</layout>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Member Information --></label>
+            <section>Member Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Deliverable --></label>
+        <name>New_Deliverable</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Invoice Fields --></label>
+        <name>Update_Invoice_Fields</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- View Charity Checkout Fields --></label>
+        <name>View_Charity_Checkout_Fields</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- This record type is used for individual giving and corporate giving. --></description>
+        <label><!-- Donation --></label>
+        <name>Donation</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This record type is used to record gift aid income. --></description>
+        <label><!-- Gift Aid Income --></label>
+        <name>Gift_Aid_Income</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This record type is used for grants. --></description>
+        <label><!-- Grant --></label>
+        <name>Grant</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This record type is used for goods or services received in kind (not monetary donations). --></description>
+        <label><!-- In-Kind Gift --></label>
+        <name>In_Kind_Gift</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This record type is used for legacy giving. --></description>
+        <label><!-- Legacy Gift --></label>
+        <name>Legacy_Gift</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This record type is used for major donations (both individual and corporate giving). --></description>
+        <label><!-- Major Gift --></label>
+        <name>MajorGift</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Matching Donation from an Donor&apos;s Employer or other Organization --></description>
+        <label><!-- Matching Gift --></label>
+        <name>Matching_Gift</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This record type is used for membership donations. --></description>
+        <label><!-- Membership --></label>
+        <name>Membership</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- You must populate either the Primary Contact or the Account field. --></errorMessage>
+        <name>Account_OR_Primary_Contact_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This opportunity has been reconciled with the accounting system, and certain values can therefore not be changed. Please contact a Salesforce system administrator if relevant. --></errorMessage>
+        <name>E2F_Process_Complete_No_Edit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This opportunity is part of a gift aid claim which has been submitted to the HMRC, and certain values can therefore not be changed. Please contact a Salesforce system administrator if relevant. --></errorMessage>
+        <name>Gift_Aid_Status_Cant_Edit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A &apos;Received&apos; opportunity must have a payment method. This is required for the gift aid claim process. Please choose an applicable payment method. --></errorMessage>
+        <name>Payment_Method_Required_When_Closed_Won</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A &apos;Received&apos; opportunity must have a VAT code. This is required for the financial reconciliation process. Please choose an applicable VAT code. --></errorMessage>
+        <name>VAT_Code_Required_When_Closed_Won</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The non-giftaidable amount cannot be more than the amount of the opportunity --></errorMessage>
+        <name>gcga__Opportunity_NonGiftaidable_Amount</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Add_Matching_Donation --></label>
+        <name>npe01__Add_Matching_Donation</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Matching_Donation --></label>
+        <name>npe01__Matching_Donation</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Contact_Donation --></label>
+        <name>npe01__New_Contact_Donation</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Organization_Donation --></label>
+        <name>npe01__New_Organization_Donation</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Email_Acknowledgment --></label>
+        <name>npsp__Email_Acknowledgment</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Email_Acknowledgments --></label>
+        <name>npsp__Email_Acknowledgments</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Find_Matched_Gifts --></label>
+        <name>npsp__Find_Matched_Gifts</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Manage_Soft_Credits --></label>
+        <name>npsp__Manage_Soft_Credits</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Refresh_Name --></label>
+        <name>npsp__Refresh_Name</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,1219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>AddCampaign</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddCampaign</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddCampaign</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddToCampaign</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddToCampaign</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddToCampaign</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <content>npsp__CON_DeleteContactOverride</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableCustomerPortal</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableCustomerPortal</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableCustomerPortal</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnablePartnerPortalUser</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnablePartnerPortalUser</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnablePartnerPortalUser</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableSelfService</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableSelfService</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableSelfService</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Merge</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Merge</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Merge</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewContact</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewContact</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewContact</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>NPSP_Contact_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>NPSP_Contact_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewCustomerPortal</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewCustomerPortal</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewCustomerPortal</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewPartnerPortalUser</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewPartnerPortalUser</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewPartnerPortalUser</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewSelfService</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewSelfService</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewSelfService</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>NPSP_Contact_Compact_Layout_Unmanaged</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>NPSP_Contact_Compact_Layout_Unmanaged</fullName>
+        <fields>Name</fields>
+        <fields>MobilePhone</fields>
+        <fields>Email</fields>
+        <fields>npo02__TotalOppAmount__c</fields>
+        <fields>npo02__Soft_Credit_Total__c</fields>
+        <fields>OwnerId</fields>
+        <label>NPSP Contact Compact Layout (Unmanaged)</label>
+    </compactLayouts>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <fields>
+        <fullName>AccountId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AssistantName</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>AssistantPhone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Birthdate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Constituent_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>This field contains the Constituent ID value for a contact record. This field is only applicable to historic migrated data from VSA&apos;s deprecated CRM system, The Raiser&apos;s Edge. If the field is blank it means the contact record wasn&apos;t migrated from The Raiser&apos;s Edge (VSA-10).</description>
+        <externalId>true</externalId>
+        <inlineHelpText>Constituent ID from The Raiser&apos;s Edge (deprecated system).</inlineHelpText>
+        <label>Constituent ID</label>
+        <length>14</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Department</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>DoNotCall</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Email</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Email_Consent_Expiration_Date__c</fullName>
+        <description>This field contains the expiration date for the contact&apos;s email consent statement. The formula adds two years to the Email Consent Updated Date, and takes leap year into account (VSA-9).</description>
+        <externalId>false</externalId>
+        <formula>IF( 
+AND( 
+MONTH( Email_Consent_Updated_Date__c ) = 2, 
+DAY( Email_Consent_Updated_Date__c ) = 29 
+), 
+DATE( 
+YEAR(Email_Consent_Updated_Date__c )+2, 
+3, 
+1), 
+DATE( 
+YEAR(Email_Consent_Updated_Date__c )+2, 
+MONTH(Email_Consent_Updated_Date__c ), 
+DAY(Email_Consent_Updated_Date__c ) 
+) 
+)</formula>
+        <inlineHelpText>Automatically calculated based on Email Consent Updated Date.</inlineHelpText>
+        <label>Email Consent Expiration Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Email_Consent_Purposes__c</fullName>
+        <description>This field contains the purposes which the contact has agreed to be contacted for via the email channel (VSA-9).</description>
+        <externalId>false</externalId>
+        <label>Email Consent Purposes</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Consent_Purpose</valueSetName>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Email_Consent_Source__c</fullName>
+        <description>This field contains the source of the contact&apos;s consent declaration, i.e., the means by which the consent declaration was delivered (VSA-9).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please choose how the consent declaration was obtained, e.g., in a phone call or via an email.</inlineHelpText>
+        <label>Email Consent Source</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Consent_Source</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Email_Consent_Status__c</fullName>
+        <description>This field contains the contact&apos;s consent declaration for the email channel (VSA-9).</description>
+        <externalId>false</externalId>
+        <label>Email Consent Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Consent_Status</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Email_Consent_Updated_Date__c</fullName>
+        <description>This field contains the date the contact&apos;s consent was last updated (VSA-9).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please update this date when updating the contact&apos;s consent declaration.</inlineHelpText>
+        <label>Email Consent Updated Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Emergency_Contact_Name__c</fullName>
+        <description>This field contains the name of this contact&apos;s emergency contact, typically next of kin or similar. VSA opted to not store these records as contacts (using look-up) because they may not have the emergency contact&apos;s consent to store the data in a structured fashion (VSA-4).</description>
+        <externalId>false</externalId>
+        <label>Emergency Contact Name</label>
+        <length>120</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Emergency_Contact_Phone__c</fullName>
+        <description>This field contains the phone number for this contact&apos;s emergency contact, typically next of kin or similar. VSA opted to not store this as an attribute on a contact record (using look-up) because they may not have the emergency contact&apos;s consent to store the data in a structured fashion (VSA-4).</description>
+        <externalId>false</externalId>
+        <label>Emergency Contact Phone</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Fax</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Gender__c</fullName>
+        <description>This field is configured in NPSP Settings &gt; Relationships &gt; Relationships as the Gender field. Do not delete this field unless you remove the reference or select another Gender field there.</description>
+        <externalId>false</externalId>
+        <label>Gender</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Male</fullName>
+                    <default>false</default>
+                    <label>Male</label>
+                </value>
+                <value>
+                    <fullName>Female</fullName>
+                    <default>false</default>
+                    <label>Female</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HasOptedOutOfEmail</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>HasOptedOutOfFax</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>HomePhone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IndividualId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Jigsaw</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>LastCURequestDate</fullName>
+    </fields>
+    <fields>
+        <fullName>LastCUUpdateDate</fullName>
+    </fields>
+    <fields>
+        <fullName>LeadSource</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>MailingAddress</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Medical_Notes__c</fullName>
+        <description>This field details any relevant medical information for this contact which is pertinent for any events they may undertake (VSA-4).</description>
+        <externalId>false</externalId>
+        <label>Medical Notes</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>MobilePhone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OtherAddress</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OtherPhone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Phone_Consent_Expiration_Date__c</fullName>
+        <description>This field contains the expiration date for the contact&apos;s email consent statement. The formula adds two years to the Phone Consent Updated Date, and takes leap year into account (VSA-9).</description>
+        <externalId>false</externalId>
+        <formula>IF( 
+AND( 
+MONTH( Phone_Consent_Updated_Date__c ) = 2, 
+DAY( Phone_Consent_Updated_Date__c ) = 29 
+), 
+DATE( 
+YEAR(Phone_Consent_Updated_Date__c )+2, 
+3, 
+1), 
+DATE( 
+YEAR(Phone_Consent_Updated_Date__c )+2, 
+MONTH(Phone_Consent_Updated_Date__c ), 
+DAY(Phone_Consent_Updated_Date__c ) 
+) 
+)</formula>
+        <inlineHelpText>Automatically calculated based on Phone Consent Updated Date.</inlineHelpText>
+        <label>Phone Consent Expiration Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Phone_Consent_Purposes__c</fullName>
+        <description>This field contains the purposes which the contact has agreed to be contacted for via the phone channel (VSA-9).</description>
+        <externalId>false</externalId>
+        <label>Phone Consent Purposes</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Consent_Purpose</valueSetName>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Phone_Consent_Source__c</fullName>
+        <description>This field contains the source of the contact&apos;s consent declaration, i.e., the means by which the consent declaration was delivered (VSA-9).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please choose how the consent declaration was obtained, e.g., in a phone call or via an email.</inlineHelpText>
+        <label>Phone Consent Source</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Consent_Source</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Phone_Consent_Status__c</fullName>
+        <description>This field contains the contact&apos;s consent declaration for the phone channel (VSA-9).</description>
+        <externalId>false</externalId>
+        <label>Phone Consent Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Consent_Status</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Phone_Consent_Updated_Date__c</fullName>
+        <description>This field contains the date the contact&apos;s consent was last updated (VSA-9).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please update this date when updating the contact&apos;s consent declaration.</inlineHelpText>
+        <label>Phone Consent Updated Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Postal_Consent_Expiration_Date__c</fullName>
+        <description>This field contains the expiration date for the contact&apos;s postal consent statement. The formula adds two years to the Postal Consent Updated Date, and takes leap year into account (VSA-9).</description>
+        <externalId>false</externalId>
+        <formula>IF( 
+AND( 
+MONTH( Postal_Consent_Updated_Date__c ) = 2, 
+DAY( Postal_Consent_Updated_Date__c ) = 29 
+), 
+DATE( 
+YEAR(Postal_Consent_Updated_Date__c )+2, 
+3, 
+1), 
+DATE( 
+YEAR(Postal_Consent_Updated_Date__c )+2, 
+MONTH(Postal_Consent_Updated_Date__c ), 
+DAY(Postal_Consent_Updated_Date__c ) 
+) 
+)</formula>
+        <inlineHelpText>Automatically calculated based on Postal Consent Updated Date.</inlineHelpText>
+        <label>Postal Consent Expiration Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Postal_Consent_Purposes__c</fullName>
+        <description>This field contains the purposes which the contact has agreed to be contacted for via the postal channel (VSA-9).</description>
+        <externalId>false</externalId>
+        <label>Postal Consent Purposes</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Consent_Purpose</valueSetName>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Postal_Consent_Source__c</fullName>
+        <description>This field contains the source of the contact&apos;s consent declaration, i.e., the means by which the consent declaration was delivered (VSA-9).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please choose how the consent declaration was obtained, e.g., in a phone call or via an email.</inlineHelpText>
+        <label>Postal Consent Source</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Consent_Source</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Postal_Consent_Status__c</fullName>
+        <description>This field contains the contact&apos;s consent declaration for the postal channel (VSA-9).</description>
+        <externalId>false</externalId>
+        <label>Postal Consent Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Consent_Status</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Postal_Consent_Updated_Date__c</fullName>
+        <description>This field contains the date the contact&apos;s consent was last updated (VSA-9).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please update this date when updating the contact&apos;s consent declaration.</inlineHelpText>
+        <label>Postal Consent Updated Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ReportsToId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Restricted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field is used to restrict contacts so that they are not visible to all users except those allowed to by the Sharing Rules.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field is used to restrict contacts so that they are not visible to all users except those allowed to by the Sharing Rules</inlineHelpText>
+        <label>Restricted?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SMS_Consent_Expiration_Date__c</fullName>
+        <description>This field contains the expiration date for the contact&apos;s email consent statement. The formula adds two years to the SMS Consent Updated Date, and takes leap year into account (VSA-9).</description>
+        <externalId>false</externalId>
+        <formula>IF( 
+AND( 
+MONTH( SMS_Consent_Updated_Date__c ) = 2, 
+DAY( SMS_Consent_Updated_Date__c ) = 29 
+), 
+DATE( 
+YEAR(SMS_Consent_Updated_Date__c )+2, 
+3, 
+1), 
+DATE( 
+YEAR(SMS_Consent_Updated_Date__c )+2, 
+MONTH(SMS_Consent_Updated_Date__c ), 
+DAY(SMS_Consent_Updated_Date__c ) 
+) 
+)</formula>
+        <inlineHelpText>Automatically calculated based on SMS Consent Updated Date.</inlineHelpText>
+        <label>SMS Consent Expiration Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SMS_Consent_Purposes__c</fullName>
+        <description>This field contains the purposes which the contact has agreed to be contacted for via the SMS channel (VSA-9).</description>
+        <externalId>false</externalId>
+        <label>SMS Consent Purposes</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Consent_Purpose</valueSetName>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SMS_Consent_Source__c</fullName>
+        <description>This field contains the source of the contact&apos;s consent declaration, i.e., the means by which the consent declaration was delivered (VSA-9).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please choose how the consent declaration was obtained, e.g., in a phone call or via an email.</inlineHelpText>
+        <label>SMS Consent Source</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Consent_Source</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SMS_Consent_Status__c</fullName>
+        <description>This field contains the contact&apos;s consent declaration for the SMS channel (VSA-9).</description>
+        <externalId>false</externalId>
+        <label>SMS Consent Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Consent_Status</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SMS_Consent_Updated_Date__c</fullName>
+        <description>This field contains the date the contact&apos;s consent was last updated (VSA-9).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please update this date when updating the contact&apos;s consent declaration.</inlineHelpText>
+        <label>SMS Consent Updated Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Title</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Today_Date__c</fullName>
+        <description>This field returns TODAY&apos;S DATE. It is used as input for Today_Date_as_Text, which in turn is used in a mail merge document template to stamp the document with today&apos;s date (VSA-29).</description>
+        <externalId>false</externalId>
+        <formula>TODAY()</formula>
+        <label>Today&apos;s Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Today_Date_as_Text__c</fullName>
+        <description>This field returns TODAY&apos;S DATE in a text format. It is used in a mail merge template (VSA-29).</description>
+        <externalId>false</externalId>
+        <formula>IF( 
+ISBLANK( Today_Date__c ), 
+NULL, 
+( 
+TEXT(DAY( Today_Date__c ))&amp; 
+CASE( 
+DAY( Today_Date__c ), 
+1, &apos;st&apos;, 
+2, &apos;nd&apos;, 
+3, &apos;rd&apos;, 
+21,&apos;st&apos;, 
+22,&apos;nd&apos;, 
+23,&apos;rd&apos;, 
+31,&apos;st&apos;, 
+&apos;th&apos; 
+
+)&amp;&apos; &apos;&amp; 
+CASE( 
+MONTH( Today_Date__c ), 
+1, &quot;January&quot;, 
+2, &quot;February&quot;, 
+3, &quot;March&quot;, 
+4, &quot;April&quot;, 
+5, &quot;May&quot;, 
+6, &quot;June&quot;, 
+7, &quot;July&quot;, 
+8, &quot;August&quot;, 
+9, &quot;September&quot;, 
+10, &quot;October&quot;, 
+11, &quot;November&quot;, 
+&quot;December&quot; 
+)&amp;&apos; &apos;&amp; 
+TEXT(YEAR( Today_Date__c )) 
+) 
+)</formula>
+        <label>Today&apos;s Date as Text</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Unique_Reference_Number__c</fullName>
+        <description>This field contains an auto-generated unique reference number in a linear sequence (VSA-4).</description>
+        <displayFormat>{0000}</displayFormat>
+        <externalId>false</externalId>
+        <inlineHelpText>Unique Reference Number.</inlineHelpText>
+        <label>URN</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>VSA_Staff__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field is set to FALSE by default. If set to TRUE, it indicates that this contact is a member of VSA staff. This checkbox is updated manually, i.e., there are no automated actions which updates this field (VSA-4).</description>
+        <externalId>false</externalId>
+        <label>VSA Staff</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>VSA_Trustee__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field is set to FALSE by default. If set to TRUE, it indicates that this contact is a VSA trustee. This checkbox is updated manually, i.e., there are no automated actions which updates this field (VSA-4).</description>
+        <externalId>false</externalId>
+        <label>VSA Trustee</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>cc_Consent_Supersedes_Existing_Consent__c</fullName>
+        <description>Please refer to the formula explanation directly in the formula field (Giveclarity case #4254).</description>
+        <externalId>false</externalId>
+        <formula>OR(  
+   IF ( 
+      AND(
+        NOT ( ISBLANK ( cc_Last_Updated_by_Charity_Checkout__c )),
+        ISBLANK ( Postal_Consent_Updated_Date__c ) ,
+        ISBLANK ( Email_Consent_Updated_Date__c ) ,
+        ISBLANK ( Phone_Consent_Updated_Date__c ) ,
+        ISBLANK ( SMS_Consent_Updated_Date__c )
+         ),
+     TRUE,
+     FALSE
+   ),
+
+/*Explanation for the statement above: if there is a date in the cc_Last_Updated_by_Charity_Checkout field, and all the consent updated dates on the contact record are blank, return TRUE.*/
+
+   IF ( 
+     OR (
+         DATEVALUE ( cc_Last_Updated_by_Charity_Checkout__c ) &gt; Postal_Consent_Updated_Date__c ,
+         DATEVALUE ( cc_Last_Updated_by_Charity_Checkout__c ) &gt; Email_Consent_Updated_Date__c ,
+         DATEVALUE ( cc_Last_Updated_by_Charity_Checkout__c ) &gt; Phone_Consent_Updated_Date__c ,
+         DATEVALUE ( cc_Last_Updated_by_Charity_Checkout__c ) &gt; SMS_Consent_Updated_Date__c 
+         ),
+     TRUE,
+     FALSE
+   )
+
+/*Explanation for the statement above: if the date in the cc_Last_Updated_by_Charity_Checkout field is more recent than any of the consent updated dates on the contact record, return TRUE.*/
+
+)
+
+
+
+/*This formula returns TRUE, if either of the following statements are true:
+    
+     1) There is a date in the cc_Last_Updated_by_Charity_Checkout field, and all the consent updated dates on the contact record are blank
+     2) The date in the cc_Last_Updated_by_Charity_Checkout field is more recent than any of the consent updated dates on the contact record.
+
+If number 1 is the case, it indicates that there may be some consent information collected in Charity Checkout which hasn&apos;t been applied to the consent fields directly in Salesforce.
+
+If number 2 is the case, it indicates that there may be some consent information collected in Charity Checkout which might be more recent than the consent declarations captured in the consent fields directly in Salesforce.
+
+This information is used in a report to bring the potential discrepancy to light, and allow VSA to manually verify whether the consent information collected in Charity Checkout is in fact more recent than what is currently stored in Salesforce (Giveclarity case #4254).*/</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>If ticked, it means that the date in the Last Updated by Charity Checkout field is more recent than any of the consent updated dates on the contact. Please verify the consent information under the &quot;Consent&quot; tab.</inlineHelpText>
+        <label>Last Updated CC Supersedes Consent Dates</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>cc_CreatedOrUpdated_by_Charity_Checkout__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This checkbox can be set to TRUE if the contact has been created or updated by Charity Checkout. It is populated by the Charity Checkout Zapier trigger (VSA-31).</description>
+        <externalId>false</externalId>
+        <label>Created/Updated by Charity Checkout (CC)</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>cc_Last_Updated_by_Charity_Checkout__c</fullName>
+        <description>This field contains the date/time for when the contact record was last updated by Charity Checkout (CC). It is populated by the Charity Checkout Zapier trigger (Giveclarity case #4254).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date/time for when the contact record was last updated by Charity Checkout.</inlineHelpText>
+        <label>Last Updated by Charity Checkout (CC)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>cc_PF_Reference__c</fullName>
+        <description>This field contains an un-formatted string of data which is provided by Charity Checkout (CC). The content of this field comes across un-formatted due to a lack of proper formatting by CC. At the time of implementation, CC is not able to split the field values into separate fields. VSA has accepted this. The field name is derived from CC&apos;s naming convention. It is populated by the Charity Checkout Zapier trigger (VSA-31).</description>
+        <externalId>true</externalId>
+        <inlineHelpText>Un-formatted data from Charity Checkout.</inlineHelpText>
+        <label>PF Reference (CC)</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>cc_PF_URL__c</fullName>
+        <description>This field contains data which is provided by Charity Checkout (CC). The field name is derived from CC&apos;s naming convention. It is populated by the Charity Checkout Zapier trigger (VSA-31).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Data from Charity Checkout.</inlineHelpText>
+        <label>PF URL (CC)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>cc_User_Fields__c</fullName>
+        <description>This field contains an un-formatted concatenated string of data which is provided by Charity Checkout (CC). The content of this field comes across un-formatted due to a lack of proper formatting by CC. At the time of implementation, CC is not able to split the field values into separate fields. VSA has accepted this. The field name is derived from CC&apos;s naming convention. It is populated by the Charity Checkout Zapier trigger (VSA-31).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Un-formatted data from Charity Checkout.</inlineHelpText>
+        <label>User Fields (CC)</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <searchLayouts>
+        <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Unique_Reference_Number__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTACT.PHONE3</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTACT.PHONE1</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTACT.EMAIL</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTACT.ADDRESS2_STREET</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTACT.ADDRESS2_CITY</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTACT.ADDRESS2_ZIP</customTabListAdditionalFields>
+        <excludedStandardButtons>AddToCampaign</excludedStandardButtons>
+        <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>FULL_NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Unique_Reference_Number__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CONTACT.PHONE3</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CONTACT.PHONE1</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CONTACT.EMAIL</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CONTACT.ADDRESS2_STREET</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CONTACT.ADDRESS2_CITY</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CONTACT.ADDRESS2_ZIP</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>npsp__Primary_Affiliation__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>FULL_NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Unique_Reference_Number__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE1</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE3</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>FULL_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Unique_Reference_Number__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.PHONE3</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.PHONE1</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.EMAIL</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.ADDRESS2_STREET</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.ADDRESS2_CITY</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.ADDRESS2_ZIP</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>npsp__Primary_Affiliation__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>Consent_Must_Have_Purposes</fullName>
+        <active>true</active>
+        <description>Purposes must be selected when Consent Status is set to &quot;Consent Given&quot;. This validation rule is triggered if Consent Status is set to &quot;Consent Given&quot;, but no Purposes have been selected for that channel (VSA-9).</description>
+        <errorConditionFormula>$Setup.Process_Control__c.Contact_Validation__c = TRUE &amp;&amp;
+OR( 
+( 
+ISPICKVAL( Postal_Consent_Status__c , &quot;Consent Given&quot;) &amp;&amp; 
+(ISBLANK( Postal_Consent_Purposes__c ))), 
+( 
+ISPICKVAL( Email_Consent_Status__c , &quot;Consent Given&quot;) &amp;&amp; 
+(ISBLANK( Email_Consent_Purposes__c ))), 
+( 
+ISPICKVAL( Phone_Consent_Status__c , &quot;Consent Given&quot;) &amp;&amp; 
+(ISBLANK( Phone_Consent_Purposes__c ))), 
+( 
+ISPICKVAL( SMS_Consent_Status__c , &quot;Consent Given&quot;) &amp;&amp; 
+(ISBLANK( SMS_Consent_Purposes__c )))
+)</errorConditionFormula>
+        <errorMessage>Please specify the purposes which the contact is consenting to.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Consent_Status_Update_Must_Update_Date</fullName>
+        <active>true</active>
+        <description>This validation rule is triggered if the Consent Status for any channel is updated but the Consent Updated value for that channel is not updated.</description>
+        <errorConditionFormula>$Setup.Process_Control__c.Contact_Validation__c = TRUE &amp;&amp;
+
+OR( 
+   ( 
+    ISCHANGED ( Postal_Consent_Status__c ) &amp;&amp; 
+    NOT( ISCHANGED ( Postal_Consent_Updated_Date__c ))),
+   ( 
+    ISCHANGED ( Email_Consent_Status__c ) &amp;&amp; 
+    NOT( ISCHANGED ( Email_Consent_Updated_Date__c ))),
+   ( 
+    ISCHANGED ( Phone_Consent_Status__c ) &amp;&amp; 
+    NOT( ISCHANGED ( Phone_Consent_Updated_Date__c ))),
+   ( 
+    ISCHANGED ( SMS_Consent_Status__c ) &amp;&amp; 
+    NOT( ISCHANGED ( SMS_Consent_Updated_Date__c )))
+)</errorConditionFormula>
+        <errorMessage>When Consent Status is updated you must update the Consent Updated Date. Please ensure to update the Consent Updated Date for all relevant channels.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Consent_Updated_Date_Cannot_Be_Future</fullName>
+        <active>true</active>
+        <description>Consent Updated Date for any channel cannot be a future date. This validation rule is triggered if a future date is inserted into any of the Consent Updated Date field.</description>
+        <errorConditionFormula>$Setup.Process_Control__c.Contact_Validation__c = TRUE &amp;&amp; 
+
+OR(
+    Postal_Consent_Updated_Date__c &gt; TODAY(),
+    Email_Consent_Updated_Date__c &gt; TODAY(),
+    Phone_Consent_Updated_Date__c &gt; TODAY(),
+    SMS_Consent_Updated_Date__c &gt; TODAY()
+  )</errorConditionFormula>
+        <errorMessage>A Consent Updated Date cannot be a future date. Please correct to today&apos;s date or a date in the past.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Contact_Preferred_Email</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ISPICKVAL( npe01__Preferred_Email__c ,&quot;&quot;),
+OR(
+LEN(npe01__AlternateEmail__c  )&gt;0,
+LEN(npe01__WorkEmail__c )&gt;0,
+LEN(npe01__HomeEmail__c  )&gt;0
+)
+)</errorConditionFormula>
+        <errorDisplayField>npe01__Preferred_Email__c</errorDisplayField>
+        <errorMessage>Please select a Preferred Email</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Contact_Preferred_Phone</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ ISPICKVAL(npe01__PreferredPhone__c ,&quot;&quot;),
+OR(
+ LEN(MobilePhone)&gt;0,
+ LEN( npe01__WorkPhone__c)&gt;0,
+ LEN( OtherPhone )&gt;0
+)
+)</errorConditionFormula>
+        <errorDisplayField>npe01__PreferredPhone__c</errorDisplayField>
+        <errorMessage>Please select a Preferred Phone</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>No_Consent_Must_Have_No_Purposes</fullName>
+        <active>true</active>
+        <description>This validation rule is triggered if the Consent Status for any channel is set to &quot;No Consent&quot;, and the Consent Purposes field has a value. If there is no consent for the channel, there should not be any purposes specified for that channel.</description>
+        <errorConditionFormula>$Setup.Process_Control__c.Contact_Validation__c &amp;&amp;
+
+OR(
+   (
+   ISPICKVAL(  Postal_Consent_Status__c , &quot;No Consent&quot;) &amp;&amp;
+   NOT(ISBLANK( Postal_Consent_Purposes__c ))),
+   (
+   ISPICKVAL( Email_Consent_Status__c , &quot;No Consent&quot;) &amp;&amp;
+   NOT(ISBLANK( Email_Consent_Purposes__c ))),
+   (
+   ISPICKVAL( Phone_Consent_Status__c , &quot;No Consent&quot;) &amp;&amp;
+   NOT(ISBLANK( Phone_Consent_Purposes__c ))),
+   (
+   ISPICKVAL( SMS_Consent_Status__c , &quot;No Consent&quot;) &amp;&amp;
+   NOT(ISBLANK( SMS_Consent_Purposes__c )))
+)</errorConditionFormula>
+        <errorMessage>Purposes are not applicable if consent has not been given. Please check all &apos;Consent Status&apos; and &apos;Consent Purposes&apos; combinations, and update if relevant.</errorMessage>
+    </validationRules>
+</CustomObject>

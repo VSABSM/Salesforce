@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- This field determines whether the Gift Aid Plugin is active. If unchecked, the logic will not run. --></help>
+        <label><!-- Active --></label>
+        <name>gcga__Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- The name of the Apex class which contains the plugin logic --></help>
+        <label><!-- Class --></label>
+        <name>gcga__Class__c</name>
+    </fields>
+    <fields>
+        <help><!-- The namespace for the Apex plugin code. Leave empty for local classes. --></help>
+        <label><!-- Namespace --></label>
+        <name>gcga__Namespace__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field references the plugin key specified in the Gift Aid plugins class and drives at which point in the managed package the custom Apex logic will run. --></help>
+        <label><!-- Plugin Key --></label>
+        <name>gcga__Plugin_Key__c</name>
+    </fields>
+</CustomObjectTranslation>

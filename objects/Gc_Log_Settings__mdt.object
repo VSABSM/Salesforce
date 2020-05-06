@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This configures how various processes handle and log errors</description>
+    <fields>
+        <fullName>Error_Notification_Recipients__c</fullName>
+        <description>The email addresses for the recipients of error notifications</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>The email addresses for the recipients of error notifications</inlineHelpText>
+        <label>Error Notification Recipients</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Error_Notifications__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Check this if notification emails should be sent if an error is logged</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Check this if notification emails should be sent if an error is logged</inlineHelpText>
+        <label>Error Notifications</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Log_Level__c</fullName>
+        <defaultValue>&quot;Errors Only&quot;</defaultValue>
+        <description>This is used to determine what sorts of logs should be stored</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Log Level</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>All</fullName>
+                    <default>false</default>
+                    <label>All</label>
+                </value>
+                <value>
+                    <fullName>Errors</fullName>
+                    <default>true</default>
+                    <label>Errors Only</label>
+                </value>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Lookup_Field_Name__c</fullName>
+        <description>If these logs should be linked to a particular record, then indicate the name of the lookup field on the log record that should be populated</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>If these logs should be linked to a particular record, then indicate the name of the lookup field on the log record that should be populated</inlineHelpText>
+        <label>Lookup Field Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Max_Error_Logs__c</fullName>
+        <description>This is the maximum number of error log records that will be created for this session</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>This is the maximum number of error log records that will be created for this session</inlineHelpText>
+        <label>Max Error Logs</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Max_Information_Logs__c</fullName>
+        <description>This is the maximum number of information logs that should be generated for a session.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>This is the maximum number of information logs that should be generated for a session.</inlineHelpText>
+        <label>Max Information Logs</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rollback_Changes__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>If this is checked then the code should attempt to roll back any changes. If tis is not checked then a partial commit may be possible</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>If this is checked then the code should attempt to roll back any changes. If tis is not checked then a partial commit may be possible</inlineHelpText>
+        <label>Rollback Changes</label>
+        <type>Checkbox</type>
+    </fields>
+    <label>Log Settings</label>
+    <pluralLabel>Log Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

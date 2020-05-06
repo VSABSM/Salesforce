@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>This custom setting is used to store variables or settings relevant for VSA&apos;s use of Charity Checkout (VSA-31).</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Conditional_Default_Record_Owner_ID__c</fullName>
+        <description>This field contains the record ID for the user who should be assigned as the default record owner for certain Charity Checkout records. It is used by 2 different process builders which updates the Record Owner of certain campaigns and opportunities created by Charity Checkout (Giveclarity case #4254).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Record ID for the user who should be assigned as the record owner for certain Charity Checkout records.</inlineHelpText>
+        <label>Conditional Default Record Owner ID</label>
+        <length>18</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Exempted_CC_Page_ID_1__c</fullName>
+        <description>This field contains the Page ID (CC) value of a campaign record. Donations made towards this campaign should be exempted from the process builder which applies a default record owner to opportunities created by Charity Checkout (CC). The logic is that there are 2 fundraising pages in CC which are considered generic fundraising pages. Donations made towards these fundraising pages should remain owned by the VSA System User, as opposed to become owned by the user whose record ID is stored in the Conditional Default Record Owner ID custom setting (Giveclarity case #4254).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field contains the Page ID (CC) value of a campaign record. Donations made towards this campaign should be exempted from the process builder which applies a default record owner to opportunities created by Charity Checkout (CC).</inlineHelpText>
+        <label>Exempted CC Page ID 1</label>
+        <length>5</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Exempted_CC_Page_ID_2__c</fullName>
+        <description>This field contains the Page ID (CC) value of a campaign record. Donations made towards this campaign should be exempted from the process builder which applies a default record owner to opportunities created by Charity Checkout (CC). The logic is that there are 2 fundraising pages in CC which are considered generic fundraising pages. Donations made towards these fundraising pages should remain owned by the VSA System User, as opposed to become owned by the user whose record ID is stored in the Conditional Default Record Owner ID custom setting (Giveclarity case #4254).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field contains the Page ID (CC) value of a campaign record. Donations made towards this campaign should be exempted from the process builder which applies a default record owner to opportunities created by Charity Checkout (CC).</inlineHelpText>
+        <label>Exempted CC Page ID 2</label>
+        <length>5</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>GAU_ID_Abergeldie__c</fullName>
+        <description>This field contains the record ID for the Abergeldie GAU (cost code 01-007). It is used by a process builder which applies GAU allocations to opportunities created by Charity Checkout (VSA-31).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Record ID for the general accounting unit &quot;Abergeldie&quot; with VSA cost code 01-007.</inlineHelpText>
+        <label>GAU ID Abergeldie</label>
+        <length>18</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>GAU_ID_Adult_Carers__c</fullName>
+        <description>This field contains the record ID for the Adult Cares GAU (cost code 06-660). It is used by a process builder which applies GAU allocations to opportunities created by Charity Checkout (VSA-31).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Record ID for the general accounting unit &quot;Adult Cares&quot; with VSA cost code 06-660.</inlineHelpText>
+        <label>GAU ID: Adult Carers</label>
+        <length>18</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>GAU_ID_Adult_Community__c</fullName>
+        <description>This field contains the record ID for the Adult &amp; Community GAU (cost code 02-400). It is used by a process builder which applies GAU allocations to opportunities created by Charity Checkout (VSA-31).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Record ID for the general accounting unit &quot;Adult &amp; Community&quot; with VSA cost code 02-400.</inlineHelpText>
+        <label>GAU ID: Adult &amp; Community</label>
+        <length>18</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>GAU_ID_Children_Families__c</fullName>
+        <description>This field contains the record ID for the Children &amp; Families GAU (cost code 03-400). It is used by a process builder which applies GAU allocations to opportunities created by Charity Checkout (VSA-31).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Record ID for the general accounting unit &quot;Children &amp; Families&quot; with VSA cost code 03-400.</inlineHelpText>
+        <label>GAU ID: Children &amp; Families</label>
+        <length>18</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>GAU_ID_Easter_Anguston_Farm__c</fullName>
+        <description>This field contains the record ID for the Easter Anguston Farm GAU (cost code 01-035). It is used by a process builder which applies GAU allocations to opportunities created by Charity Checkout (VSA-31).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Record ID for the general accounting unit &quot;Easter Anguston Farm&quot; with VSA cost code 01-035.</inlineHelpText>
+        <label>GAU ID: Easter Anguston Farm</label>
+        <length>18</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>GAU_ID_Linn_Moor_School__c</fullName>
+        <description>This field contains the record ID for the Linn Moor School GAU (cost code 03-300). It is used by a process builder which applies GAU allocations to opportunities created by Charity Checkout (VSA-31).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Record ID for the general accounting unit &quot;Linn Moor School&quot; with VSA cost code 03-300.</inlineHelpText>
+        <label>GAU ID: Linn Moor School</label>
+        <length>18</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Charity Checkout Settings</label>
+    <visibility>Public</visibility>
+</CustomObject>

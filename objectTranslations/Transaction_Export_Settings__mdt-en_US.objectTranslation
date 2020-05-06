@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Transaction Export Settings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Transaction Export Settings</value>
+    </caseValues>
+    <fields>
+        <help><!-- This is part of a SOQL where clause that will always be used with a selection i.e. IsClosed=True --></help>
+        <label><!-- Additional Filter --></label>
+        <name>Additional_Filter__c</name>
+    </fields>
+    <fields>
+        <help><!-- A description of this process --></help>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- If this is checked then any commas and quotes will be escaped when the export file is created. Uncheck this if the export row is being built in formulas --></help>
+        <label><!-- Escape String --></label>
+        <name>Escape_String__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is a comma delimited list of the fields that will be written out from the summary object to the file for each detail row --></help>
+        <label><!-- Export Fields --></label>
+        <name>Export_Fields__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the header row that will be used in the CSV export file --></help>
+        <label><!-- Export File Header Row --></label>
+        <name>Export_File_Header_Row__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the file extension to be used for the file i.e. csv, txt etc (do not include the full stop) --></help>
+        <label><!-- Export File Name Extension --></label>
+        <name>Export_File_Name_Extension__c</name>
+    </fields>
+    <fields>
+        <help><!-- This will be a text value that will allow a few values to be replaced i.e. SRMEXPORT_{0}_{1}.csv where 0 could refer to the batch number and 1 the date. --></help>
+        <label><!-- Export File Name Pattern --></label>
+        <name>Export_File_Name_Pattern__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is a semicolon separated list of API field names on the transaction object --></help>
+        <label><!-- Group Field(s) --></label>
+        <name>Group_Fields__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select this if it is a test export and not to be used for production --></help>
+        <label><!-- Is Test --></label>
+        <name>Is_Test__c</name>
+    </fields>
+    <fields>
+        <help><!-- The API name of a date field on the source transaction record that is updated when this is summarised --></help>
+        <label><!-- Processed Date Field --></label>
+        <name>Processed_Date_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the name of the field on the transaction object that represents the export status --></help>
+        <label><!-- Processed Status Field --></label>
+        <name>Processed_Status_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the status value once the transactions have been summarised. This can be a string or the name of a field on the transaction (NB If a field is used then it must be a custom field and include &apos;__c&apos;) --></help>
+        <label><!-- Processed Status Value --></label>
+        <name>Processed_Status_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the batch size used for the rollback process. This is the number of summary records that are processed and each of these links to multiple transactions. The lower the number the slower the process, but it can help avoid limits --></help>
+        <label><!-- Rollback Batch Size --></label>
+        <name>Rollback_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is used to determine whether the field specified should be used for the export selection --></help>
+        <label><!-- Selection 1 Ask User --></label>
+        <name>Selection_1_Ask_User__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the default value that is used for the first selection field --></help>
+        <label><!-- Selection 1 Default Value --></label>
+        <name>Selection_1_Default_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- The API field name of a field on the transaction object that could be used to filter the selection i.e. gcqs_Payment_Method__c --></help>
+        <label><!-- Selection 1 Field Name --></label>
+        <name>Selection_1_Field_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- This determines whether the second selection field should be used for the transaction selection --></help>
+        <label><!-- Selection 2 Ask User --></label>
+        <name>Selection_2_Ask_User__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the default value that is used for the second selection --></help>
+        <label><!-- Selection 2 Default Value --></label>
+        <name>Selection_2_Default_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- The API name of the second field that could be used for selection --></help>
+        <label><!-- Selection 2 Field Name --></label>
+        <name>Selection_2_Field_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- If the process is rolled back then this is the value that the status should be set to. This can be a string or the name of a field on the transaction (NB If a field is used then it must be a custom field and include &apos;__c&apos;) --></help>
+        <label><!-- Status Rollback Value --></label>
+        <name>Status_Rollback_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the API name of a field that contains the string that will be exported for each sub-group (i.e a CSV string). If this is left blank then the value in the Sub Group Field will be used --></help>
+        <label><!-- Sub Group Export String Field Name --></label>
+        <name>Sub_Group_Export_String_Field_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the API name of a field on the summary record that will act as a sub heading in the export file. --></help>
+        <label><!-- Sub Group Field Name --></label>
+        <name>Sub_Group_Field_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the batch size used for the summary process. This is the number of transaction records that are processed. The lower the number the slower the process, but it can help avoid limits. --></help>
+        <label><!-- Summary Batch Size --></label>
+        <name>Summary_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <help><!-- The API name of the date field that will be used to optionally select transaction records i.e. CloseDate --></help>
+        <label><!-- Transaction Date Field --></label>
+        <name>Transaction_Date_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- The api name of the object that will be summarised i.e. Opportunity --></help>
+        <label><!-- Transaction Object Name --></label>
+        <name>Transaction_Object_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the API name(s) of lookup field(s) on the transaction object that will be updated with a link to the summarised object . If more than one group is specified, then separate this list with a comma. --></help>
+        <label><!-- Transaction Summary Field Name(s) --></label>
+        <name>Transaction_Summary_Field_Name__c</name>
+    </fields>
+    <layouts>
+        <layout>Transaction Export Settings Layout</layout>
+        <sections>
+            <label><!-- Batch Processing --></label>
+            <section>Batch Processing</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Export File Details --></label>
+            <section>Export File Details</section>
+        </sections>
+        <sections>
+            <label><!-- Summary Details --></label>
+            <section>Summary Details</section>
+        </sections>
+        <sections>
+            <label><!-- Transaction Selection --></label>
+            <section>Transaction Selection</section>
+        </sections>
+        <sections>
+            <label><!-- Transaction Update --></label>
+            <section>Transaction Update</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

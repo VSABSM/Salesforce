@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>VSA Role</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>VSA Roles</value>
+    </caseValues>
+    <fields>
+        <label><!-- Campaign Date --></label>
+        <name>Campaign_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Campaign Volunteering Organisation --></label>
+        <name>Campaign_Volunteering_Organisation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Campaign --></label>
+        <name>Campaign__c</name>
+        <relationshipLabel><!-- VSA Roles --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- VSA Roles --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Team --></label>
+        <name>Team__c</name>
+        <picklistValues>
+            <masterLabel>EAF Team</masterLabel>
+            <translation><!-- EAF Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fundraising Team Member</masterLabel>
+            <translation><!-- Fundraising Team Member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H&amp;S Team Member</masterLabel>
+            <translation><!-- H&amp;S Team Member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Property Team Member</masterLabel>
+            <translation><!-- Property Team Member --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>VSA Role Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

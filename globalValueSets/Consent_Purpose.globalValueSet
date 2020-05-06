@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Fundraising &amp; Events</fullName>
+        <default>false</default>
+        <label>Fundraising &amp; Events</label>
+    </customValue>
+    <customValue>
+        <fullName>Volunteering</fullName>
+        <default>false</default>
+        <label>Volunteering</label>
+    </customValue>
+    <customValue>
+        <fullName>VSA News</fullName>
+        <default>false</default>
+        <label>VSA News</label>
+    </customValue>
+    <description>This global value set contains the various purposes which VSA collects consent for. Please note that if this picklist value is is modified, then you will also need to modify the Contact Updated process builder, which is generating Consent Purpose History records (VSA-9).</description>
+    <masterLabel>Consent Purpose</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

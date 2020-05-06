@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>No Consent</fullName>
+        <default>true</default>
+        <label>No Consent</label>
+    </customValue>
+    <customValue>
+        <fullName>Consent Given</fullName>
+        <default>false</default>
+        <label>Consent Given</label>
+    </customValue>
+    <description>This global value set contains the 2 different .statuses of consent (VSA-9)</description>
+    <masterLabel>Consent Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

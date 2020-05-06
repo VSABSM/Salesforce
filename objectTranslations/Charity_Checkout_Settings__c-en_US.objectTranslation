@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Charity Checkout Settings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Charity Checkout Settings</value>
+    </caseValues>
+    <fields>
+        <help><!-- Record ID for the user who should be assigned as the record owner for certain Charity Checkout records. --></help>
+        <label><!-- Conditional Default Record Owner ID --></label>
+        <name>Conditional_Default_Record_Owner_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field contains the Page ID (CC) value of a campaign record. Donations made towards this campaign should be exempted from the process builder which applies a default record owner to opportunities created by Charity Checkout (CC). --></help>
+        <label><!-- Exempted CC Page ID 1 --></label>
+        <name>Exempted_CC_Page_ID_1__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field contains the Page ID (CC) value of a campaign record. Donations made towards this campaign should be exempted from the process builder which applies a default record owner to opportunities created by Charity Checkout (CC). --></help>
+        <label><!-- Exempted CC Page ID 2 --></label>
+        <name>Exempted_CC_Page_ID_2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Record ID for the general accounting unit &quot;Abergeldie&quot; with VSA cost code 01-007. --></help>
+        <label><!-- GAU ID Abergeldie --></label>
+        <name>GAU_ID_Abergeldie__c</name>
+    </fields>
+    <fields>
+        <help><!-- Record ID for the general accounting unit &quot;Adult Cares&quot; with VSA cost code 06-660. --></help>
+        <label><!-- GAU ID: Adult Carers --></label>
+        <name>GAU_ID_Adult_Carers__c</name>
+    </fields>
+    <fields>
+        <help><!-- Record ID for the general accounting unit &quot;Adult &amp; Community&quot; with VSA cost code 02-400. --></help>
+        <label><!-- GAU ID: Adult &amp; Community --></label>
+        <name>GAU_ID_Adult_Community__c</name>
+    </fields>
+    <fields>
+        <help><!-- Record ID for the general accounting unit &quot;Children &amp; Families&quot; with VSA cost code 03-400. --></help>
+        <label><!-- GAU ID: Children &amp; Families --></label>
+        <name>GAU_ID_Children_Families__c</name>
+    </fields>
+    <fields>
+        <help><!-- Record ID for the general accounting unit &quot;Easter Anguston Farm&quot; with VSA cost code 01-035. --></help>
+        <label><!-- GAU ID: Easter Anguston Farm --></label>
+        <name>GAU_ID_Easter_Anguston_Farm__c</name>
+    </fields>
+    <fields>
+        <help><!-- Record ID for the general accounting unit &quot;Linn Moor School&quot; with VSA cost code 03-300. --></help>
+        <label><!-- GAU ID: Linn Moor School --></label>
+        <name>GAU_ID_Linn_Moor_School__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

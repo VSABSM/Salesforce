@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>GAU Allocation Change Log</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>GAU Allocation Change Logs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Action --></label>
+        <name>Action__c</name>
+        <picklistValues>
+            <masterLabel>Created</masterLabel>
+            <translation><!-- Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deleted</masterLabel>
+            <translation><!-- Deleted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Edited</masterLabel>
+            <translation><!-- Edited --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The campaign to which the GAU allocation change is linked. --></help>
+        <label><!-- Campaign --></label>
+        <name>Campaign__c</name>
+        <relationshipLabel><!-- GAU Allocation Change Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The GAU Allocation change operation. --></help>
+        <label><!-- New GAU Allocation --></label>
+        <name>New_GAU_Allocation__c</name>
+    </fields>
+    <fields>
+        <help><!-- The opportunity to which the GAU allocation change is linked. --></help>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- GAU Allocation Change Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The user who made the GAU Allocation change. --></help>
+        <label><!-- User --></label>
+        <name>User__c</name>
+        <relationshipLabel><!-- GAU Allocation Change Logs --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>GAU Allocation Change Log Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

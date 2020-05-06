@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Transaction Summary Header</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Transaction Summary Headers</value>
+    </caseValues>
+    <fields>
+        <help><!-- This is the selected end date for the transactions that make up this summary --></help>
+        <label><!-- End Date --></label>
+        <name>End_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the name of the settings that have been used to generate these records --></help>
+        <label><!-- Export Name --></label>
+        <name>Export_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the last day of the previous month which is used in the Gift Aid export file to group transactions --></help>
+        <label><!-- Gift Aid Export File Date --></label>
+        <name>Gift_Aid_Export_File_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- The last batch error that was thrown --></help>
+        <label><!-- Last Batch Error --></label>
+        <name>Last_Batch_Error__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the number of batch errors returned by the batch process --></help>
+        <label><!-- Number of Batch Errors --></label>
+        <name>Number_of_Batch_Errors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Posted Date --></label>
+        <name>Posted_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled Date --></label>
+        <name>Scheduled_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Details of an additional selection for the transaction records to be included in this summary --></help>
+        <label><!-- Selection 1 --></label>
+        <name>Selection_1__c</name>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation><!-- All --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Details of an additional selection for the transaction records to be included in this summary --></help>
+        <label><!-- Selection 2 --></label>
+        <name>Selection_2__c</name>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation><!-- All --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This is the selected start date for the transactions that make up this summary --></help>
+        <label><!-- Start Date --></label>
+        <name>Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Posted</masterLabel>
+            <translation><!-- Posted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rolled Back</masterLabel>
+            <translation><!-- Rolled Back --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This is the total number of batches --></help>
+        <label><!-- Total Batch Count --></label>
+        <name>Total_Batch_Count__c</name>
+    </fields>
+    <layouts>
+        <layout>Transaction Summary Header Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Selection Details --></label>
+            <section>Selection Details</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Rollback Changes --></label>
+        <name>Rollback_Changes</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Start Export --></label>
+        <name>Start_Export</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

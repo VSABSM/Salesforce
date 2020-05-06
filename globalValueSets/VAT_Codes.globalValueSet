@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>V1</fullName>
+        <default>false</default>
+        <label>V1 - Zero Rated 0%</label>
+    </customValue>
+    <customValue>
+        <fullName>V3</fullName>
+        <default>false</default>
+        <label>V3 - Exempt 0%</label>
+    </customValue>
+    <customValue>
+        <fullName>V8</fullName>
+        <default>false</default>
+        <label>V8 - Outside the scope of VAT 0%</label>
+    </customValue>
+    <customValue>
+        <fullName>V2</fullName>
+        <default>false</default>
+        <label>V2 - Standard VAT</label>
+    </customValue>
+    <description>This picklist value set contains the VAT codes as prescribed by VSA (VSA-4).</description>
+    <masterLabel>VAT Codes</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

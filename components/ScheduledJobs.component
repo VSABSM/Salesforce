@@ -1,0 +1,52 @@
+<!-- @see https://developer.salesforce.com/forums/?id=906F00000008wypIAA -->
+<apex:component controller="ScheduledJobsController" selfClosing="true" allowDML="true">
+    <apex:attribute name="numberOfJobsLimit" type="Integer" assignTo="{!numberOfJobs}" description="The number of batch jobs to display in the table."/>
+    <apex:attribute name="batchComponentLabelName" type="String" assignTo="{!batchComponentLabel}" description="The label of the progress bar section."/>
+    <apex:attribute name="scheduledJob" type="String" assignTo="{!scheduledJobName}" description="The scheduled jobs name."/>
+ 
+    <!-- Here is the css styles that will be used for the progress bars -->
+    <style>
+        .progressBar{
+            background-color: #f8f8f8;
+            border:1px solid #DDDDDD;
+            height: 19px;
+            width: 300px;
+            -moz-border-radius: 5px; 
+            -webkit-border-radius: 5px;
+        }
+        .progress{
+            background-color: #F7B64B;
+            border:1px solid #E78F08;
+            height: 100%;
+            margin: -1px;
+            text-align: center;
+            -moz-border-radius: 5px; 
+            -webkit-border-radius: 5px;
+            line-height: 18px;
+        }
+    </style>
+ 
+    <!-- This action poller will check the status of the batch jobs every 5 seconds 
+    <apex:actionPoller rerender="jobs" interval="15" enabled="false"/> -->
+ 
+    <apex:pageBlock title="{!batchComponentLabel}">
+        <apex:pageBlockTable value="{!scheduledJobs}" var="b" id="scheduled_jobs">
+            <apex:column > 
+ 
+                <!-- Here with have two divs that construct our progresses bar. An outer which is the entire bar,
+                and and inner that represents the percent complete. We simply pass the percentComplete value to
+                the inner div width and this will show how far along the job is. Brilliant! -->
+ 
+                <apex:CommandLink value="Cancel" action="{!cancelJob}" >
+                	<apex:param name="jobId" value="{!b.jobId}" assignTo="{!jobId}"/>
+				</apex:CommandLink> 
+             
+            </apex:column> 
+            <apex:column headerValue="Job Name" value="{!b.className}"/>
+            <apex:column headerValue="Scheduled Time" value="{!b.createdDate}"/>
+            <apex:column headerValue="Created By ID" value="{!b.createdById}"/>
+            <apex:column headerValue="Status" value="{!b.jobStatus}"/>
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+ 
+</apex:component>
